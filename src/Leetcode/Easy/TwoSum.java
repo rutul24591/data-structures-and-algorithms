@@ -1,7 +1,7 @@
 package Leetcode.Easy;
 
 /*
-    PROBLEM:
+    PROBLEM 1:
         Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
 
         You may assume that each input would have exactly one solution, and you may not use the same element twice.
@@ -42,23 +42,37 @@ import java.util.Arrays;
 class Solution {
     public int[] twoSum(int[] array, int target) {
         int[] resultantArray = new int[2];
-        HashMap<Integer, Integer> hashMap = new HashMap<Integer, Integer>();
+        HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
         for(int iterator = 0; iterator < array.length ; iterator++){
-            if(hashMap.containsKey(target - array[iterator])){
+            if(map.containsKey(target - array[iterator])){
                 resultantArray[1] = iterator;
-                resultantArray[0] = hashMap.get(target-array[iterator]);
+                resultantArray[0] = map.get(target-array[iterator]);
                 return resultantArray;
             }else{
-                hashMap.put(array[iterator], iterator);
+                map.put(array[iterator], iterator);
             }
         }
         return resultantArray;
     }
 
+    /*
+     Solution : o(n^2)
+        public int[] twoSum(int[] nums, int target) {
+            for (int i = 0; i < nums.length; ++i) {
+                for (int j = i + 1; j < nums.length; ++j) {
+                    if (nums[i] + nums[j] == target) {
+                        return new int[]{i, j};
+                    }
+                }
+            }
+            return null;
+        }
+    */
+
     public static void main(String[] args){
         Solution solution = new Solution();
         int[] nums = { 2,4,5,7,9,11 };
-        int target = 14;
+        int target = 20;   // try 22;
 
         int[] result = solution.twoSum(nums, target);
         System.out.println("Result: " +Arrays.toString(result));
