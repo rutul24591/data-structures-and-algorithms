@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Changes to the 2sum problem.">
+    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Added stacks with array to DSA">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,13 +45,26 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.MiddleOfLinkedList">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DataStructuresAndAlgorithms.StacksWithArray.Main" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="DataStructuresAndAlgorithms.StacksWithArray.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MiddleOfLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy.MiddleOfLinkedList" />
+      <module name="DataStructuresAndAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Leetcode.Easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,6 +87,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MiddleOfLinkedList" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Solution" />
       </list>
@@ -88,7 +102,9 @@
       <option name="presentableId" value="Default" />
       <updated>1652088578138</updated>
       <workItem from="1652088580222" duration="2762000" />
-      <workItem from="1652265830434" duration="244000" />
+      <workItem from="1652265830434" duration="277000" />
+      <workItem from="1652850676228" duration="380000" />
+      <workItem from="1652851390250" duration="1330000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit solving problem 2sum in java">
       <created>1652090738120</created>
@@ -111,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652091266865</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added stacks with array to DSA">
+      <created>1652266098470</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1652266098470</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +155,7 @@
     <MESSAGE value="Initial commit solving problem 2sum in java" />
     <MESSAGE value="Initial commit resolving License conflict" />
     <MESSAGE value="Changes to the 2sum problem." />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes to the 2sum problem." />
+    <MESSAGE value="Added stacks with array to DSA" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added stacks with array to DSA" />
   </component>
 </project>
