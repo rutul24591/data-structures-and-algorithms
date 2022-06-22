@@ -108,7 +108,7 @@ package Leetcode.Easy;
 
             list.display();
 
-//            System.out.println("MIDDLE: " +list.middleNode().data);
+            list.middleNode();
 
         }
     }
