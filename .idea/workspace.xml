@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Modification to MiddleOfLinkedList">
+    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Solved the Remove element problem no. 27">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/MiddleOfLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Easy/MiddleOfLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,13 +47,26 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.RemoveElementFromArray">
+  <component name="RunManager" selected="Application.Leetcode.Medium.AddTwoNumbers.Main">
     <configuration name="DataStructuresAndAlgorithms.SelectionSort.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DataStructuresAndAlgorithms.SelectionSort.Main" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="DataStructuresAndAlgorithms.SelectionSort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Leetcode.Medium.AddTwoNumbers.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Medium.AddTwoNumbers.Main" />
+      <module name="DataStructuresAndAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Leetcode.Medium.AddTwoNumbers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,26 +113,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy.Solution" />
-      <module name="DataStructuresAndAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Leetcode.Easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Leetcode.Medium.AddTwoNumbers.Main" />
         <item itemvalue="Application.RemoveElementFromArray" />
         <item itemvalue="Application.MiddleOfLinkedList" />
         <item itemvalue="Application.DataStructuresAndAlgorithms.SelectionSort.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -135,7 +136,8 @@
       <workItem from="1652850676228" duration="380000" />
       <workItem from="1652851390250" duration="1861000" />
       <workItem from="1655802980400" duration="2155000" />
-      <workItem from="1655886860388" duration="4189000" />
+      <workItem from="1655886860388" duration="5244000" />
+      <workItem from="1655922754008" duration="4319000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit solving problem 2sum in java">
       <created>1652090738120</created>
@@ -186,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655888815290</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Solved the Remove element problem no. 27">
+      <created>1655893057306</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1655893057306</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,6 +220,7 @@
     <MESSAGE value="Problem 876- Find middle of linked-list implemented" />
     <MESSAGE value="Implemented Selection Sort" />
     <MESSAGE value="Modification to MiddleOfLinkedList" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modification to MiddleOfLinkedList" />
+    <MESSAGE value="Solved the Remove element problem no. 27" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solved the Remove element problem no. 27" />
   </component>
 </project>

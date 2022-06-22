@@ -109,6 +109,5 @@ package Leetcode.Easy;
             list.display();
 
             list.middleNode();
-
         }
     }
