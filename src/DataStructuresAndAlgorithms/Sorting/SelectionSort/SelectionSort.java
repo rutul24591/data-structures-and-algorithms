@@ -1,4 +1,4 @@
-package DataStructuresAndAlgorithms.SelectionSort;
+package DataStructuresAndAlgorithms.Sorting.SelectionSort;
 
 public class SelectionSort {
     public void sort(int[] array){

@@ -1,4 +1,4 @@
-package DataStructuresAndAlgorithms.StacksWithArray;
+package DataStructuresAndAlgorithms.Stacks.StacksWithArray;
 
 public class IntegerStack {
     private int[] stack;

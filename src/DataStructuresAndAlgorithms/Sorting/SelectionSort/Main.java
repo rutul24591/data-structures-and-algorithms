@@ -1,4 +1,4 @@
-package DataStructuresAndAlgorithms.SelectionSort;
+package DataStructuresAndAlgorithms.Sorting.SelectionSort;
 
 
 public class Main {

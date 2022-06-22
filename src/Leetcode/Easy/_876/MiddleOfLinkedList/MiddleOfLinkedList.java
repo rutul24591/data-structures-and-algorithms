@@ -1,4 +1,4 @@
-package Leetcode.Easy;
+package Leetcode.Easy._876.MiddleOfLinkedList;
 
 /*
         Given the head of a singly linked list, return the middle node of the linked list.

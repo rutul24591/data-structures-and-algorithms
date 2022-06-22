@@ -88,11 +88,11 @@
       </method>
     </configuration>
     <configuration name="MiddleOfLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy.MiddleOfLinkedList" />
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._876.MiddleOfLinkedList.MiddleOfLinkedList" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Easy.*" />
+          <option name="PATTERN" value="Leetcode.Easy._876.MiddleOfLinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,7 +105,7 @@
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Easy.*" />
+          <option name="PATTERN" value="Leetcode.Easy._876.MiddleOfLinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,8 +116,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Leetcode.Medium.AddTwoNumbers.Main" />
-        <item itemvalue="Application.RemoveElementFromArray" />
-        <item itemvalue="Application.MiddleOfLinkedList" />
+        <item itemvalue="Application.Leetcode.Easy.RemoveElementFromArray" />
+        <item itemvalue="Application.Leetcode.Easy._876.MiddleOfLinkedList.MiddleOfLinkedList" />
         <item itemvalue="Application.DataStructuresAndAlgorithms.SelectionSort.Main" />
         <item itemvalue="Application.Main" />
       </list>
