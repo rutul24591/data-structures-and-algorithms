@@ -1,5 +1,7 @@
 package Leetcode.Medium._19.RemoveNthNodeFromEndOfList;
 
+import Leetcode.Medium._21.MergeTwoSortedLists.MergeTwoSortedLists;
+import common.ListNode;
 /*
     19. Remove Nth Node From End of List (Medium)
 
@@ -47,28 +49,11 @@ package Leetcode.Medium._19.RemoveNthNodeFromEndOfList;
         Time Complexity: O(N)
         Space Complexity: O(1)
 */
-class ListNode {
-    int data;
-    ListNode next;
-    ListNode() {}
-    ListNode(int data) { this.data = data; }
-    ListNode(int data, ListNode next) { this.data = data; this.next = next; }
-
-    ListNode head;
-    // Function to insert a new Node at front of the list
-    public void push(int new_data)
-    {
-        ListNode new_node = new ListNode(new_data);
-        new_node.next = head;
-        head = new_node;
-    }
-}
-
 public class RemoveNthNodeFromEndOfList {
 
     public ListNode removeNthFromEnd(ListNode head, int n) {
         /* We need this dummy node `start` so our doesn't get broken */
-        ListNode start = new ListNode();
+        ListNode start = new ListNode(0);
         start.next = head;
         ListNode fastNode = start;
         ListNode slowNode = start;
@@ -88,21 +73,11 @@ public class RemoveNthNodeFromEndOfList {
     }
 
 
-//    public static void main(String[] args){
-//        RemoveNthNodeFromEndOfList instance = new RemoveNthNodeFromEndOfList();
-//        int nthMinusLastPosition = 2;
-//        ListNode node = new ListNode();
-//        ListNode start = new ListNode();
-//        start.next = node;
-//        node.push(5);
-//        node.push(4);
-//        node.push(3);
-//        node.push(2);
-//        node.push(1);
-//
-//        ListNode result = instance.removeNthFromEnd(start, nthMinusLastPosition);
-//
-//        System.out.println("RESULT: " +result);
-//
-//    }
+    public static void main(String[] args){
+        int nthMinusLastPosition = 2;
+        int[] nums1 = {1,2,3,4,5};
+        ListNode node1 = ListNode.constructLinkedList(nums1);
+        ListNode result = new RemoveNthNodeFromEndOfList().removeNthFromEnd(node1, nthMinusLastPosition);
+        System.out.println("Result: " + ListNode.toString(result));
+    }
 }
