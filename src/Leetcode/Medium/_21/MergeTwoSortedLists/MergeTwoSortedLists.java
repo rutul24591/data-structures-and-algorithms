@@ -50,6 +50,11 @@ public class MergeTwoSortedLists {
         return head.next;
     }
 
+    /**
+     *
+     * @param args
+     * @throws Exception
+     */
     public static void main(String[] args) {
         int[] nums1 = {1,2,4};
         int[] nums2 = {1,3,4};

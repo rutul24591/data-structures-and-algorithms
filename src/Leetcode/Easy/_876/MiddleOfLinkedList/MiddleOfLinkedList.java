@@ -1,5 +1,8 @@
 package Leetcode.Easy._876.MiddleOfLinkedList;
 
+import Leetcode.Medium._21.MergeTwoSortedLists.MergeTwoSortedLists;
+import common.ListNode;
+
 /*
         Given the head of a singly linked list, return the middle node of the linked list.
 
@@ -25,19 +28,6 @@ package Leetcode.Easy._876.MiddleOfLinkedList;
         1 <= Node.val <= 100
 
 */
-
-/**
- * Definition for singly-linked list.
- * */
-     class ListNode {
-        int data;
-        ListNode next;
-        ListNode() {}
-        ListNode(int data) { this.data = data; }
-        ListNode(int data, ListNode next) { this.data = data; this.next = next; }
-    }
-
-
     public class MiddleOfLinkedList {
          ListNode head;
 
@@ -53,13 +43,13 @@ package Leetcode.Easy._876.MiddleOfLinkedList;
                 slow = slow.next;
                 fast = fast.next.next;
             }
-            System.out.println("Middle: " +slow.data);
+            System.out.println("Middle: " +slow.val);
             return slow;
         }
 
         public void addNodeAtEnd(int data){
-            ListNode node = new ListNode();
-            node.data = data;
+            ListNode node = new ListNode(0);
+            node.val = data;
             node.next = null;
 
             // Check if it is the first element in the list or not.
@@ -89,11 +79,11 @@ package Leetcode.Easy._876.MiddleOfLinkedList;
             ListNode n = head;
 
             while(n.next != null){
-                System.out.println(n.data);
+                System.out.println(n.val);
                 n = n.next;
             }
 
-            System.out.println(n.data);
+            System.out.println(n.val);
         }
 
         public static void main(String[] args){
@@ -109,5 +99,6 @@ package Leetcode.Easy._876.MiddleOfLinkedList;
             list.display();
 
             list.middleNode();
+
         }
     }
