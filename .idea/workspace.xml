@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Refactored all files in seperate packages">
+    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Implemented problem 9. PalindromeNumber">
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/Easy/_9/PalindromeNumber/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/Easy/_9/PalindromeNumber/PalindromeNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,20 +35,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/Rutul/Documents/Java/DataStructuresAndAlgorithms&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/Rutul/Documents/Java/DataStructuresAndAlgorithms",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "Errors"
   }
-}</component>
-  <component name="RunManager" selected="Application.Main">
+}]]></component>
+  <component name="RunManager" selected="Application.Leetcode.Easy._9.PalindromeNumber.Main">
     <configuration name="DataStructuresAndAlgorithms.Sorting.SelectionSort.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DataStructuresAndAlgorithms.Sorting.SelectionSort.Main" />
       <module name="DataStructuresAndAlgorithms" />
@@ -66,6 +69,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Leetcode.Easy._876.MiddleOfLinkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Leetcode.Easy._9.PalindromeNumber.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._9.PalindromeNumber.Main" />
+      <module name="DataStructuresAndAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Leetcode.Easy._9.PalindromeNumber.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,25 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MiddleOfLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._876.MiddleOfLinkedList.MiddleOfLinkedList" />
-      <module name="DataStructuresAndAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Leetcode.Easy._876.MiddleOfLinkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Leetcode.Easy._9.PalindromeNumber.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Leetcode.Medium.AddTwoNumbers.Main" />
         <item itemvalue="Application.Leetcode.Easy._27.RemoveElement.RemoveElementFromArray" />
-        <item itemvalue="Application.Leetcode.Easy._876.MiddleOfLinkedList.MiddleOfLinkedList" />
         <item itemvalue="Application.DataStructuresAndAlgorithms.Sorting.SelectionSort.Main" />
       </list>
     </recent_temporary>
@@ -136,7 +139,8 @@
       <workItem from="1652851390250" duration="1861000" />
       <workItem from="1655802980400" duration="2155000" />
       <workItem from="1655886860388" duration="5244000" />
-      <workItem from="1655922754008" duration="5768000" />
+      <workItem from="1655922754008" duration="5926000" />
+      <workItem from="1655973864437" duration="1694000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit solving problem 2sum in java">
       <created>1652090738120</created>
@@ -208,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655931949026</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Implemented problem 28. ImplementstrStr()">
+      <created>1655933248777</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1655933248777</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,6 +247,12 @@
     <MESSAGE value="Solved the Remove element problem no. 27" />
     <MESSAGE value="Implemented 2. Add two numbers" />
     <MESSAGE value="Refactored all files in seperate packages" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactored all files in seperate packages" />
+    <MESSAGE value="Implemented problem 28. ImplementstrStr()" />
+    <MESSAGE value="Implemented problem 9. PalindromeNumber" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented problem 9. PalindromeNumber" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
