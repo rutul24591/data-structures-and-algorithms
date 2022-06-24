@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Modifications to 3. longest substring wo repeating chars">
+    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Implemented problem 14.LongestCommonPrefix">
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/Easy/_14/LongestCommonPrefix/LongestCommonPrefix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +48,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.LengthOfLastWord">
+  <component name="RunManager" selected="Application.LongestCommonPrefix">
     <configuration name="LengthOfLastWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._58.LengthOfLastWord.LengthOfLastWord" />
       <module name="DataStructuresAndAlgorithms" />
@@ -61,12 +62,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Medium._3.LongestSubstringWORepeatingCharacters.LongestSubstring" />
+    <configuration name="LongestCommonPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._14.LongestCommonPrefix.LongestCommonPrefix" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Medium._3.LongestSubstringWORepeatingCharacters.*" />
+          <option name="PATTERN" value="Leetcode.Easy._14.LongestCommonPrefix.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeTwoSortedLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Medium._21.MergeTwoSortedLists.MergeTwoSortedLists" />
+    <configuration name="LongestSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Medium._3.LongestSubstringWORepeatingCharacters.LongestSubstring" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Medium._21.MergeTwoSortedLists.*" />
+          <option name="PATTERN" value="Leetcode.Medium._3.LongestSubstringWORepeatingCharacters.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestCommonPrefix" />
         <item itemvalue="Application.LengthOfLastWord" />
         <item itemvalue="Application.LongestSubstring" />
         <item itemvalue="Application.MiddleOfLinkedList" />
         <item itemvalue="Application.RemoveNthNodeFromEndOfList" />
-        <item itemvalue="Application.MergeTwoSortedLists" />
       </list>
     </recent_temporary>
   </component>
@@ -139,7 +140,7 @@
       <workItem from="1655886860388" duration="5244000" />
       <workItem from="1655922754008" duration="5926000" />
       <workItem from="1655973864437" duration="8821000" />
-      <workItem from="1656057477581" duration="8242000" />
+      <workItem from="1656057477581" duration="10049000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit solving problem 2sum in java">
       <created>1652090738120</created>
@@ -267,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656067198569</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Implemented 58. LengthofLastWord">
+      <created>1656068803362</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1656068803362</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -302,7 +310,9 @@
     <MESSAGE value="Code refactoring to implement ListNode class use changes" />
     <MESSAGE value="Implemented 3. longest substring wo repeating chars" />
     <MESSAGE value="Modifications to 3. longest substring wo repeating chars" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modifications to 3. longest substring wo repeating chars" />
+    <MESSAGE value="Implemented 58. LengthofLastWord" />
+    <MESSAGE value="Implemented problem 14.LongestCommonPrefix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented problem 14.LongestCommonPrefix" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
