@@ -33,6 +33,8 @@ import java.util.HashMap;
         Submission Results:
             Runtime: 12 ms, faster than 54.46% of Java online submissions for Longest Substring Without Repeating Characters.
             Memory Usage: 44.9 MB, less than 51.78% of Java online submissions for Longest Substring Without Repeating Characters.
+
+        OTHER WAY is to use boolean[] visited = new boolean[256]; which is an array with all values false. Each item in this array represents a value for 256 ascii charaters.
 */
 
 public class LongestSubstring {
@@ -47,7 +49,7 @@ public class LongestSubstring {
         for(int i=0; i < s.length(); i++){
             /* Get and store current character at ith index in the string */
             char ch = s.charAt(i);
-
+            System.out.println("Char: " +ch);
             /* Checking if we have already seen the element(character) or not */
             if(map.containsKey(ch) && map.get(ch) >= start){
                 /* If element is sighted, move the start pointer to position after the last occurrence */

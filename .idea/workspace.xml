@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Implemented 3. longest substring wo repeating chars">
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/Medium/_3/LongestSubstringWORepeatingCharacters/LongestSubstring.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Medium/_21/MergeTwoSortedLists/MergeTwoSortedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Medium/_21/MergeTwoSortedLists/MergeTwoSortedLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Medium/_3/LongestSubstringWORepeatingCharacters/LongestSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Medium/_3/LongestSubstringWORepeatingCharacters/LongestSubstring.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +140,7 @@
       <workItem from="1655886860388" duration="5244000" />
       <workItem from="1655922754008" duration="5926000" />
       <workItem from="1655973864437" duration="8821000" />
-      <workItem from="1656057477581" duration="5380000" />
+      <workItem from="1656057477581" duration="7039000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit solving problem 2sum in java">
       <created>1652090738120</created>
@@ -255,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655990596484</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Implemented 3. longest substring wo repeating chars">
+      <created>1656064709491</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1656064709491</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
