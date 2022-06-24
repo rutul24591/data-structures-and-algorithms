@@ -27,6 +27,10 @@ import common.ListNode;
             -100 <= Node.val <= 100
             Both list1 and list2 are sorted in non-decreasing order.
 
+        Submission report:
+
+            Runtime: 1 ms;
+            Memory: 43.4 MB
 
 */
 
@@ -50,11 +54,6 @@ public class MergeTwoSortedLists {
         return head.next;
     }
 
-    /**
-     *
-     * @param args
-     * @throws Exception
-     */
     public static void main(String[] args) {
         int[] nums1 = {1,2,4};
         int[] nums2 = {1,3,4};
