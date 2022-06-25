@@ -73,6 +73,7 @@ public class PlusOne {
             result = new int[length + 1];
             result[0] = 1;
         }
+
         return result;
     }
 
