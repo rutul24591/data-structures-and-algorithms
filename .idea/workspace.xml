@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Implemented problem 1528. Shuffle String">
+    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Implemented problem 35 Search Insert position">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/_35/SearchInsertPosition/SearchInsertPosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Easy/_35/SearchInsertPosition/SearchInsertPosition.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +49,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ShuffleString">
+  <component name="RunManager" selected="Application.SearchInsertPosition">
     <configuration name="AddBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._67.AddBinary.AddBinary" />
       <module name="DataStructuresAndAlgorithms" />
@@ -61,12 +63,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DefangingIpAddress" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._1108.DefangingAnIPAddress.DefangingIpAddress" />
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DataStructuresAndAlgorithms.Searching.BinarySearch.BinarySearch" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Easy._1108.DefangingAnIPAddress.*" />
+          <option name="PATTERN" value="DataStructuresAndAlgorithms.Searching.BinarySearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,6 +89,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SearchInsertPosition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._35.SearchInsertPosition.SearchInsertPosition" />
+      <module name="DataStructuresAndAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Leetcode.Easy._35.SearchInsertPosition.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ShuffleString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._1528.ShuffleString.ShuffleString" />
       <module name="DataStructuresAndAlgorithms" />
@@ -100,26 +115,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidParenthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._20.ValidParenthesis.ValidParenthesis" />
-      <module name="DataStructuresAndAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Leetcode.Easy._20.ValidParenthesis.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SearchInsertPosition" />
+        <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.ShuffleString" />
         <item itemvalue="Application.AddBinary" />
         <item itemvalue="Application.PlusOne" />
-        <item itemvalue="Application.ValidParenthesis" />
-        <item itemvalue="Application.DefangingIpAddress" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +143,7 @@
       <workItem from="1655973864437" duration="8821000" />
       <workItem from="1656057477581" duration="10964000" />
       <workItem from="1656144887263" duration="10603000" />
-      <workItem from="1656231277434" duration="2073000" />
+      <workItem from="1656231277434" duration="3389000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit solving problem 2sum in java">
       <created>1652090738120</created>
@@ -318,7 +320,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656232553579</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Implemented problem 35 Search Insert position">
+      <created>1656234014740</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1656234014740</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -360,7 +369,8 @@
     <MESSAGE value="Implemented problem 66. Plus One" />
     <MESSAGE value="Implemented problem 67. Add Binary" />
     <MESSAGE value="Implemented problem 1528. Shuffle String" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented problem 1528. Shuffle String" />
+    <MESSAGE value="Implemented problem 35 Search Insert position" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented problem 35 Search Insert position" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

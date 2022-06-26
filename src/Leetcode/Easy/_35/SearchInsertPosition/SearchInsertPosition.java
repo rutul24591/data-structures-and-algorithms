@@ -33,32 +33,39 @@ import java.util.Arrays;
             nums contains distinct values sorted in ascending order.
             -104 <= target <= 104
 
-        Submission Details for approach 1:
-            Runtime: 15 ms, faster than 11.57% of Java online submissions for Search Insert Position.
-            Memory Usage: 42.4 MB, less than 81.39% of Java online submissions for Search Insert Position.
+        Time Complexity: O(log n)
+        Auxiliary Space: O(log n)
+
  */
 
 public class SearchInsertPosition {
-    /* Approach 1. My old version. not time efficient*/
+
+    /* Binary Search Iterative
+        Time Complexity: O(log n)
+        Auxiliary Space: O(log n)
+    */
     public int searchInsert(int[] nums, int target) {
-        int position = 0;
-        if(target > nums[nums.length - 1]){
-            position = nums.length;
-            return position;
-        }else if(target < nums[0]){
-            position = 0;
-            return position;
-        }else{
-            for(int i = 0; i < nums.length; i++){
-                System.out.println("i" +i);
-                if(nums[i] == target){
-                    return i;
-                }else if(nums[i] < target){
-                    position++;
-                }
+        int low = 0, high = nums.length - 1;
+        // loop till the search space is exhausted
+        while(low <= high){
+            // find the mid-value in the search space and
+            // compares it with the target
+            int mid = (low + high) / 2;
+
+            // target value is found
+            if(nums[mid] == target){
+                return mid;
+            }else if(nums[mid] > target){
+                // if the target is less than the middle element, discard all elements
+                // in the right search space, including the middle element
+                high = mid - 1;
+            }else {
+                // if the target is more than the middle element, discard all elements
+                // in the left search space, including the middle element
+                low = mid + 1;
             }
         }
-        return position;
+        return low;
     }
 
     public static void main(String[] args) {
