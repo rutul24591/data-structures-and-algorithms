@@ -1,4 +1,7 @@
 package Leetcode.Medium._12.IntegerToRoman;
+
+import java.util.HashMap;
+
 /*
         12. Integer to Roman
 
