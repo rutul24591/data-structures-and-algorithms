@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Implemented problem 67. Add Binary">
+    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Implemented problem 1528. Shuffle String">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/_67/AddBinary/AddBinary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Easy/_67/AddBinary/AddBinary.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +141,7 @@
       <workItem from="1655973864437" duration="8821000" />
       <workItem from="1656057477581" duration="10964000" />
       <workItem from="1656144887263" duration="10603000" />
-      <workItem from="1656231277434" duration="1231000" />
+      <workItem from="1656231277434" duration="2073000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit solving problem 2sum in java">
       <created>1652090738120</created>
@@ -312,7 +311,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656159347580</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Implemented problem 1528. Shuffle String">
+      <created>1656232553579</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1656232553579</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -353,7 +359,8 @@
     <MESSAGE value="Implemented problem 20. Valid Parenthesis" />
     <MESSAGE value="Implemented problem 66. Plus One" />
     <MESSAGE value="Implemented problem 67. Add Binary" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented problem 67. Add Binary" />
+    <MESSAGE value="Implemented problem 1528. Shuffle String" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented problem 1528. Shuffle String" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
