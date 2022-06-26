@@ -17,6 +17,10 @@ package Leetcode.Easy._67.AddBinary;
                  1 <= a.length, b.length <= 104
                  a and b consist only of '0' or '1' characters.
                  Each string does not contain leading zeros except for the zero itself.
+
+            Submission Details
+                 Runtime: 47 ms, faster than 5.57% of Java online submissions for Add Binary.
+                 Memory Usage: 42.3 MB, less than 81.92% of Java online submissions for Add Binary.
  */
 public class AddBinary {
     public String addBinary(String s1, String s2){
@@ -37,8 +41,6 @@ public class AddBinary {
             // That is the reason for doing - '0' here.
             int num1 = s1Length >= 0 ? s1.charAt(s1Length) - '0' : 0;
             int num2 = s2Length >= 0 ? s2.charAt(s2Length) - '0' : 0;
-            System.out.println("num1: " +num1);
-            System.out.println("num2: " +num2);
 
             // Sum will never be greater than 2.
             int sum = num1 + num2 + carry;

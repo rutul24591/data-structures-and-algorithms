@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Implemented problem 67. Add Binary">
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/Easy/_67/AddBinary/AddBinary.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/_66/PlusOne/PlusOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Easy/_66/PlusOne/PlusOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/_67/AddBinary/AddBinary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Easy/_67/AddBinary/AddBinary.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +48,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.AddBinary">
+  <component name="RunManager" selected="Application.ShuffleString">
     <configuration name="AddBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._67.AddBinary.AddBinary" />
       <module name="DataStructuresAndAlgorithms" />
@@ -76,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestCommonPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._14.LongestCommonPrefix.LongestCommonPrefix" />
+    <configuration name="PlusOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._66.PlusOne.PlusOne" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Easy._14.LongestCommonPrefix.*" />
+          <option name="PATTERN" value="Leetcode.Easy._66.PlusOne.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlusOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._66.PlusOne.PlusOne" />
+    <configuration name="ShuffleString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._1528.ShuffleString.ShuffleString" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Easy._66.PlusOne.*" />
+          <option name="PATTERN" value="Leetcode.Easy._1528.ShuffleString.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ShuffleString" />
         <item itemvalue="Application.AddBinary" />
         <item itemvalue="Application.PlusOne" />
         <item itemvalue="Application.ValidParenthesis" />
         <item itemvalue="Application.DefangingIpAddress" />
-        <item itemvalue="Application.LongestCommonPrefix" />
       </list>
     </recent_temporary>
   </component>
@@ -142,7 +141,8 @@
       <workItem from="1655922754008" duration="5926000" />
       <workItem from="1655973864437" duration="8821000" />
       <workItem from="1656057477581" duration="10964000" />
-      <workItem from="1656144887263" duration="9629000" />
+      <workItem from="1656144887263" duration="10603000" />
+      <workItem from="1656231277434" duration="1231000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit solving problem 2sum in java">
       <created>1652090738120</created>
@@ -305,7 +305,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656153712280</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Implemented problem 67. Add Binary">
+      <created>1656159347580</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1656159347580</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
