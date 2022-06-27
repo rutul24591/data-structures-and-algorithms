@@ -1,6 +1,13 @@
 package Leetcode.Easy._121.BestTimeToBuyAndSellStock;
 
+import java.util.Arrays;
+
 /*
+        @author:    Rutul Amin
+        @tag :      Array; Dynamic Programming
+        @date:      Jun 27, 2022
+        {@link https://leetcode.com/problems/best-time-to-buy-and-sell-stock/ }
+
         121. Best Time to Buy and Sell Stock
 
             You are given an array prices where prices[i] is the price of a given stock on the ith day.
@@ -42,6 +49,7 @@ public class BestTimeToBuyAndSellStock {
         BestTimeToBuyAndSellStock instance = new BestTimeToBuyAndSellStock();
         int[] stockPrices = { 7,1,5,3,6,4 };
 
+        System.out.println("Stock Prices: " + Arrays.toString(stockPrices));
         int result = instance.maxProfit(stockPrices);
         System.out.println("Max profit: " + result);
     }
