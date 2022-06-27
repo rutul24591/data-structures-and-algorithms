@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Implemented problem 121 n 122 Best time to buy and sell stocks.">
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/Medium/_122/BestTimeToBuySellStock/BestTimeToBuySellStock.java" afterDir="false" />
+    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Implemented problem 217 Contains Duplicate.">
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/Easy/_217/ContainsDuplicate/ContainsDuplicate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/_121/BestTimeToBuyAndSellStock/BestTimeToBuyAndSellStock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Easy/_121/BestTimeToBuyAndSellStock/BestTimeToBuyAndSellStock.java" afterDir="false" />
     </list>
@@ -49,7 +50,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.BestTimeToBuySellStock">
+  <component name="RunManager" selected="Application.ContainsDuplicate">
     <configuration name="BestTimeToBuyAndSellStock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._121.BestTimeToBuyAndSellStock.BestTimeToBuyAndSellStock" />
       <module name="DataStructuresAndAlgorithms" />
@@ -69,6 +70,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Leetcode.Medium._122.BestTimeToBuySellStock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContainsDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._217.ContainsDuplicate.ContainsDuplicate" />
+      <module name="DataStructuresAndAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Leetcode.Easy._217.ContainsDuplicate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,26 +116,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RomanToInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._13.RomanToInteger.RomanToInteger" />
-      <module name="DataStructuresAndAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Leetcode.Easy._13.RomanToInteger.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BestTimeToBuySellStock" />
+        <item itemvalue="Application.ContainsDuplicate" />
         <item itemvalue="Application.BestTimeToBuyAndSellStock" />
+        <item itemvalue="Application.BestTimeToBuySellStock" />
         <item itemvalue="Application.RemoveDuplicatesFromSortedList" />
         <item itemvalue="Application.IntegerToRoman" />
-        <item itemvalue="Application.RomanToInteger" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +146,7 @@
       <workItem from="1656144887263" duration="10603000" />
       <workItem from="1656231277434" duration="10220000" />
       <workItem from="1656297860799" duration="321000" />
-      <workItem from="1656324022950" duration="1033000" />
+      <workItem from="1656324022950" duration="3366000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit solving problem 2sum in java">
       <created>1652090738120</created>
@@ -357,7 +358,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656243130257</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Implemented problem 121 n 122 Best time to buy and sell stocks.">
+      <created>1656325077399</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1656325077399</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -375,7 +383,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implemented Selection Sort" />
     <MESSAGE value="Modification to MiddleOfLinkedList" />
     <MESSAGE value="Solved the Remove element problem no. 27" />
     <MESSAGE value="Implemented 2. Add two numbers" />
@@ -400,7 +407,8 @@
     <MESSAGE value="Implemented problem 12 Integer To Roman" />
     <MESSAGE value="Implemented problem 83. Remove duplicates from sorted list" />
     <MESSAGE value="Implemented problem 121 n 122 Best time to buy and sell stocks." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented problem 121 n 122 Best time to buy and sell stocks." />
+    <MESSAGE value="Implemented problem 217 Contains Duplicate." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented problem 217 Contains Duplicate." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

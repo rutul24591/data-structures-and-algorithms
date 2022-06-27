@@ -48,7 +48,6 @@ public class BestTimeToBuyAndSellStock {
     public static void main(String[] args){
         BestTimeToBuyAndSellStock instance = new BestTimeToBuyAndSellStock();
         int[] stockPrices = { 7,1,5,3,6,4 };
-
         System.out.println("Stock Prices: " + Arrays.toString(stockPrices));
         int result = instance.maxProfit(stockPrices);
         System.out.println("Max profit: " + result);
