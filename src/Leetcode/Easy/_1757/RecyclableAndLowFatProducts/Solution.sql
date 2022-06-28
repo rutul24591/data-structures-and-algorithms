@@ -46,8 +46,13 @@
 -- Explanation: Only products 1 and 3 are both low fat and recyclable.
 --
 -- SOLUTION
---
+-- In `select` statement choose columns you want to display in the result
+-- `from` will have the original Table
+--      from products
+-- and
+-- add conditions to filter the data
 `
-    select product_id from products
+    select product_id
+    from products
     where low_fats = 'Y' and recyclable = 'Y'
 `;
