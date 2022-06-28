@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Implemented problem 4 Median of 2 sorted arrays.">
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/Hard/_4/MedianOfTwoSortedArrays/MedianOfTwoSortedArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +52,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MedianOfTwoSortedArrays">
+  <component name="RunManager" selected="Application.LinkedListCycle">
     <configuration name="BestTimeToBuyAndSellStock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._121.BestTimeToBuyAndSellStock.BestTimeToBuyAndSellStock" />
       <module name="DataStructuresAndAlgorithms" />
@@ -68,12 +66,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BestTimeToBuySellStock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Medium._122.BestTimeToBuySellStock.BestTimeToBuySellStock" />
+    <configuration name="ContainsDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._217.ContainsDuplicate.ContainsDuplicate" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Medium._122.BestTimeToBuySellStock.*" />
+          <option name="PATTERN" value="Leetcode.Easy._217.ContainsDuplicate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContainsDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._217.ContainsDuplicate.ContainsDuplicate" />
+    <configuration name="LinkedListCycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._141.LinkedListCycle.LinkedListCycle" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Easy._217.ContainsDuplicate.*" />
+          <option name="PATTERN" value="Leetcode.Easy._141.LinkedListCycle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinkedListCycle" />
         <item itemvalue="Application.MedianOfTwoSortedArrays" />
         <item itemvalue="Application.ReverseInteger" />
         <item itemvalue="Application.ContainsDuplicate" />
         <item itemvalue="Application.BestTimeToBuyAndSellStock" />
-        <item itemvalue="Application.BestTimeToBuySellStock" />
       </list>
     </recent_temporary>
   </component>
@@ -151,7 +149,7 @@
       <workItem from="1656231277434" duration="10220000" />
       <workItem from="1656297860799" duration="321000" />
       <workItem from="1656324022950" duration="3915000" />
-      <workItem from="1656404756973" duration="8092000" />
+      <workItem from="1656404756973" duration="9366000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit solving problem 2sum in java">
       <created>1652090738120</created>
@@ -405,7 +403,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656410363759</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Implemented problem 4 Median of 2 sorted arrays.">
+      <created>1656416334709</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1656416334709</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
