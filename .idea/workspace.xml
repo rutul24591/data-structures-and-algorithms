@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Implemented problem 1757/ Recyclable and Low fat products.">
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Implemented problem 1741 Find total time spend by employee">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/_1757/RecyclableAndLowFatProducts/Solution.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Easy/_1757/RecyclableAndLowFatProducts/Solution.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +149,7 @@
       <workItem from="1656231277434" duration="10220000" />
       <workItem from="1656297860799" duration="321000" />
       <workItem from="1656324022950" duration="3915000" />
-      <workItem from="1656404756973" duration="3508000" />
+      <workItem from="1656404756973" duration="4819000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit solving problem 2sum in java">
       <created>1652090738120</created>
@@ -391,7 +389,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656407467185</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Implemented problem 1741 Find total time spend by employee">
+      <created>1656408628225</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1656408628225</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -409,7 +414,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implemented 2. Add two numbers" />
     <MESSAGE value="Refactored all files in seperate packages" />
     <MESSAGE value="Implemented problem 28. ImplementstrStr()" />
     <MESSAGE value="Implemented problem 9. PalindromeNumber" />
@@ -434,7 +438,8 @@
     <MESSAGE value="Implemented problem 217 Contains Duplicate." />
     <MESSAGE value="Implemented problem 7 Reverse integer" />
     <MESSAGE value="Implemented problem 1757/ Recyclable and Low fat products." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented problem 1757/ Recyclable and Low fat products." />
+    <MESSAGE value="Implemented problem 1741 Find total time spend by employee" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented problem 1741 Find total time spend by employee" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
