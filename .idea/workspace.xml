@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Implemented problem 4 Median of 2 sorted arrays.">
+    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Implemented problem 141 Linked List Cycle">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,20 +52,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.LinkedListCycle">
-    <configuration name="BestTimeToBuyAndSellStock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._121.BestTimeToBuyAndSellStock.BestTimeToBuyAndSellStock" />
-      <module name="DataStructuresAndAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Leetcode.Easy._121.BestTimeToBuyAndSellStock.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MaximumSubArray">
     <configuration name="ContainsDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._217.ContainsDuplicate.ContainsDuplicate" />
       <module name="DataStructuresAndAlgorithms" />
@@ -85,6 +72,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Leetcode.Easy._141.LinkedListCycle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaximumSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._53.MaximumSubArray.MaximumSubArray" />
+      <module name="DataStructuresAndAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Leetcode.Easy._53.MaximumSubArray.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaximumSubArray" />
         <item itemvalue="Application.LinkedListCycle" />
         <item itemvalue="Application.MedianOfTwoSortedArrays" />
         <item itemvalue="Application.ReverseInteger" />
         <item itemvalue="Application.ContainsDuplicate" />
-        <item itemvalue="Application.BestTimeToBuyAndSellStock" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +149,7 @@
       <workItem from="1656231277434" duration="10220000" />
       <workItem from="1656297860799" duration="321000" />
       <workItem from="1656324022950" duration="3915000" />
-      <workItem from="1656404756973" duration="9366000" />
+      <workItem from="1656404756973" duration="10712000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit solving problem 2sum in java">
       <created>1652090738120</created>
@@ -410,7 +410,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656416334709</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Implemented problem 141 Linked List Cycle">
+      <created>1656417688434</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1656417688434</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -428,7 +435,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implemented problem 9. PalindromeNumber" />
     <MESSAGE value="Implemented problem 19. Remove Nth Node From End of List" />
     <MESSAGE value="Implemented problem 21. Merge 2 sorted lists and also made ListNode a common class with toString and createlistFromArray method." />
     <MESSAGE value="Code refactoring to implement ListNode class use changes" />
@@ -453,7 +459,8 @@
     <MESSAGE value="Implemented problem 1741 Find total time spend by employee" />
     <MESSAGE value="Implemented problem 237 Delete node from linked list" />
     <MESSAGE value="Implemented problem 4 Median of 2 sorted arrays." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented problem 4 Median of 2 sorted arrays." />
+    <MESSAGE value="Implemented problem 141 Linked List Cycle" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented problem 141 Linked List Cycle" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
