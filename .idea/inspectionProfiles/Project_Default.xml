@@ -7,8 +7,8 @@
       </Languages>
     </inspection_tool>
     <inspection_tool class="JavadocDeclaration" enabled="true" level="WARNING" enabled_by_default="true">
-      <option name="ADDITIONAL_TAGS" value="author:,tag,date:" />
+      <option name="ADDITIONAL_TAGS" value="author:,tag,date:,tag:" />
     </inspection_tool>
-    <inspection_tool class="TodoComment" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="TodoComment" enabled="true" level="INFORMATION" enabled_by_default="true" />
   </profile>
 </component>

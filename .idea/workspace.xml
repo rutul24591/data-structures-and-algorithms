@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Implemented problem 1741 Find total time spend by employee">
+    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Implemented problem 4 Median of 2 sorted arrays.">
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/Hard/_4/MedianOfTwoSortedArrays/MedianOfTwoSortedArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +54,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ReverseInteger">
+  <component name="RunManager" selected="Application.MedianOfTwoSortedArrays">
     <configuration name="BestTimeToBuyAndSellStock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._121.BestTimeToBuyAndSellStock.BestTimeToBuyAndSellStock" />
       <module name="DataStructuresAndAlgorithms" />
@@ -92,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveDuplicatesFromSortedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._83.RemoveDuplicatesFromSortedList.RemoveDuplicatesFromSortedList" />
+    <configuration name="MedianOfTwoSortedArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Hard._4.MedianOfTwoSortedArrays.MedianOfTwoSortedArrays" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Easy._83.RemoveDuplicatesFromSortedList.*" />
+          <option name="PATTERN" value="Leetcode.Hard._4.MedianOfTwoSortedArrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MedianOfTwoSortedArrays" />
         <item itemvalue="Application.ReverseInteger" />
         <item itemvalue="Application.ContainsDuplicate" />
         <item itemvalue="Application.BestTimeToBuyAndSellStock" />
         <item itemvalue="Application.BestTimeToBuySellStock" />
-        <item itemvalue="Application.RemoveDuplicatesFromSortedList" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +151,7 @@
       <workItem from="1656231277434" duration="10220000" />
       <workItem from="1656297860799" duration="321000" />
       <workItem from="1656324022950" duration="3915000" />
-      <workItem from="1656404756973" duration="4819000" />
+      <workItem from="1656404756973" duration="8092000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit solving problem 2sum in java">
       <created>1652090738120</created>
@@ -396,7 +398,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656408628225</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Implemented problem 237 Delete node from linked list">
+      <created>1656410363759</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1656410363759</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -414,8 +423,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Refactored all files in seperate packages" />
-    <MESSAGE value="Implemented problem 28. ImplementstrStr()" />
     <MESSAGE value="Implemented problem 9. PalindromeNumber" />
     <MESSAGE value="Implemented problem 19. Remove Nth Node From End of List" />
     <MESSAGE value="Implemented problem 21. Merge 2 sorted lists and also made ListNode a common class with toString and createlistFromArray method." />
@@ -439,7 +446,9 @@
     <MESSAGE value="Implemented problem 7 Reverse integer" />
     <MESSAGE value="Implemented problem 1757/ Recyclable and Low fat products." />
     <MESSAGE value="Implemented problem 1741 Find total time spend by employee" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented problem 1741 Find total time spend by employee" />
+    <MESSAGE value="Implemented problem 237 Delete node from linked list" />
+    <MESSAGE value="Implemented problem 4 Median of 2 sorted arrays." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented problem 4 Median of 2 sorted arrays." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
