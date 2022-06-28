@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Implemented problem 141 Linked List Cycle">
+    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Implemented problem 53 Maximum subarry">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,13 +52,13 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MaximumSubArray">
-    <configuration name="ContainsDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._217.ContainsDuplicate.ContainsDuplicate" />
+  <component name="RunManager" selected="Application.AddTwoIntegers">
+    <configuration name="AddTwoIntegers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._2235.AddTwoIntegers.AddTwoIntegers" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Easy._217.ContainsDuplicate.*" />
+          <option name="PATTERN" value="Leetcode.Easy._2235.AddTwoIntegers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AddTwoIntegers" />
         <item itemvalue="Application.MaximumSubArray" />
         <item itemvalue="Application.LinkedListCycle" />
         <item itemvalue="Application.MedianOfTwoSortedArrays" />
         <item itemvalue="Application.ReverseInteger" />
-        <item itemvalue="Application.ContainsDuplicate" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +149,7 @@
       <workItem from="1656231277434" duration="10220000" />
       <workItem from="1656297860799" duration="321000" />
       <workItem from="1656324022950" duration="3915000" />
-      <workItem from="1656404756973" duration="10712000" />
+      <workItem from="1656404756973" duration="11269000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit solving problem 2sum in java">
       <created>1652090738120</created>
@@ -417,7 +417,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656417688434</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Implemented problem 53 Maximum subarry">
+      <created>1656419269699</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1656419269699</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -435,7 +442,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implemented problem 19. Remove Nth Node From End of List" />
     <MESSAGE value="Implemented problem 21. Merge 2 sorted lists and also made ListNode a common class with toString and createlistFromArray method." />
     <MESSAGE value="Code refactoring to implement ListNode class use changes" />
     <MESSAGE value="Implemented 3. longest substring wo repeating chars" />
@@ -460,7 +466,8 @@
     <MESSAGE value="Implemented problem 237 Delete node from linked list" />
     <MESSAGE value="Implemented problem 4 Median of 2 sorted arrays." />
     <MESSAGE value="Implemented problem 141 Linked List Cycle" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented problem 141 Linked List Cycle" />
+    <MESSAGE value="Implemented problem 53 Maximum subarry" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented problem 53 Maximum subarry" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
