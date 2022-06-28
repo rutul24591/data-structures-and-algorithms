@@ -1,4 +1,4 @@
-package Leetcode.Medium._21.MergeTwoSortedLists;
+package Leetcode.Easy._21.MergeTwoSortedLists;
 
 import common.ListNode;
 /*

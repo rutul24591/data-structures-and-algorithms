@@ -1,6 +1,5 @@
 package Leetcode.Easy._876.MiddleOfLinkedList;
 
-import Leetcode.Medium._21.MergeTwoSortedLists.MergeTwoSortedLists;
 import common.ListNode;
 
 /*

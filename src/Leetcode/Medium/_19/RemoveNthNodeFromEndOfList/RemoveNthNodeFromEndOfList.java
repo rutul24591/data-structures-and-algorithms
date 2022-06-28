@@ -1,6 +1,5 @@
 package Leetcode.Medium._19.RemoveNthNodeFromEndOfList;
 
-import Leetcode.Medium._21.MergeTwoSortedLists.MergeTwoSortedLists;
 import common.ListNode;
 /*
     19. Remove Nth Node From End of List (Medium)

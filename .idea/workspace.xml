@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Implemented problem 217 Contains Duplicate.">
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/Easy/_217/ContainsDuplicate/ContainsDuplicate.java" afterDir="false" />
+    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Implemented problem 7 Reverse integer">
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/Medium/_7/ReverseInteger/ReverseInteger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/_121/BestTimeToBuyAndSellStock/BestTimeToBuyAndSellStock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Easy/_121/BestTimeToBuyAndSellStock/BestTimeToBuyAndSellStock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/_876/MiddleOfLinkedList/MiddleOfLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Easy/_876/MiddleOfLinkedList/MiddleOfLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Medium/_19/RemoveNthNodeFromEndOfList/RemoveNthNodeFromEndOfList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Medium/_19/RemoveNthNodeFromEndOfList/RemoveNthNodeFromEndOfList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Medium/_21/MergeTwoSortedLists/MergeTwoSortedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Easy/_21/MergeTwoSortedLists/MergeTwoSortedLists.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +52,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ContainsDuplicate">
+  <component name="RunManager" selected="Application.ReverseInteger">
     <configuration name="BestTimeToBuyAndSellStock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._121.BestTimeToBuyAndSellStock.BestTimeToBuyAndSellStock" />
       <module name="DataStructuresAndAlgorithms" />
@@ -90,19 +92,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntegerToRoman" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Medium._12.IntegerToRoman.IntegerToRoman" />
-      <module name="DataStructuresAndAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Leetcode.Medium._12.IntegerToRoman.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RemoveDuplicatesFromSortedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._83.RemoveDuplicatesFromSortedList.RemoveDuplicatesFromSortedList" />
       <module name="DataStructuresAndAlgorithms" />
@@ -116,13 +105,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReverseInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Medium._7.ReverseInteger.ReverseInteger" />
+      <module name="DataStructuresAndAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Leetcode.Medium._7.ReverseInteger.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseInteger" />
         <item itemvalue="Application.ContainsDuplicate" />
         <item itemvalue="Application.BestTimeToBuyAndSellStock" />
         <item itemvalue="Application.BestTimeToBuySellStock" />
         <item itemvalue="Application.RemoveDuplicatesFromSortedList" />
-        <item itemvalue="Application.IntegerToRoman" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +148,8 @@
       <workItem from="1656144887263" duration="10603000" />
       <workItem from="1656231277434" duration="10220000" />
       <workItem from="1656297860799" duration="321000" />
-      <workItem from="1656324022950" duration="3366000" />
+      <workItem from="1656324022950" duration="3915000" />
+      <workItem from="1656404756973" duration="1927000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit solving problem 2sum in java">
       <created>1652090738120</created>
@@ -365,7 +368,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656325077399</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Implemented problem 217 Contains Duplicate.">
+      <created>1656327431928</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1656327431928</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -383,7 +393,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Modification to MiddleOfLinkedList" />
     <MESSAGE value="Solved the Remove element problem no. 27" />
     <MESSAGE value="Implemented 2. Add two numbers" />
     <MESSAGE value="Refactored all files in seperate packages" />
@@ -408,7 +417,8 @@
     <MESSAGE value="Implemented problem 83. Remove duplicates from sorted list" />
     <MESSAGE value="Implemented problem 121 n 122 Best time to buy and sell stocks." />
     <MESSAGE value="Implemented problem 217 Contains Duplicate." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented problem 217 Contains Duplicate." />
+    <MESSAGE value="Implemented problem 7 Reverse integer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented problem 7 Reverse integer" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
