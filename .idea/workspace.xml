@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Implemented not a problem 206 Reverse LinkedList">
+    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Implemented a problem 69 Sqrt(x).">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +52,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Application.SquareRoot">
+  <component name="RunManager" selected="Application.Permutations">
     <configuration name="AddTwoIntegers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._2235.AddTwoIntegers.AddTwoIntegers" />
       <module name="DataStructuresAndAlgorithms" />
@@ -66,12 +66,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._53.MaximumSubArray.MaximumSubArray" />
+    <configuration name="Permutations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Medium._46.Permutations.Permutations" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Easy._53.MaximumSubArray.*" />
+          <option name="PATTERN" value="Leetcode.Medium._46.Permutations.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Permutations" />
         <item itemvalue="Application.SquareRoot" />
         <item itemvalue="Application.ReversedLinkedList" />
         <item itemvalue="Application.ReverseString" />
         <item itemvalue="Application.AddTwoIntegers" />
-        <item itemvalue="Application.MaximumSubArray" />
       </list>
     </recent_temporary>
   </component>
@@ -150,7 +150,7 @@
       <workItem from="1656297860799" duration="321000" />
       <workItem from="1656324022950" duration="3915000" />
       <workItem from="1656404756973" duration="11669000" />
-      <workItem from="1656488105870" duration="6020000" />
+      <workItem from="1656488105870" duration="11077000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit solving problem 2sum in java">
       <created>1652090738120</created>
@@ -446,7 +446,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656494452517</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Implemented a problem 69 Sqrt(x).">
+      <created>1656498320334</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1656498320334</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -464,7 +471,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Modifications to 3. longest substring wo repeating chars" />
     <MESSAGE value="Implemented 58. LengthofLastWord" />
     <MESSAGE value="Implemented problem 14.LongestCommonPrefix" />
     <MESSAGE value="Implemented problem 1108. Defanging an IP Address" />
@@ -489,7 +495,8 @@
     <MESSAGE value="Implemented not a problem 2235 Add two integers." />
     <MESSAGE value="Implemented not a problem 344 Reverse String" />
     <MESSAGE value="Implemented not a problem 206 Reverse LinkedList" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented not a problem 206 Reverse LinkedList" />
+    <MESSAGE value="Implemented a problem 69 Sqrt(x)." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented a problem 69 Sqrt(x)." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
