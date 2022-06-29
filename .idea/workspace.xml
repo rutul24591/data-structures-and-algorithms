@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Implemented problem 53 Maximum subarry">
+    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Implemented not a problem 2235 Add two integers.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,26 +33,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/Rutul/Documents/Java/DataStructuresAndAlgorithms",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "Errors"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/Rutul/Documents/Java/DataStructuresAndAlgorithms&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
-  <component name="RunManager" selected="Application.AddTwoIntegers">
+}</component>
+  <component name="RunManager" selected="Application.ReverseString">
     <configuration name="AddTwoIntegers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._2235.AddTwoIntegers.AddTwoIntegers" />
       <module name="DataStructuresAndAlgorithms" />
@@ -105,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Medium._7.ReverseInteger.ReverseInteger" />
+    <configuration name="ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._344.ReverseString.ReverseString" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Medium._7.ReverseInteger.*" />
+          <option name="PATTERN" value="Leetcode.Easy._344.ReverseString.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseString" />
         <item itemvalue="Application.AddTwoIntegers" />
         <item itemvalue="Application.MaximumSubArray" />
         <item itemvalue="Application.LinkedListCycle" />
         <item itemvalue="Application.MedianOfTwoSortedArrays" />
-        <item itemvalue="Application.ReverseInteger" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +149,8 @@
       <workItem from="1656231277434" duration="10220000" />
       <workItem from="1656297860799" duration="321000" />
       <workItem from="1656324022950" duration="3915000" />
-      <workItem from="1656404756973" duration="11269000" />
+      <workItem from="1656404756973" duration="11669000" />
+      <workItem from="1656488105870" duration="1156000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit solving problem 2sum in java">
       <created>1652090738120</created>
@@ -424,7 +425,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656419269699</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Implemented not a problem 2235 Add two integers.">
+      <created>1656419771968</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1656419771968</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -442,7 +450,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implemented problem 21. Merge 2 sorted lists and also made ListNode a common class with toString and createlistFromArray method." />
     <MESSAGE value="Code refactoring to implement ListNode class use changes" />
     <MESSAGE value="Implemented 3. longest substring wo repeating chars" />
     <MESSAGE value="Modifications to 3. longest substring wo repeating chars" />
@@ -467,7 +474,8 @@
     <MESSAGE value="Implemented problem 4 Median of 2 sorted arrays." />
     <MESSAGE value="Implemented problem 141 Linked List Cycle" />
     <MESSAGE value="Implemented problem 53 Maximum subarry" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented problem 53 Maximum subarry" />
+    <MESSAGE value="Implemented not a problem 2235 Add two integers." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented not a problem 2235 Add two integers." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
