@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Implemented a problem 90 Subsets2">
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/Medium/_90/Subsets2/Subsets2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Medium/_78/Subsets/Subsets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Medium/_78/Subsets/Subsets.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +52,11 @@
     ]
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Leetcode/Easy/_1693/DailyLeadsAndPartners" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.Subsets2">
     <configuration name="ConcatenationOfArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._1929.ConcatenationOfArray.ConcatenationOfArray" />
@@ -154,7 +156,7 @@
       <workItem from="1656324022950" duration="3915000" />
       <workItem from="1656404756973" duration="11669000" />
       <workItem from="1656488105870" duration="12622000" />
-      <workItem from="1656517487446" duration="11010000" />
+      <workItem from="1656517487446" duration="11817000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit solving problem 2sum in java">
       <created>1652090738120</created>
@@ -492,7 +494,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656568747462</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Implemented a problem 90 Subsets2">
+      <created>1656570278417</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1656570278417</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
