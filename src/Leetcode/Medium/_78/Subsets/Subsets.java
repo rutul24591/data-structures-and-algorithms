@@ -35,14 +35,31 @@ import java.util.Arrays;
 
  */
 public class Subsets {
+        /* Recursive backtracking approach */
         public List<List<Integer>> subsets(int[] nums) {
             List<List<Integer>> result = new ArrayList<>();
             List<Integer> list = new ArrayList<>();
             int position = 0;
             // Sort the nums array to put elements in descending order
-//            Arrays.sort(nums);
+            Arrays.sort(nums);
             backtrack(result, nums, list, position);
             return result;
+        }
+
+        public void backtrack(List<List<Integer>> result, int[] array, List<Integer> list, int position) {
+            // This will add list(array) to result array.
+            result.add(new ArrayList<>(list));
+            // Loop nums
+            for(int i = position; i < array.length; i++){
+                list.add(array[i]);
+
+                /* System.out.println("i: "+i+" List ADD: " +list); */
+                backtrack(result, array, list, i + 1);
+
+                // Remove last element from list
+                list.remove(list.size() - 1);
+                /* System.out.println("i: "+i+" List REMOVE: " +list); */
+            }
         }
 
         /*      ITERATIVE APPROACH
@@ -66,22 +83,6 @@ public class Subsets {
                 }
             }
             return res;
-        }
-
-        public void backtrack(List<List<Integer>> result, int[] array, List<Integer> list, int position) {
-            // This will add list(array) to result array.
-            result.add(new ArrayList<>(list));
-            System.out.println("Result: " +result);
-            // Loop nums
-            for(int i = position; i < array.length; i++){
-                list.add(array[i]);
-                /* System.out.println("i: "+i+" List ADD: " +list); */
-                backtrack(result, array, list, i + 1);
-
-                // Remove last element from list
-                list.remove(list.size() - 1);
-                /* System.out.println("i: "+i+" List REMOVE: " +list); */
-            }
         }
 
         public static void main(String[] args){
