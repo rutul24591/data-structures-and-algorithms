@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Implemented a problem 1693. Daily leads and partners">
+    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Implemented a problem 412 FizzBuzz.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,20 +57,7 @@
       <recent name="$PROJECT_DIR$/src/Leetcode/Easy/_1693/DailyLeadsAndPartners" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FizzBuzz">
-    <configuration name="ConcatenationOfArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._1929.ConcatenationOfArray.ConcatenationOfArray" />
-      <module name="DataStructuresAndAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Leetcode.Easy._1929.ConcatenationOfArray.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ValidPalindrome">
     <configuration name="FizzBuzz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._412.FizzBuzz.FizzBuzz" />
       <module name="DataStructuresAndAlgorithms" />
@@ -123,13 +110,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ValidPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._125.ValidPalindrome.ValidPalindrome" />
+      <module name="DataStructuresAndAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Leetcode.Easy._125.ValidPalindrome.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ValidPalindrome" />
         <item itemvalue="Application.FizzBuzz" />
         <item itemvalue="Application.Subsets2" />
         <item itemvalue="Application.Subsets" />
         <item itemvalue="Application.TopKFrequentElements" />
-        <item itemvalue="Application.ConcatenationOfArray" />
       </list>
     </recent_temporary>
   </component>
@@ -156,14 +156,7 @@
       <workItem from="1656324022950" duration="3915000" />
       <workItem from="1656404756973" duration="11669000" />
       <workItem from="1656488105870" duration="12622000" />
-      <workItem from="1656517487446" duration="13578000" />
-    </task>
-    <task id="LOCAL-00002" summary="Initial commit resolving License conflict">
-      <created>1652090925565</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1652090925565</updated>
+      <workItem from="1656517487446" duration="14683000" />
     </task>
     <task id="LOCAL-00003" summary="Changes to the 2sum problem.">
       <created>1652091266865</created>
@@ -501,7 +494,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656571235933</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Implemented a problem 412 FizzBuzz.">
+      <created>1656587530265</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1656587530265</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -519,7 +519,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implemented problem 35 Search Insert position" />
     <MESSAGE value="Modifications to  problem 35 Search Insert position" />
     <MESSAGE value="Implemented problem 13. Roman to Integer" />
     <MESSAGE value="Implemented problem 12 Integer To Roman" />
@@ -544,7 +543,8 @@
     <MESSAGE value="Implemented a problem 78 Subsets(iterative version)" />
     <MESSAGE value="Implemented a problem 90 Subsets2" />
     <MESSAGE value="Implemented a problem 1693. Daily leads and partners" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented a problem 1693. Daily leads and partners" />
+    <MESSAGE value="Implemented a problem 412 FizzBuzz." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented a problem 412 FizzBuzz." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
