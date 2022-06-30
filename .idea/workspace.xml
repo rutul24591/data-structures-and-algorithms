@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Implemented a problem 90 Subsets2">
+    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Implemented a problem 1693. Daily leads and partners">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +57,7 @@
       <recent name="$PROJECT_DIR$/src/Leetcode/Easy/_1693/DailyLeadsAndPartners" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Subsets2">
+  <component name="RunManager" selected="Application.FizzBuzz">
     <configuration name="ConcatenationOfArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._1929.ConcatenationOfArray.ConcatenationOfArray" />
       <module name="DataStructuresAndAlgorithms" />
@@ -71,12 +71,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingleNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._136.SingleNumber.SingleNumber" />
+    <configuration name="FizzBuzz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._412.FizzBuzz.FizzBuzz" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Easy._136.SingleNumber.*" />
+          <option name="PATTERN" value="Leetcode.Easy._412.FizzBuzz.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FizzBuzz" />
         <item itemvalue="Application.Subsets2" />
         <item itemvalue="Application.Subsets" />
         <item itemvalue="Application.TopKFrequentElements" />
         <item itemvalue="Application.ConcatenationOfArray" />
-        <item itemvalue="Application.SingleNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -156,14 +156,7 @@
       <workItem from="1656324022950" duration="3915000" />
       <workItem from="1656404756973" duration="11669000" />
       <workItem from="1656488105870" duration="12622000" />
-      <workItem from="1656517487446" duration="11817000" />
-    </task>
-    <task id="LOCAL-00001" summary="Initial commit solving problem 2sum in java">
-      <created>1652090738120</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1652090738120</updated>
+      <workItem from="1656517487446" duration="13578000" />
     </task>
     <task id="LOCAL-00002" summary="Initial commit resolving License conflict">
       <created>1652090925565</created>
@@ -501,7 +494,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656570278417</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Implemented a problem 1693. Daily leads and partners">
+      <created>1656571235932</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1656571235933</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -519,7 +519,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implemented problem 1528. Shuffle String" />
     <MESSAGE value="Implemented problem 35 Search Insert position" />
     <MESSAGE value="Modifications to  problem 35 Search Insert position" />
     <MESSAGE value="Implemented problem 13. Roman to Integer" />
@@ -544,7 +543,8 @@
     <MESSAGE value="Implemented a problem 78 Subsets" />
     <MESSAGE value="Implemented a problem 78 Subsets(iterative version)" />
     <MESSAGE value="Implemented a problem 90 Subsets2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented a problem 90 Subsets2" />
+    <MESSAGE value="Implemented a problem 1693. Daily leads and partners" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented a problem 1693. Daily leads and partners" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
