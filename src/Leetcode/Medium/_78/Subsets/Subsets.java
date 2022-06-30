@@ -31,6 +31,8 @@ import java.util.Arrays;
                 Runtime: 2 ms, faster than 36.82% of Java online submissions for Subsets.
                 Memory Usage: 43.3 MB, less than 51.23% of Java online submissions for Subsets.
 
+        Time : O(2^n); Space: O()
+
  */
 public class Subsets {
         public List<List<Integer>> subsets(int[] nums) {
@@ -41,6 +43,29 @@ public class Subsets {
 //            Arrays.sort(nums);
             backtrack(result, nums, list, position);
             return result;
+        }
+
+        /*      ITERATIVE APPROACH
+            *   Try to insert each number into all existing subsets
+            *   Time : O(2^n); Space: O()
+        */
+
+        public List<List<Integer>> subsets2(int[] nums) {
+            List<List<Integer>> res = new ArrayList<>();
+            Arrays.sort(nums);
+
+            // push initial empty subset i.e []
+            res.add(new ArrayList<>());
+
+            for (int num : nums) {
+                int sz = res.size();
+                for (int i = 0; i < sz; i++) {
+                    List<Integer> list = new ArrayList<>(res.get(i));
+                    list.add(num);
+                    res.add(list);
+                }
+            }
+            return res;
         }
 
         public void backtrack(List<List<Integer>> result, int[] array, List<Integer> list, int position) {

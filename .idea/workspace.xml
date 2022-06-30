@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Implemented a problem 347 Top K frequent elements and 1929 Concatenation of 2 arrays">
+    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Implemented a problem 78 Subsets">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Medium/_78/Subsets/Subsets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Medium/_78/Subsets/Subsets.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +152,7 @@
       <workItem from="1656324022950" duration="3915000" />
       <workItem from="1656404756973" duration="11669000" />
       <workItem from="1656488105870" duration="12622000" />
-      <workItem from="1656517487446" duration="8417000" />
+      <workItem from="1656517487446" duration="9454000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit solving problem 2sum in java">
       <created>1652090738120</created>
@@ -475,7 +476,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656561426063</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Implemented a problem 78 Subsets">
+      <created>1656567694155</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1656567694155</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -493,7 +501,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implemented problem 20. Valid Parenthesis" />
     <MESSAGE value="Implemented problem 66. Plus One" />
     <MESSAGE value="Implemented problem 67. Add Binary" />
     <MESSAGE value="Implemented problem 1528. Shuffle String" />
@@ -518,7 +525,8 @@
     <MESSAGE value="Implemented a problem 46 Permutations" />
     <MESSAGE value="Implemented a problem 136 Single number." />
     <MESSAGE value="Implemented a problem 347 Top K frequent elements and 1929 Concatenation of 2 arrays" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented a problem 347 Top K frequent elements and 1929 Concatenation of 2 arrays" />
+    <MESSAGE value="Implemented a problem 78 Subsets" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented a problem 78 Subsets" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
