@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Implemented a problem 46 Permutations">
+    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Implemented a problem 347 Top K frequent elements and 1929 Concatenation of 2 arrays">
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/Easy/_1929/ConcatenationOfArray/ConcatenationOfArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/Easy/_347/TopKFrequentElements/TopKFrequentElements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,39 +54,26 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Application.SingleNumber">
+  <component name="RunManager" selected="Application.TopKFrequentElements">
+    <configuration name="ConcatenationOfArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._1929.ConcatenationOfArray.ConcatenationOfArray" />
+      <module name="DataStructuresAndAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Leetcode.Easy._1929.ConcatenationOfArray.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Permutations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Leetcode.Medium._46.Permutations.Permutations" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Leetcode.Medium._46.Permutations.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._344.ReverseString.ReverseString" />
-      <module name="DataStructuresAndAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Leetcode.Easy._344.ReverseString.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReversedLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._206.ReverseLinkedList.ReversedLinkedList" />
-      <module name="DataStructuresAndAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Leetcode.Easy._206.ReverseLinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,13 +107,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TopKFrequentElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._347.TopKFrequentElements.TopKFrequentElements" />
+      <module name="DataStructuresAndAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Leetcode.Easy._347.TopKFrequentElements.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TopKFrequentElements" />
+        <item itemvalue="Application.ConcatenationOfArray" />
         <item itemvalue="Application.SingleNumber" />
         <item itemvalue="Application.Permutations" />
         <item itemvalue="Application.SquareRoot" />
-        <item itemvalue="Application.ReversedLinkedList" />
-        <item itemvalue="Application.ReverseString" />
       </list>
     </recent_temporary>
   </component>
@@ -150,7 +152,8 @@
       <workItem from="1656297860799" duration="321000" />
       <workItem from="1656324022950" duration="3915000" />
       <workItem from="1656404756973" duration="11669000" />
-      <workItem from="1656488105870" duration="12543000" />
+      <workItem from="1656488105870" duration="12622000" />
+      <workItem from="1656517487446" duration="4556000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit solving problem 2sum in java">
       <created>1652090738120</created>
@@ -460,7 +463,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656506296165</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Implemented a problem 136 Single number.">
+      <created>1656509177275</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1656509177275</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -478,8 +488,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implemented problem 14.LongestCommonPrefix" />
-    <MESSAGE value="Implemented problem 1108. Defanging an IP Address" />
     <MESSAGE value="Implemented problem 20. Valid Parenthesis" />
     <MESSAGE value="Implemented problem 66. Plus One" />
     <MESSAGE value="Implemented problem 67. Add Binary" />
@@ -503,7 +511,9 @@
     <MESSAGE value="Implemented not a problem 206 Reverse LinkedList" />
     <MESSAGE value="Implemented a problem 69 Sqrt(x)." />
     <MESSAGE value="Implemented a problem 46 Permutations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented a problem 46 Permutations" />
+    <MESSAGE value="Implemented a problem 136 Single number." />
+    <MESSAGE value="Implemented a problem 347 Top K frequent elements and 1929 Concatenation of 2 arrays" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented a problem 347 Top K frequent elements and 1929 Concatenation of 2 arrays" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
