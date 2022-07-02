@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Implemented a problem 125 Valid Palindrome">
+    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Implemented a problem 70 Climbing stairs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/_70/ClimbingStairs/ClimbingStairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Easy/_70/ClimbingStairs/ClimbingStairs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,31 +34,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/Rutul/Documents/Java/DataStructuresAndAlgorithms&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/Rutul/Documents/Java/DataStructuresAndAlgorithms/src/DataStructuresAndAlgorithms",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "Errors"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/DataStructuresAndAlgorithms" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/Leetcode/Easy/_1693/DailyLeadsAndPartners" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ClimbingStairs">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="ClimbingStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._70.ClimbingStairs.ClimbingStairs" />
       <module name="DataStructuresAndAlgorithms" />
@@ -84,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Subsets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Medium._78.Subsets.Subsets" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DataStructuresAndAlgorithms.SinglyLinkedList.Main" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Medium._78.Subsets.*" />
+          <option name="PATTERN" value="DataStructuresAndAlgorithms.SinglyLinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.ClimbingStairs" />
         <item itemvalue="Application.ValidPalindrome" />
         <item itemvalue="Application.FizzBuzz" />
         <item itemvalue="Application.Subsets2" />
-        <item itemvalue="Application.Subsets" />
       </list>
     </recent_temporary>
   </component>
@@ -157,14 +161,8 @@
       <workItem from="1656404756973" duration="11669000" />
       <workItem from="1656488105870" duration="12622000" />
       <workItem from="1656517487446" duration="15716000" />
-      <workItem from="1656659359211" duration="1544000" />
-    </task>
-    <task id="LOCAL-00004" summary="Added stacks with array to DSA">
-      <created>1652266098470</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1652266098470</updated>
+      <workItem from="1656659359211" duration="3170000" />
+      <workItem from="1656750654094" duration="456000" />
     </task>
     <task id="LOCAL-00005" summary="Problem 876- Find middle of linked-list implemented">
       <created>1652852774931</created>
@@ -502,7 +500,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656588635584</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Implemented a problem 70 Climbing stairs">
+      <created>1656661710689</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1656661710690</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -520,7 +525,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implemented problem 13. Roman to Integer" />
     <MESSAGE value="Implemented problem 12 Integer To Roman" />
     <MESSAGE value="Implemented problem 83. Remove duplicates from sorted list" />
     <MESSAGE value="Implemented problem 121 n 122 Best time to buy and sell stocks." />
@@ -545,7 +549,8 @@
     <MESSAGE value="Implemented a problem 1693. Daily leads and partners" />
     <MESSAGE value="Implemented a problem 412 FizzBuzz." />
     <MESSAGE value="Implemented a problem 125 Valid Palindrome" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented a problem 125 Valid Palindrome" />
+    <MESSAGE value="Implemented a problem 70 Climbing stairs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented a problem 70 Climbing stairs" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

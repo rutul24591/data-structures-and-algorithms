@@ -26,11 +26,13 @@ package Leetcode.Easy._70.ClimbingStairs;
  *              Constraints:
  *                  1 <= n <= 45
  *
- *              Submission Details:
+ *              Submission Details( Approach 1):
  *                  Runtime: 0 ms, faster than 100.00% of Java online submissions for Climbing Stairs.
  *                  Memory Usage: 41.5 MB, less than 11.61% of Java online submissions for Climbing Stairs.
  */
+
 public class ClimbingStairs {
+    /* Approach 1 */
     public int climbStairs(int n) {
         if(n == 1) {
             return 1;
@@ -48,6 +50,7 @@ public class ClimbingStairs {
 
         return result;
     }
+
 
     public static void main(String[] args){
         int x = 4;
