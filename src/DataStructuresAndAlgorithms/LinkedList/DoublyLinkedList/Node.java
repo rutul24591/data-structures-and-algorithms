@@ -1,4 +1,4 @@
-package DataStructuresAndAlgorithms.DoublyLinkedList;
+package DataStructuresAndAlgorithms.LinkedList.DoublyLinkedList;
 
 /* Class to represent a linked list `node` which holds the data and the references to next and prev node in the list */
 public class Node {

@@ -1,4 +1,4 @@
-package DataStructuresAndAlgorithms.SinglyLinkedList;
+package DataStructuresAndAlgorithms.LinkedList.SinglyLinkedList;
 
 /* Class to represent a linked list `node` which holds the data and the reference to next node in the list */
 public class Node {

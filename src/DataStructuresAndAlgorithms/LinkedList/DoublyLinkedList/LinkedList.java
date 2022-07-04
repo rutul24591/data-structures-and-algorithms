@@ -1,4 +1,4 @@
-package DataStructuresAndAlgorithms.DoublyLinkedList;
+package DataStructuresAndAlgorithms.LinkedList.DoublyLinkedList;
 
 public class LinkedList {
     Node head;

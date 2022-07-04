@@ -1,4 +1,4 @@
-package DataStructuresAndAlgorithms.SinglyLinkedList;
+package DataStructuresAndAlgorithms.LinkedList.SinglyLinkedList;
 
 public class LinkedList {
     // By default, head is null as we have not assigned it to anything

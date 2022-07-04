@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Implemented a problem 70 Climbing stairs">
+    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Implemented of doubly linked list Data Structure">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/_70/ClimbingStairs/ClimbingStairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Easy/_70/ClimbingStairs/ClimbingStairs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataStructuresAndAlgorithms/DoublyLinkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructuresAndAlgorithms/LinkedList/DoublyLinkedList/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataStructuresAndAlgorithms/DoublyLinkedList/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructuresAndAlgorithms/LinkedList/DoublyLinkedList/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataStructuresAndAlgorithms/DoublyLinkedList/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructuresAndAlgorithms/LinkedList/DoublyLinkedList/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataStructuresAndAlgorithms/SinglyLinkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructuresAndAlgorithms/LinkedList/SinglyLinkedList/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataStructuresAndAlgorithms/SinglyLinkedList/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructuresAndAlgorithms/LinkedList/SinglyLinkedList/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataStructuresAndAlgorithms/SinglyLinkedList/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructuresAndAlgorithms/LinkedList/SinglyLinkedList/Node.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,25 +39,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/Rutul/Documents/Java/DataStructuresAndAlgorithms/src/DataStructuresAndAlgorithms",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "Errors"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/Rutul/Documents/Java/DataStructuresAndAlgorithms/src/DataStructuresAndAlgorithms&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/DataStructuresAndAlgorithms" />
@@ -61,7 +66,7 @@
       <recent name="$PROJECT_DIR$/src/Leetcode/Easy/_1693/DailyLeadsAndPartners" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.DataStructuresAndAlgorithms.LinkedList.DoublyLinkedList.SinglyLinkedList.Main">
     <configuration name="ClimbingStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._70.ClimbingStairs.ClimbingStairs" />
       <module name="DataStructuresAndAlgorithms" />
@@ -75,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FizzBuzz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._412.FizzBuzz.FizzBuzz" />
+    <configuration name="DataStructuresAndAlgorithms.LinkedList.DoublyLinkedList.SinglyLinkedList.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DataStructuresAndAlgorithms.LinkedList.DoublyLinkedList.SinglyLinkedList.Main" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Easy._412.FizzBuzz.*" />
+          <option name="PATTERN" value="DataStructuresAndAlgorithms.LinkedList.DoublyLinkedList.SinglyLinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DataStructuresAndAlgorithms.SinglyLinkedList.Main" />
+    <configuration name="FizzBuzz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._412.FizzBuzz.FizzBuzz" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DataStructuresAndAlgorithms.SinglyLinkedList.*" />
+          <option name="PATTERN" value="Leetcode.Easy._412.FizzBuzz.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,7 +134,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.DataStructuresAndAlgorithms.LinkedList.DoublyLinkedList.SinglyLinkedList.Main" />
         <item itemvalue="Application.ClimbingStairs" />
         <item itemvalue="Application.ValidPalindrome" />
         <item itemvalue="Application.FizzBuzz" />
@@ -162,21 +167,8 @@
       <workItem from="1656488105870" duration="12622000" />
       <workItem from="1656517487446" duration="15716000" />
       <workItem from="1656659359211" duration="3170000" />
-      <workItem from="1656750654094" duration="456000" />
-    </task>
-    <task id="LOCAL-00005" summary="Problem 876- Find middle of linked-list implemented">
-      <created>1652852774931</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1652852774931</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Implemented Selection Sort">
-      <created>1655805076659</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1655805076659</updated>
+      <workItem from="1656750654094" duration="3505000" />
+      <workItem from="1656934080009" duration="132000" />
     </task>
     <task id="LOCAL-00007" summary="Modification to MiddleOfLinkedList">
       <created>1655888815290</created>
@@ -507,7 +499,21 @@
       <option name="project" value="LOCAL" />
       <updated>1656661710690</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Implemented of singly linked DS">
+      <created>1656752957401</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1656752957402</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Implemented of doubly linked list Data Structure">
+      <created>1656753019382</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1656753019382</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -525,8 +531,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implemented problem 12 Integer To Roman" />
-    <MESSAGE value="Implemented problem 83. Remove duplicates from sorted list" />
     <MESSAGE value="Implemented problem 121 n 122 Best time to buy and sell stocks." />
     <MESSAGE value="Implemented problem 217 Contains Duplicate." />
     <MESSAGE value="Implemented problem 7 Reverse integer" />
@@ -550,7 +554,9 @@
     <MESSAGE value="Implemented a problem 412 FizzBuzz." />
     <MESSAGE value="Implemented a problem 125 Valid Palindrome" />
     <MESSAGE value="Implemented a problem 70 Climbing stairs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented a problem 70 Climbing stairs" />
+    <MESSAGE value="Implemented of singly linked DS" />
+    <MESSAGE value="Implemented of doubly linked list Data Structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented of doubly linked list Data Structure" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
