@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Implemented of doubly linked list Data Structure">
+    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Implemented of single and doubly linked list.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataStructuresAndAlgorithms/DoublyLinkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructuresAndAlgorithms/LinkedList/DoublyLinkedList/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataStructuresAndAlgorithms/DoublyLinkedList/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructuresAndAlgorithms/LinkedList/DoublyLinkedList/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataStructuresAndAlgorithms/DoublyLinkedList/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructuresAndAlgorithms/LinkedList/DoublyLinkedList/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataStructuresAndAlgorithms/SinglyLinkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructuresAndAlgorithms/LinkedList/SinglyLinkedList/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataStructuresAndAlgorithms/SinglyLinkedList/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructuresAndAlgorithms/LinkedList/SinglyLinkedList/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataStructuresAndAlgorithms/SinglyLinkedList/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructuresAndAlgorithms/LinkedList/SinglyLinkedList/Node.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +60,20 @@
       <recent name="$PROJECT_DIR$/src/Leetcode/Easy/_1693/DailyLeadsAndPartners" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DataStructuresAndAlgorithms.LinkedList.DoublyLinkedList.SinglyLinkedList.Main">
+  <component name="RunManager" selected="Application.BinaryTree">
+    <configuration name="BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DataStructuresAndAlgorithms.Trees.BinaryTree.BinaryTree" />
+      <module name="DataStructuresAndAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DataStructuresAndAlgorithms.Trees.BinaryTree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ClimbingStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._70.ClimbingStairs.ClimbingStairs" />
       <module name="DataStructuresAndAlgorithms" />
@@ -106,19 +113,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Subsets2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Medium._90.Subsets2.Subsets2" />
-      <module name="DataStructuresAndAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Leetcode.Medium._90.Subsets2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ValidPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._125.ValidPalindrome.ValidPalindrome" />
       <module name="DataStructuresAndAlgorithms" />
@@ -134,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinaryTree" />
         <item itemvalue="Application.DataStructuresAndAlgorithms.LinkedList.DoublyLinkedList.SinglyLinkedList.Main" />
         <item itemvalue="Application.ClimbingStairs" />
         <item itemvalue="Application.ValidPalindrome" />
         <item itemvalue="Application.FizzBuzz" />
-        <item itemvalue="Application.Subsets2" />
       </list>
     </recent_temporary>
   </component>
@@ -168,14 +162,7 @@
       <workItem from="1656517487446" duration="15716000" />
       <workItem from="1656659359211" duration="3170000" />
       <workItem from="1656750654094" duration="3505000" />
-      <workItem from="1656934080009" duration="132000" />
-    </task>
-    <task id="LOCAL-00007" summary="Modification to MiddleOfLinkedList">
-      <created>1655888815290</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1655888815290</updated>
+      <workItem from="1656934080009" duration="6702000" />
     </task>
     <task id="LOCAL-00008" summary="Solved the Remove element problem no. 27">
       <created>1655893057306</created>
@@ -513,7 +500,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656753019382</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="Implemented of single and doubly linked list.">
+      <created>1656934870334</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1656934870334</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -531,7 +525,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implemented problem 121 n 122 Best time to buy and sell stocks." />
     <MESSAGE value="Implemented problem 217 Contains Duplicate." />
     <MESSAGE value="Implemented problem 7 Reverse integer" />
     <MESSAGE value="Implemented problem 1757/ Recyclable and Low fat products." />
@@ -556,7 +549,8 @@
     <MESSAGE value="Implemented a problem 70 Climbing stairs" />
     <MESSAGE value="Implemented of singly linked DS" />
     <MESSAGE value="Implemented of doubly linked list Data Structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented of doubly linked list Data Structure" />
+    <MESSAGE value="Implemented of single and doubly linked list." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented of single and doubly linked list." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
