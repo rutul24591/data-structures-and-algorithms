@@ -31,6 +31,7 @@ public class BinaryTree {
                 } else {
                     /* Switch focus to the right child */
                     currentNode = currentNode.rightChild;
+
                     if(currentNode == null){
                         /* Then place the new node on the left of it */
                         parent.rightChild = newNode;
@@ -52,17 +53,6 @@ public class BinaryTree {
         }
     }
 
-    public void postOrderTraverseWrapper(){
-        postOrderTraversal(root);
-    }
-    private void postOrderTraversal(BinaryTreeNode node){
-        if(node != null){
-            postOrderTraversal(node.leftChild);
-            postOrderTraversal(node.rightChild);
-            System.out.println(node);
-        }
-    }
-
     public void inOrderTraverseWrapper(){
         inOrderTraversal(root);
     }
@@ -75,6 +65,17 @@ public class BinaryTree {
         }
     }
 
+    public void postOrderTraverseWrapper(){
+        postOrderTraversal(root);
+    }
+
+    private void postOrderTraversal(BinaryTreeNode node){
+        if(node != null){
+            postOrderTraversal(node.leftChild);
+            postOrderTraversal(node.rightChild);
+            System.out.println(node);
+        }
+    }
 
     public static void main(String[] args){
         BinaryTree theTree = new BinaryTree();
