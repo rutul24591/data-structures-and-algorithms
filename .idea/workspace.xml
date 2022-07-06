@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Implemented Binary Tree with displaying data in inorder, preorder and postorder traversal.">
+    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Implemented problem 94 Binary Tree inorder traversal.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataStructuresAndAlgorithms/Trees/BinaryTree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructuresAndAlgorithms/Trees/BinaryTree/BinaryTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,14 +162,7 @@
       <workItem from="1656517487446" duration="15716000" />
       <workItem from="1656659359211" duration="3170000" />
       <workItem from="1656750654094" duration="3505000" />
-      <workItem from="1656934080009" duration="10040000" />
-    </task>
-    <task id="LOCAL-00009" summary="Implemented 2. Add two numbers">
-      <created>1655931658737</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1655931658738</updated>
+      <workItem from="1656934080009" duration="10665000" />
     </task>
     <task id="LOCAL-00010" summary="Refactored all files in seperate packages">
       <created>1655931949026</created>
@@ -508,7 +500,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656983743020</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="Implemented problem 94 Binary Tree inorder traversal.">
+      <created>1657070322618</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1657070322618</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -526,7 +525,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implemented problem 7 Reverse integer" />
     <MESSAGE value="Implemented problem 1757/ Recyclable and Low fat products." />
     <MESSAGE value="Implemented problem 1741 Find total time spend by employee" />
     <MESSAGE value="Implemented problem 237 Delete node from linked list" />
@@ -551,7 +549,8 @@
     <MESSAGE value="Implemented of doubly linked list Data Structure" />
     <MESSAGE value="Implemented of single and doubly linked list." />
     <MESSAGE value="Implemented Binary Tree with displaying data in inorder, preorder and postorder traversal." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented Binary Tree with displaying data in inorder, preorder and postorder traversal." />
+    <MESSAGE value="Implemented problem 94 Binary Tree inorder traversal." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented problem 94 Binary Tree inorder traversal." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
