@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Implemented problem 94 Binary Tree inorder traversal.">
+    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Implemented problem 2236. Root Equals Sum of Children">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +60,7 @@
       <recent name="$PROJECT_DIR$/src/Leetcode/Easy/_1693/DailyLeadsAndPartners" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BinaryTree">
+  <component name="RunManager" selected="Application.Solution">
     <configuration name="BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DataStructuresAndAlgorithms.Trees.BinaryTree.BinaryTree" />
       <module name="DataStructuresAndAlgorithms" />
@@ -100,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FizzBuzz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._412.FizzBuzz.FizzBuzz" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._2011.FinalValueOfVariableAfterPerformingOperations.Solution" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Easy._412.FizzBuzz.*" />
+          <option name="PATTERN" value="Leetcode.Easy._2011.FinalValueOfVariableAfterPerformingOperations.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.BinaryTree" />
         <item itemvalue="Application.DataStructuresAndAlgorithms.LinkedList.DoublyLinkedList.SinglyLinkedList.Main" />
         <item itemvalue="Application.ClimbingStairs" />
         <item itemvalue="Application.ValidPalindrome" />
-        <item itemvalue="Application.FizzBuzz" />
       </list>
     </recent_temporary>
   </component>
@@ -162,14 +162,8 @@
       <workItem from="1656517487446" duration="15716000" />
       <workItem from="1656659359211" duration="3170000" />
       <workItem from="1656750654094" duration="3505000" />
-      <workItem from="1656934080009" duration="10665000" />
-    </task>
-    <task id="LOCAL-00010" summary="Refactored all files in seperate packages">
-      <created>1655931949026</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1655931949026</updated>
+      <workItem from="1656934080009" duration="11027000" />
+      <workItem from="1657184899885" duration="584000" />
     </task>
     <task id="LOCAL-00011" summary="Implemented problem 28. ImplementstrStr()">
       <created>1655933248777</created>
@@ -507,7 +501,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657070322618</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="Implemented problem 2236. Root Equals Sum of Children">
+      <created>1657070953324</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1657070953324</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -525,7 +526,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implemented problem 1757/ Recyclable and Low fat products." />
     <MESSAGE value="Implemented problem 1741 Find total time spend by employee" />
     <MESSAGE value="Implemented problem 237 Delete node from linked list" />
     <MESSAGE value="Implemented problem 4 Median of 2 sorted arrays." />
@@ -550,7 +550,8 @@
     <MESSAGE value="Implemented of single and doubly linked list." />
     <MESSAGE value="Implemented Binary Tree with displaying data in inorder, preorder and postorder traversal." />
     <MESSAGE value="Implemented problem 94 Binary Tree inorder traversal." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented problem 94 Binary Tree inorder traversal." />
+    <MESSAGE value="Implemented problem 2236. Root Equals Sum of Children" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented problem 2236. Root Equals Sum of Children" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
