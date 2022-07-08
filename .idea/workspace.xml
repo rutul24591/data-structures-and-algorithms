@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Implemented problem 2236. Root Equals Sum of Children">
+    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Implemented problem 2011. Final Value of Variable After Performing Operations">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -163,14 +163,8 @@
       <workItem from="1656659359211" duration="3170000" />
       <workItem from="1656750654094" duration="3505000" />
       <workItem from="1656934080009" duration="11027000" />
-      <workItem from="1657184899885" duration="584000" />
-    </task>
-    <task id="LOCAL-00011" summary="Implemented problem 28. ImplementstrStr()">
-      <created>1655933248777</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1655933248777</updated>
+      <workItem from="1657184899885" duration="757000" />
+      <workItem from="1657283594708" duration="137000" />
     </task>
     <task id="LOCAL-00012" summary="Implemented problem 9. PalindromeNumber">
       <created>1655975606107</created>
@@ -508,7 +502,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657070953324</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="Implemented problem 2011. Final Value of Variable After Performing Operations">
+      <created>1657185548809</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1657185548811</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -526,7 +527,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implemented problem 1741 Find total time spend by employee" />
     <MESSAGE value="Implemented problem 237 Delete node from linked list" />
     <MESSAGE value="Implemented problem 4 Median of 2 sorted arrays." />
     <MESSAGE value="Implemented problem 141 Linked List Cycle" />
@@ -551,7 +551,8 @@
     <MESSAGE value="Implemented Binary Tree with displaying data in inorder, preorder and postorder traversal." />
     <MESSAGE value="Implemented problem 94 Binary Tree inorder traversal." />
     <MESSAGE value="Implemented problem 2236. Root Equals Sum of Children" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented problem 2236. Root Equals Sum of Children" />
+    <MESSAGE value="Implemented problem 2011. Final Value of Variable After Performing Operations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented problem 2011. Final Value of Variable After Performing Operations" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
