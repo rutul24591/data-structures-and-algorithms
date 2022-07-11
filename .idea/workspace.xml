@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Implemented problem 104 Maximum depth of binary tree">
+    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Implemented problem 2114 Maximum number of words found in sentences">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +60,7 @@
       <recent name="$PROJECT_DIR$/src/Leetcode/Easy/_1693/DailyLeadsAndPartners" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution">
+  <component name="RunManager" selected="Application.Leetcode.Easy._771.JewelsAndStones.Solution">
     <configuration name="BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DataStructuresAndAlgorithms.Trees.BinaryTree.BinaryTree" />
       <module name="DataStructuresAndAlgorithms" />
@@ -100,6 +100,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Leetcode.Easy._771.JewelsAndStones.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._771.JewelsAndStones.Solution" />
+      <module name="DataStructuresAndAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Leetcode.Easy._771.JewelsAndStones.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._2011.FinalValueOfVariableAfterPerformingOperations.Solution" />
       <module name="DataStructuresAndAlgorithms" />
@@ -113,26 +126,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._125.ValidPalindrome.ValidPalindrome" />
-      <module name="DataStructuresAndAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Leetcode.Easy._125.ValidPalindrome.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Leetcode.Easy._771.JewelsAndStones.Solution" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.BinaryTree" />
         <item itemvalue="Application.DataStructuresAndAlgorithms.LinkedList.DoublyLinkedList.SinglyLinkedList.Main" />
         <item itemvalue="Application.ClimbingStairs" />
-        <item itemvalue="Application.ValidPalindrome" />
       </list>
     </recent_temporary>
   </component>
@@ -165,14 +165,7 @@
       <workItem from="1656934080009" duration="11027000" />
       <workItem from="1657184899885" duration="757000" />
       <workItem from="1657283594708" duration="364000" />
-      <workItem from="1657535618852" duration="286000" />
-    </task>
-    <task id="LOCAL-00013" summary="Implemented problem 19. Remove Nth Node From End of List">
-      <created>1655981805847</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1655981805847</updated>
+      <workItem from="1657535618852" duration="1812000" />
     </task>
     <task id="LOCAL-00014" summary="Implemented problem 21. Merge 2 sorted lists and also made ListNode a common class with toString and createlistFromArray method.">
       <created>1655989978623</created>
@@ -510,7 +503,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657283989460</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="Implemented problem 2114 Maximum number of words found in sentences">
+      <created>1657535932169</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1657535932170</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -528,7 +528,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implemented problem 4 Median of 2 sorted arrays." />
     <MESSAGE value="Implemented problem 141 Linked List Cycle" />
     <MESSAGE value="Implemented problem 53 Maximum subarry" />
     <MESSAGE value="Implemented not a problem 2235 Add two integers." />
@@ -553,7 +552,8 @@
     <MESSAGE value="Implemented problem 2236. Root Equals Sum of Children" />
     <MESSAGE value="Implemented problem 2011. Final Value of Variable After Performing Operations" />
     <MESSAGE value="Implemented problem 104 Maximum depth of binary tree" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented problem 104 Maximum depth of binary tree" />
+    <MESSAGE value="Implemented problem 2114 Maximum number of words found in sentences" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented problem 2114 Maximum number of words found in sentences" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
