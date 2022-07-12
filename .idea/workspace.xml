@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Implemented problem 771 jewels and stones">
+    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Implemented problem 118 pascal triangle">
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/Easy/_118/PascalTriangle/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +61,7 @@
       <recent name="$PROJECT_DIR$/src/Leetcode/Easy/_1693/DailyLeadsAndPartners" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Leetcode.Medium._328.OddEvenLinkedList.Solution">
+  <component name="RunManager" selected="Application.Leetcode.Easy._118.PascalTriangle.Solution">
     <configuration name="BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DataStructuresAndAlgorithms.Trees.BinaryTree.BinaryTree" />
       <module name="DataStructuresAndAlgorithms" />
@@ -74,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataStructuresAndAlgorithms.LinkedList.DoublyLinkedList.SinglyLinkedList.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DataStructuresAndAlgorithms.LinkedList.DoublyLinkedList.SinglyLinkedList.Main" />
+    <configuration name="Leetcode.Easy._118.PascalTriangle.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._118.PascalTriangle.Solution" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DataStructuresAndAlgorithms.LinkedList.DoublyLinkedList.SinglyLinkedList.*" />
+          <option name="PATTERN" value="Leetcode.Easy._118.PascalTriangle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Leetcode.Easy._118.PascalTriangle.Solution" />
         <item itemvalue="Application.Leetcode.Medium._328.OddEvenLinkedList.Solution" />
         <item itemvalue="Application.Leetcode.Easy._771.JewelsAndStones.Solution" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.BinaryTree" />
-        <item itemvalue="Application.DataStructuresAndAlgorithms.LinkedList.DoublyLinkedList.SinglyLinkedList.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -165,14 +166,7 @@
       <workItem from="1656934080009" duration="11027000" />
       <workItem from="1657184899885" duration="757000" />
       <workItem from="1657283594708" duration="364000" />
-      <workItem from="1657535618852" duration="2245000" />
-    </task>
-    <task id="LOCAL-00015" summary="Implemented problem 21. Merge 2 sorted lists and also made ListNode a common class with toString and createlistFromArray method.">
-      <created>1655989987289</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1655989987289</updated>
+      <workItem from="1657535618852" duration="3276000" />
     </task>
     <task id="LOCAL-00016" summary="Code refactoring to implement ListNode class use changes">
       <created>1655990596484</created>
@@ -510,7 +504,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657537959340</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="Implemented problem 328 Odd Even linked list.">
+      <created>1657540234760</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1657540234760</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -528,8 +529,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implemented problem 53 Maximum subarry" />
-    <MESSAGE value="Implemented not a problem 2235 Add two integers." />
     <MESSAGE value="Implemented not a problem 344 Reverse String" />
     <MESSAGE value="Implemented not a problem 206 Reverse LinkedList" />
     <MESSAGE value="Implemented a problem 69 Sqrt(x)." />
@@ -553,7 +552,9 @@
     <MESSAGE value="Implemented problem 104 Maximum depth of binary tree" />
     <MESSAGE value="Implemented problem 2114 Maximum number of words found in sentences" />
     <MESSAGE value="Implemented problem 771 jewels and stones" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented problem 771 jewels and stones" />
+    <MESSAGE value="Implemented problem 328 Odd Even linked list." />
+    <MESSAGE value="Implemented problem 118 pascal triangle" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented problem 118 pascal triangle" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
