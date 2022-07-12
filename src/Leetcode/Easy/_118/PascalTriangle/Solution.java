@@ -30,7 +30,11 @@ package Leetcode.Easy._118.PascalTriangle;
             Memory Usage: 41.7 MB, less than 65.65% of Java online submissions for Pascal's Triangle.
 
         Time: 0(n^2)
-        Space: 0(n^2)
+        Space: 0(1) || 0(n^2)
+
+        Note:
+            So this it the best method even having 0(n^2) time and , but it may cause integer overflow for large values of n as it multiplies two integers to obtain values.
+
 */
 import java.util.ArrayList;
 import java.util.List;
@@ -67,6 +71,7 @@ public class Solution {
         }
         return result;
     }
+
 
     public static void main(String[] args){
         Solution instance = new Solution();

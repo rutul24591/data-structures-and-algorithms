@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Implemented problem 118 pascal triangle">
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/Easy/_118/PascalTriangle/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/_118/PascalTriangle/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Easy/_118/PascalTriangle/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,14 +166,7 @@
       <workItem from="1656934080009" duration="11027000" />
       <workItem from="1657184899885" duration="757000" />
       <workItem from="1657283594708" duration="364000" />
-      <workItem from="1657535618852" duration="3276000" />
-    </task>
-    <task id="LOCAL-00016" summary="Code refactoring to implement ListNode class use changes">
-      <created>1655990596484</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1655990596484</updated>
+      <workItem from="1657535618852" duration="3811000" />
     </task>
     <task id="LOCAL-00017" summary="Implemented 3. longest substring wo repeating chars">
       <created>1656064709491</created>
@@ -511,7 +504,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657540234760</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="Implemented problem 118 pascal triangle">
+      <created>1657585274336</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1657585274337</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
