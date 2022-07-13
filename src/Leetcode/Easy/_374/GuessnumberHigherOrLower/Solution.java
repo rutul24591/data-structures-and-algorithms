@@ -36,8 +36,8 @@ package Leetcode.Easy._374.GuessnumberHigherOrLower;
             Runtime: 0 ms, faster than 100.00% of Java online submissions for Guess Number Higher or Lower.
             Memory Usage: 41.2 MB, less than 19.02% of Java online submissions for Guess Number Higher or Lower.
 
-        Time: O(logn)
-        Space: O(1)
+        Time: O(logn) // Binary Search is used.
+        Space: O(1) // No extra space is used.
 */
 
 public class Solution extends GuessGame{
@@ -54,5 +54,19 @@ public class Solution extends GuessGame{
             }
         }
         return -1;
+    }
+
+    /*Approach 2.
+    *
+    * Time: O(n)  // We scan all the numbers from 1 to n.
+    * Space: O(1) // No extra space is used.
+     *
+    */
+
+    public int guessNumber2(int n) {
+        for (int i = 1; i < n; i++)
+            if (guess(i) == 0)
+                return i;
+        return n;
     }
 }
