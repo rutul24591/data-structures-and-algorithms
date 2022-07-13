@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="slight modification to problem 118 pascal triangle">
+    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Implemented problem 387 FirstuniqueCharacterInAString">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -167,21 +168,7 @@
       <workItem from="1657283594708" duration="364000" />
       <workItem from="1657535618852" duration="3975000" />
       <workItem from="1657601862008" duration="1235000" />
-      <workItem from="1657679532491" duration="1697000" />
-    </task>
-    <task id="LOCAL-00018" summary="Modifications to 3. longest substring wo repeating chars">
-      <created>1656067198569</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1656067198569</updated>
-    </task>
-    <task id="LOCAL-00019" summary="Implemented 58. LengthofLastWord">
-      <created>1656068803362</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1656068803362</updated>
+      <workItem from="1657679532491" duration="2278000" />
     </task>
     <task id="LOCAL-00020" summary="Implemented problem 14.LongestCommonPrefix">
       <created>1656071204417</created>
@@ -512,7 +499,21 @@
       <option name="project" value="LOCAL" />
       <updated>1657586041272</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="Added notes on time complexity diff between 0(n+n) and 0(n)">
+      <created>1657681736758</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1657681736759</updated>
+    </task>
+    <task id="LOCAL-00068" summary="Implemented problem 387 FirstuniqueCharacterInAString">
+      <created>1657681777044</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1657681777044</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -530,8 +531,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implemented not a problem 206 Reverse LinkedList" />
-    <MESSAGE value="Implemented a problem 69 Sqrt(x)." />
     <MESSAGE value="Implemented a problem 46 Permutations" />
     <MESSAGE value="Implemented a problem 136 Single number." />
     <MESSAGE value="Implemented a problem 347 Top K frequent elements and 1929 Concatenation of 2 arrays" />
@@ -555,7 +554,9 @@
     <MESSAGE value="Implemented problem 328 Odd Even linked list." />
     <MESSAGE value="Implemented problem 118 pascal triangle" />
     <MESSAGE value="slight modification to problem 118 pascal triangle" />
-    <option name="LAST_COMMIT_MESSAGE" value="slight modification to problem 118 pascal triangle" />
+    <MESSAGE value="Added notes on time complexity diff between 0(n+n) and 0(n)" />
+    <MESSAGE value="Implemented problem 387 FirstuniqueCharacterInAString" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented problem 387 FirstuniqueCharacterInAString" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
