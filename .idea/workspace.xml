@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="modification  problem 34 Find first and last position of element in sorted array">
+    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="implemented problem 374. Guess Number Higher or lower">
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/Easy/_374/GuessnumberHigherOrLower/GuessGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/Easy/_374/GuessnumberHigherOrLower/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -167,14 +169,7 @@
       <workItem from="1657283594708" duration="364000" />
       <workItem from="1657535618852" duration="3975000" />
       <workItem from="1657601862008" duration="1235000" />
-      <workItem from="1657679532491" duration="9796000" />
-    </task>
-    <task id="LOCAL-00027" summary="Modifications to  problem 35 Search Insert position">
-      <created>1656235419326</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1656235419326</updated>
+      <workItem from="1657679532491" duration="10600000" />
     </task>
     <task id="LOCAL-00028" summary="Implemented problem 13. Roman to Integer">
       <created>1656237215176</created>
@@ -512,7 +507,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657747618075</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="implemented problem 278. First Bad Version">
+      <created>1657749187261</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1657749187261</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -530,8 +532,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implemented a problem 412 FizzBuzz." />
-    <MESSAGE value="Implemented a problem 125 Valid Palindrome" />
     <MESSAGE value="Implemented a problem 70 Climbing stairs" />
     <MESSAGE value="Implemented of singly linked DS" />
     <MESSAGE value="Implemented of doubly linked list Data Structure" />
@@ -555,7 +555,9 @@
     <MESSAGE value="Implemented problem 34 Find first and last position of element in sorted array" />
     <MESSAGE value="modification problem 34 Find first and last position of element in sorted array" />
     <MESSAGE value="modification  problem 34 Find first and last position of element in sorted array" />
-    <option name="LAST_COMMIT_MESSAGE" value="modification  problem 34 Find first and last position of element in sorted array" />
+    <MESSAGE value="implemented problem 278. First Bad Version" />
+    <MESSAGE value="implemented problem 374. Guess Number Higher or lower" />
+    <option name="LAST_COMMIT_MESSAGE" value="implemented problem 374. Guess Number Higher or lower" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
