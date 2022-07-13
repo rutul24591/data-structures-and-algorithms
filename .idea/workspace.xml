@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Implemented problem 118 pascal triangle">
+    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="slight modification to problem 118 pascal triangle">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/_118/PascalTriangle/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Easy/_118/PascalTriangle/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,13 +60,13 @@
       <recent name="$PROJECT_DIR$/src/Leetcode/Easy/_1693/DailyLeadsAndPartners" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Leetcode.Easy._118.PascalTriangle.Solution">
-    <configuration name="BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DataStructuresAndAlgorithms.Trees.BinaryTree.BinaryTree" />
+  <component name="RunManager" selected="Application.Leetcode.Easy._387.FirstuniqueCharacterInAString.Solution">
+    <configuration name="Leetcode.Easy._118.PascalTriangle.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._118.PascalTriangle.Solution" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DataStructuresAndAlgorithms.Trees.BinaryTree.*" />
+          <option name="PATTERN" value="Leetcode.Easy._118.PascalTriangle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Leetcode.Easy._118.PascalTriangle.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._118.PascalTriangle.Solution" />
+    <configuration name="Leetcode.Easy._387.FirstuniqueCharacterInAString.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._387.FirstuniqueCharacterInAString.Solution" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Easy._118.PascalTriangle.*" />
+          <option name="PATTERN" value="Leetcode.Easy._387.FirstuniqueCharacterInAString.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._2011.FinalValueOfVariableAfterPerformingOperations.Solution" />
+    <configuration name="random1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="random.random1" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Easy._2011.FinalValueOfVariableAfterPerformingOperations.*" />
+          <option name="PATTERN" value="random.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Leetcode.Easy._387.FirstuniqueCharacterInAString.Solution" />
+        <item itemvalue="Application.random1" />
         <item itemvalue="Application.Leetcode.Easy._118.PascalTriangle.Solution" />
         <item itemvalue="Application.Leetcode.Medium._328.OddEvenLinkedList.Solution" />
         <item itemvalue="Application.Leetcode.Easy._771.JewelsAndStones.Solution" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.BinaryTree" />
       </list>
     </recent_temporary>
   </component>
@@ -166,14 +165,9 @@
       <workItem from="1656934080009" duration="11027000" />
       <workItem from="1657184899885" duration="757000" />
       <workItem from="1657283594708" duration="364000" />
-      <workItem from="1657535618852" duration="3811000" />
-    </task>
-    <task id="LOCAL-00017" summary="Implemented 3. longest substring wo repeating chars">
-      <created>1656064709491</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1656064709491</updated>
+      <workItem from="1657535618852" duration="3975000" />
+      <workItem from="1657601862008" duration="1235000" />
+      <workItem from="1657679532491" duration="1697000" />
     </task>
     <task id="LOCAL-00018" summary="Modifications to 3. longest substring wo repeating chars">
       <created>1656067198569</created>
@@ -511,7 +505,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657585274337</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="slight modification to problem 118 pascal triangle">
+      <created>1657586041272</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1657586041272</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -529,7 +530,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implemented not a problem 344 Reverse String" />
     <MESSAGE value="Implemented not a problem 206 Reverse LinkedList" />
     <MESSAGE value="Implemented a problem 69 Sqrt(x)." />
     <MESSAGE value="Implemented a problem 46 Permutations" />
@@ -554,7 +554,8 @@
     <MESSAGE value="Implemented problem 771 jewels and stones" />
     <MESSAGE value="Implemented problem 328 Odd Even linked list." />
     <MESSAGE value="Implemented problem 118 pascal triangle" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented problem 118 pascal triangle" />
+    <MESSAGE value="slight modification to problem 118 pascal triangle" />
+    <option name="LAST_COMMIT_MESSAGE" value="slight modification to problem 118 pascal triangle" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

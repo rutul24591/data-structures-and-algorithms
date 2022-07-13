@@ -1,0 +1,40 @@
+Since the big-O notation is not about comparing absolute complexity,
+but only relative one, O(n+n) is in fact the same as O(n).
+Each time you double x, your code will take twice as long as it did before and that means O(n).
+Whether your code runs through 2, 4 or 20 loops doesn't matter,
+since whatever time it takes for 100 elements,
+it will take twice the time for 200 elements and 100 times the time for 10'000 elements,
+no matter how much time of that is spent within which loop.
+
+That's why big-O is not saying anything about absolute speed.
+Whoever assumes that a O(n^2) function f() is always slower than a O(log n) function g(), is wrong.
+The big-O notation only says that if you keep increasing n,
+there will be a point where g() is going to overtake f() in speed,
+however, if n always stays below that point in practice,
+then f() can always be faster than g() in real program code.
+
+Example 1
+
+Let's assume f(x) takes 5 ms for a single element and g(x) takes 100 ms for a single element,
+but f(x) is O(n^2), g(x) is O(log2 n).
+The time graph will look like this:
+
+https://i.stack.imgur.com/z92Al.png
+
+Note: Up to 7 elements, f(x) is faster, even though it is O(n^2).
+For 8 or more elements, g(x) is faster.
+
+
+Example 2
+
+A binary search is O(log n), an ideal hashtable (without collisions) is O(1),
+but trust me, a hashtable is not always always faster than a binary search in reality.
+Using a good hash function, hashing a string can take more time than the whole binary search does.
+On the other hand, using a poor hash function creates plenty collisions and
+the more collisions means that your hashtable lookup will not really be O(1),
+because most hashtables solve collisions in a way that will make lookups either O(log2 n) or even O(n).
+
+
+References:
+
+[1] https://stackoverflow.com/questions/5872120/time-complexity-of-two-for-loops
