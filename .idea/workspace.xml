@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Modification to problem 22 Generate Parenthesis">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Medium/_22/GenerateParenthesis/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Medium/_22/GenerateParenthesis/Solution.java" afterDir="false" />
+    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Implemented problem 34 Find first and last position of element in sorted array">
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Medium/_34/FindFirstAndLastPosOfElementInSortedArray/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Medium/_34/FindFirstAndLastPosOfElementInSortedArray/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,14 +167,7 @@
       <workItem from="1657283594708" duration="364000" />
       <workItem from="1657535618852" duration="3975000" />
       <workItem from="1657601862008" duration="1235000" />
-      <workItem from="1657679532491" duration="8060000" />
-    </task>
-    <task id="LOCAL-00024" summary="Implemented problem 67. Add Binary">
-      <created>1656159347580</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1656159347580</updated>
+      <workItem from="1657679532491" duration="8244000" />
     </task>
     <task id="LOCAL-00025" summary="Implemented problem 1528. Shuffle String">
       <created>1656232553579</created>
@@ -513,7 +505,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657686882668</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="Implemented problem 34 Find first and last position of element in sorted array">
+      <created>1657746647065</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1657746647065</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -531,7 +530,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implemented a problem 78 Subsets(iterative version)" />
     <MESSAGE value="Implemented a problem 90 Subsets2" />
     <MESSAGE value="Implemented a problem 1693. Daily leads and partners" />
     <MESSAGE value="Implemented a problem 412 FizzBuzz." />
@@ -556,7 +554,8 @@
     <MESSAGE value="Implemented problem 287 Find the duplicate number." />
     <MESSAGE value="Implemented problem 22 Generate Parenthesis" />
     <MESSAGE value="Modification to problem 22 Generate Parenthesis" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modification to problem 22 Generate Parenthesis" />
+    <MESSAGE value="Implemented problem 34 Find first and last position of element in sorted array" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented problem 34 Find first and last position of element in sorted array" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

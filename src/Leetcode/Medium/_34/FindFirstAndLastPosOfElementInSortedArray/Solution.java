@@ -55,7 +55,7 @@ public class Solution {
         int left = 0, right = n - 1;
         //Find the last index and assign to last element of result
         while(left <= right){
-            int mid = (left+right) / 2;
+            int mid = left + (right - left) / 2; // left + right/2
             if(nums[mid] == target){
                 result[1] = mid;
                 left = mid + 1;
@@ -72,7 +72,7 @@ public class Solution {
 
         //Find the first index and assign to first element of result
         while(left <= right){
-            int mid = (left+right) / 2;
+            int mid = left + (right - left) / 2; // left + right/2
             if(nums[mid] == target){
                 result[0] = mid;
                 right = mid - 1;
