@@ -26,6 +26,10 @@ package Leetcode.Easy._387.FirstuniqueCharacterInAString;
             1 <= s.length <= 105
             s consists of only lowercase English letters.
 
+        Submission Details:
+            Runtime: 12 ms, faster than 76.44% of Java online submissions for First Unique Character in a String.
+            Memory Usage: 50.7 MB, less than 44.91% of Java online submissions for First Unique Character in a String.
+
         Time:  0(n)
         Space: 0(1)  // No extra space is required
 */

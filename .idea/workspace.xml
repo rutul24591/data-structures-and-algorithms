@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Implemented problem 387 FirstuniqueCharacterInAString">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Implemented problem 287 Find the duplicate number.">
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/Medium/_287/FindTheDuplicateNumber/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/_387/FirstuniqueCharacterInAString/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Easy/_387/FirstuniqueCharacterInAString/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +62,7 @@
       <recent name="$PROJECT_DIR$/src/Leetcode/Easy/_1693/DailyLeadsAndPartners" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Leetcode.Easy._387.FirstuniqueCharacterInAString.Solution">
+  <component name="RunManager" selected="Application.Solution">
     <configuration name="Leetcode.Easy._118.PascalTriangle.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._118.PascalTriangle.Solution" />
       <module name="DataStructuresAndAlgorithms" />
@@ -88,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Leetcode.Easy._771.JewelsAndStones.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._771.JewelsAndStones.Solution" />
+    <configuration name="Leetcode.Medium._328.OddEvenLinkedList.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Medium._328.OddEvenLinkedList.Solution" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Easy._771.JewelsAndStones.*" />
+          <option name="PATTERN" value="Leetcode.Medium._328.OddEvenLinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Leetcode.Medium._328.OddEvenLinkedList.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Medium._328.OddEvenLinkedList.Solution" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Medium._287.FindTheDuplicateNumber.Solution" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Medium._328.OddEvenLinkedList.*" />
+          <option name="PATTERN" value="Leetcode.Medium._287.FindTheDuplicateNumber.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Leetcode.Easy._387.FirstuniqueCharacterInAString.Solution" />
         <item itemvalue="Application.random1" />
         <item itemvalue="Application.Leetcode.Easy._118.PascalTriangle.Solution" />
         <item itemvalue="Application.Leetcode.Medium._328.OddEvenLinkedList.Solution" />
-        <item itemvalue="Application.Leetcode.Easy._771.JewelsAndStones.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -168,14 +169,7 @@
       <workItem from="1657283594708" duration="364000" />
       <workItem from="1657535618852" duration="3975000" />
       <workItem from="1657601862008" duration="1235000" />
-      <workItem from="1657679532491" duration="2278000" />
-    </task>
-    <task id="LOCAL-00020" summary="Implemented problem 14.LongestCommonPrefix">
-      <created>1656071204417</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1656071204417</updated>
+      <workItem from="1657679532491" duration="4342000" />
     </task>
     <task id="LOCAL-00021" summary="Implemented problem 1108. Defanging an IP Address">
       <created>1656072062291</created>
@@ -513,7 +507,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657681777044</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="Updated git ignore to exclde random package which is just to test simple code logic">
+      <created>1657681959274</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1657681959274</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -531,8 +532,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implemented a problem 46 Permutations" />
-    <MESSAGE value="Implemented a problem 136 Single number." />
     <MESSAGE value="Implemented a problem 347 Top K frequent elements and 1929 Concatenation of 2 arrays" />
     <MESSAGE value="Implemented a problem 78 Subsets" />
     <MESSAGE value="Implemented a problem 78 Subsets(iterative version)" />
@@ -556,7 +555,9 @@
     <MESSAGE value="slight modification to problem 118 pascal triangle" />
     <MESSAGE value="Added notes on time complexity diff between 0(n+n) and 0(n)" />
     <MESSAGE value="Implemented problem 387 FirstuniqueCharacterInAString" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented problem 387 FirstuniqueCharacterInAString" />
+    <MESSAGE value="Updated git ignore to exclde random package which is just to test simple code logic" />
+    <MESSAGE value="Implemented problem 287 Find the duplicate number." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented problem 287 Find the duplicate number." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
