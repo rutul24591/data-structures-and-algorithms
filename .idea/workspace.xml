@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Implemented problem 287 Find the duplicate number.">
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/Medium/_287/FindTheDuplicateNumber/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/_387/FirstuniqueCharacterInAString/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Easy/_387/FirstuniqueCharacterInAString/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +60,7 @@
       <recent name="$PROJECT_DIR$/src/Leetcode/Easy/_1693/DailyLeadsAndPartners" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution">
+  <component name="RunManager" selected="Application.Leetcode.Medium._22.GenerateParenthesis.Solution">
     <configuration name="Leetcode.Easy._118.PascalTriangle.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._118.PascalTriangle.Solution" />
       <module name="DataStructuresAndAlgorithms" />
@@ -89,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Leetcode.Medium._328.OddEvenLinkedList.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Medium._328.OddEvenLinkedList.Solution" />
+    <configuration name="Leetcode.Medium._22.GenerateParenthesis.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Medium._22.GenerateParenthesis.Solution" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Medium._328.OddEvenLinkedList.*" />
+          <option name="PATTERN" value="Leetcode.Medium._22.GenerateParenthesis.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Leetcode.Medium._22.GenerateParenthesis.Solution" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Leetcode.Easy._387.FirstuniqueCharacterInAString.Solution" />
         <item itemvalue="Application.random1" />
         <item itemvalue="Application.Leetcode.Easy._118.PascalTriangle.Solution" />
-        <item itemvalue="Application.Leetcode.Medium._328.OddEvenLinkedList.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -169,14 +167,7 @@
       <workItem from="1657283594708" duration="364000" />
       <workItem from="1657535618852" duration="3975000" />
       <workItem from="1657601862008" duration="1235000" />
-      <workItem from="1657679532491" duration="4342000" />
-    </task>
-    <task id="LOCAL-00021" summary="Implemented problem 1108. Defanging an IP Address">
-      <created>1656072062291</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1656072062291</updated>
+      <workItem from="1657679532491" duration="6051000" />
     </task>
     <task id="LOCAL-00022" summary="Implemented problem 20. Valid Parenthesis">
       <created>1656149545998</created>
@@ -514,7 +505,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657681959274</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="Implemented problem 287 Find the duplicate number.">
+      <created>1657684081934</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1657684081935</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
