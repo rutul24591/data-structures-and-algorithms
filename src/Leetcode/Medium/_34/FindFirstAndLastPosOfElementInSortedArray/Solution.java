@@ -49,6 +49,7 @@ import java.util.Arrays;
 
 */
 public class Solution {
+    /* 1. Verbose but easy to understand */
     public int[] searchRange(int[] nums, int target) {
         int[] result = {-1,-1};
         int n = nums.length;
@@ -85,6 +86,54 @@ public class Solution {
 
         //Return the result array
         return result;
+    }
+
+
+
+
+
+    /* 2. Cleaner solution. Same as above but less verbose
+
+        Submission details
+            Runtime: 0 ms, faster than 100.00% of Java online submissions for Find First and Last Position of Element in Sorted Array.
+            Memory Usage: 48 MB, less than 6.08% of Java online submissions for Find First and Last Position of Element in Sorted Array.
+
+        Time : O(lgN);
+        Space: O(N)
+    */
+    public int[] searchRange2(int[] nums, int target) {
+        int[] result = {-1,-1};
+        int left = search(nums, target,true);
+        int right = search(nums, target,false);
+        result[0] = left;
+        result[1] = right;
+
+        return result;
+    }
+
+    public int search(int[]nums, int target,boolean findFirstIndex){
+        int ans = -1;
+        int left = 0;
+        int right = nums.length - 1;
+        while(left <= right){
+            int mid = left+(right - left) / 2;
+            if(target < nums[mid]){
+                right = mid-1;
+            }
+            else if(target>nums[mid]){
+                left = mid+1;
+            }
+            else{
+                ans = mid;
+                if(findFirstIndex){
+                    right = mid-1;
+                }
+                else{
+                    left = mid+1;
+                }
+            }
+        }
+        return ans;
     }
 
     public static void main(String[] args){
