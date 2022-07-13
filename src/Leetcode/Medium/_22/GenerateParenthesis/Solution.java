@@ -20,7 +20,12 @@ import java.util.*;
 
         Constraints:
             1 <= n <= 8
+
+        Submission Details:
+            Runtime: 21 ms, faster than 5.71% of Java online submissions for Generate Parentheses.
+            Memory Usage: 46.5 MB, less than 5.10% of Java online submissions for Generate Parentheses.
 */
+
 public class Solution {
     /*
         Intuition
