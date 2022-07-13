@@ -40,10 +40,13 @@ public class Solution {
         if (n == 0) {
             ans.add("");
         } else {
-            for (int c = 0; c < n; ++c)
-                for (String left: generateParenthesis(c))
-                    for (String right: generateParenthesis(n-1-c))
+            for (int c = 0; c < n; ++c){
+                for (String left: generateParenthesis(c)){
+                    for (String right: generateParenthesis(n-1-c)){
                         ans.add("(" + left + ")" + right);
+                    }
+                }
+            }
         }
         return ans;
     }
