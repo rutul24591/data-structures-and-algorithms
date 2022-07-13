@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="modification problem 34 Find first and last position of element in sorted array">
+    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="modification  problem 34 Find first and last position of element in sorted array">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Medium/_34/FindFirstAndLastPosOfElementInSortedArray/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Medium/_34/FindFirstAndLastPosOfElementInSortedArray/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +60,20 @@
       <recent name="$PROJECT_DIR$/src/Leetcode/Easy/_1693/DailyLeadsAndPartners" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Leetcode.Medium._34.FindFirstAndLastPosOfElementInSortedArray.Solution">
+  <component name="RunManager" selected="Application.Leetcode.Easy._278.FirstBadVersion.Solution">
+    <configuration name="Leetcode.Easy._278.FirstBadVersion.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._278.FirstBadVersion.Solution" />
+      <module name="DataStructuresAndAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Leetcode.Easy._278.FirstBadVersion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Leetcode.Easy._387.FirstuniqueCharacterInAString.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._387.FirstuniqueCharacterInAString.Solution" />
       <module name="DataStructuresAndAlgorithms" />
@@ -114,26 +126,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="random1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="random.random1" />
-      <module name="DataStructuresAndAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="random.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Leetcode.Easy._278.FirstBadVersion.Solution" />
         <item itemvalue="Application.Leetcode.Medium._34.FindFirstAndLastPosOfElementInSortedArray.Solution" />
         <item itemvalue="Application.Leetcode.Medium._22.GenerateParenthesis.Solution" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Leetcode.Easy._387.FirstuniqueCharacterInAString.Solution" />
-        <item itemvalue="Application.random1" />
       </list>
     </recent_temporary>
   </component>
@@ -168,14 +167,7 @@
       <workItem from="1657283594708" duration="364000" />
       <workItem from="1657535618852" duration="3975000" />
       <workItem from="1657601862008" duration="1235000" />
-      <workItem from="1657679532491" duration="8963000" />
-    </task>
-    <task id="LOCAL-00026" summary="Implemented problem 35 Search Insert position">
-      <created>1656234014740</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1656234014740</updated>
+      <workItem from="1657679532491" duration="9796000" />
     </task>
     <task id="LOCAL-00027" summary="Modifications to  problem 35 Search Insert position">
       <created>1656235419326</created>
@@ -513,7 +505,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657746875967</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="modification  problem 34 Find first and last position of element in sorted array">
+      <created>1657747618074</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1657747618075</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -531,7 +530,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implemented a problem 1693. Daily leads and partners" />
     <MESSAGE value="Implemented a problem 412 FizzBuzz." />
     <MESSAGE value="Implemented a problem 125 Valid Palindrome" />
     <MESSAGE value="Implemented a problem 70 Climbing stairs" />
@@ -556,7 +554,8 @@
     <MESSAGE value="Modification to problem 22 Generate Parenthesis" />
     <MESSAGE value="Implemented problem 34 Find first and last position of element in sorted array" />
     <MESSAGE value="modification problem 34 Find first and last position of element in sorted array" />
-    <option name="LAST_COMMIT_MESSAGE" value="modification problem 34 Find first and last position of element in sorted array" />
+    <MESSAGE value="modification  problem 34 Find first and last position of element in sorted array" />
+    <option name="LAST_COMMIT_MESSAGE" value="modification  problem 34 Find first and last position of element in sorted array" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
