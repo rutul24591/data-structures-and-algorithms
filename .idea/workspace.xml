@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Implemented problem 169 Majority Element">
+    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Implemented problem 42 Trapping rain water">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Hard/_42/TrappingRainWater/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Hard/_42/TrappingRainWater/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,14 +169,7 @@
       <workItem from="1657535618852" duration="3975000" />
       <workItem from="1657601862008" duration="1235000" />
       <workItem from="1657679532491" duration="12645000" />
-      <workItem from="1657862478193" duration="3584000" />
-    </task>
-    <task id="LOCAL-00031" summary="Implemented problem 121 n 122 Best time to buy and sell stocks.">
-      <created>1656325077399</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1656325077399</updated>
+      <workItem from="1657862478193" duration="7083000" />
     </task>
     <task id="LOCAL-00032" summary="Implemented problem 217 Contains Duplicate.">
       <created>1656327431928</created>
@@ -513,7 +507,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657783036773</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="Implemented problem 42 Trapping rain water">
+      <created>1657867874763</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1657867874763</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -531,7 +532,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implemented of doubly linked list Data Structure" />
     <MESSAGE value="Implemented of single and doubly linked list." />
     <MESSAGE value="Implemented Binary Tree with displaying data in inorder, preorder and postorder traversal." />
     <MESSAGE value="Implemented problem 94 Binary Tree inorder traversal." />
@@ -556,7 +556,8 @@
     <MESSAGE value="implemented problem 374. Guess Number Higher or lower" />
     <MESSAGE value="Modified and added another simple solution for problem 374. Guess Number Higher or lower" />
     <MESSAGE value="Implemented problem 169 Majority Element" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented problem 169 Majority Element" />
+    <MESSAGE value="Implemented problem 42 Trapping rain water" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented problem 42 Trapping rain water" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -24,7 +24,7 @@ package Leetcode.Hard._42.TrappingRainWater;
             1 <= n <= 2 * 104
             0 <= height[i] <= 105
 
-        Submission Details:
+        Submission Details(Approach 1):
             Runtime: 2 ms, faster than 57.61% of Java online submissions for Trapping Rain Water.
             Memory Usage: 48.7 MB, less than 50.61% of Java online submissions for Trapping Rain Water.
 
@@ -32,8 +32,9 @@ package Leetcode.Hard._42.TrappingRainWater;
         Space: O(1) // No extra space required
 */
 public class Solution {
+
     /* Approach 1 */
-    public int trap(int[] height){
+    public int trap(int[] height) {
         int left = 0;
         int right = height.length - 1;
         int left_barr = 0, right_barr = 0;
@@ -60,10 +61,51 @@ public class Solution {
         return result;
     }
 
+    /* Approach 2(Doesn't work on Leetcode for extreme cases
+         Time: O(n^2) Since Computing leftMax and rightMax in each pass takes O(n).
+         Space: O(1)
+    */
+    public int trap2(int[] height){
+        /* To store the maximum water that can be stored */
+        int totalWater = 0;
+        int n = height.length;
+        /* Loop the height array ignoring first and last element */
+        for(int k = 0; k < n; ++k){
+            int leftMax = 0;
+            /*
+                Find the maximum element on its left.
+                Traverse the height array from start to current index and find the maximum height.
+            */
+            for(int i = 0; i <= k - 1; ++i){
+                leftMax = Math.max(leftMax, height[i]);
+            }
+            int rightMax = 0;
+            /*
+                Find the maximum element on its right.
+                Traverse the height array from current index to end and find the maximum height.
+            */
+            for(int i = k + 1; i < n; ++i){
+                rightMax = Math.max(rightMax, height[i]);
+            }
+            /*
+                Update maximum water value.
+                The amount of water that will be stored in this column(or index) is minimum height of left or right minus
+                the height of current index.
+
+                    min(left, right) - height[i]
+            */
+            int water = Math.min(leftMax, rightMax) - height[k];
+            totalWater += (water > 0) ? water : 0;
+        }
+        return totalWater;
+    }
+
     public static void main(String[] args){
         int[] nums = {4,2,0,3,2,5};
         Solution instance = new Solution();
-        int result = instance.trap(nums);
-        System.out.println("Result: "+result);
+        int result1 = instance.trap(nums);
+        int result2 = instance.trap2(nums);
+        System.out.println("Result 1: "+result1);
+        System.out.println("Result 2: "+result2);
     }
 }
