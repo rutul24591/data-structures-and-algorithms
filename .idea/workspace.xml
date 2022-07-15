@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Implemented problem 42 Trapping rain water">
+    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Implemented approach 2 for problem 42 Trapping rain water">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Hard/_42/TrappingRainWater/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Hard/_42/TrappingRainWater/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +60,7 @@
       <recent name="$PROJECT_DIR$/src/Leetcode/Easy/_1693/DailyLeadsAndPartners" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Leetcode.Hard._42.TrappingRainWater.Solution">
+  <component name="RunManager" selected="Application.Leetcode.Easy._349.IntersectionOfTwoArrays.Solution">
     <configuration name="Leetcode.Easy._169.MajorityElement.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._169.MajorityElement.Solution" />
       <module name="DataStructuresAndAlgorithms" />
@@ -88,6 +87,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Leetcode.Easy._349.IntersectionOfTwoArrays.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._349.IntersectionOfTwoArrays.Solution" />
+      <module name="DataStructuresAndAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Leetcode.Easy._349.IntersectionOfTwoArrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Leetcode.Hard._42.TrappingRainWater.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Leetcode.Hard._42.TrappingRainWater.Solution" />
       <module name="DataStructuresAndAlgorithms" />
@@ -101,25 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Leetcode.Medium._22.GenerateParenthesis.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Medium._22.GenerateParenthesis.Solution" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._350.IntersectionOfTwoArrays2.Solution" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Medium._22.GenerateParenthesis.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Leetcode.Medium._34.FindFirstAndLastPosOfElementInSortedArray.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Medium._34.FindFirstAndLastPosOfElementInSortedArray.Solution" />
-      <module name="DataStructuresAndAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Leetcode.Medium._34.FindFirstAndLastPosOfElementInSortedArray.*" />
+          <option name="PATTERN" value="Leetcode.Easy._350.IntersectionOfTwoArrays2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Leetcode.Easy._349.IntersectionOfTwoArrays.Solution" />
+        <item itemvalue="Application.Leetcode.Easy._350.IntersectionOfTwoArrays2.Solution" />
         <item itemvalue="Application.Leetcode.Hard._42.TrappingRainWater.Solution" />
         <item itemvalue="Application.Leetcode.Easy._169.MajorityElement.Solution" />
         <item itemvalue="Application.Leetcode.Easy._278.FirstBadVersion.Solution" />
-        <item itemvalue="Application.Leetcode.Medium._34.FindFirstAndLastPosOfElementInSortedArray.Solution" />
-        <item itemvalue="Application.Leetcode.Medium._22.GenerateParenthesis.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -169,14 +168,7 @@
       <workItem from="1657535618852" duration="3975000" />
       <workItem from="1657601862008" duration="1235000" />
       <workItem from="1657679532491" duration="12645000" />
-      <workItem from="1657862478193" duration="7083000" />
-    </task>
-    <task id="LOCAL-00032" summary="Implemented problem 217 Contains Duplicate.">
-      <created>1656327431928</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1656327431928</updated>
+      <workItem from="1657862478193" duration="9344000" />
     </task>
     <task id="LOCAL-00033" summary="Implemented problem 7 Reverse integer">
       <created>1656406705472</created>
@@ -514,7 +506,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657867874763</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="Implemented approach 2 for problem 42 Trapping rain water">
+      <created>1657873374278</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1657873374278</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -532,7 +531,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implemented of single and doubly linked list." />
     <MESSAGE value="Implemented Binary Tree with displaying data in inorder, preorder and postorder traversal." />
     <MESSAGE value="Implemented problem 94 Binary Tree inorder traversal." />
     <MESSAGE value="Implemented problem 2236. Root Equals Sum of Children" />
@@ -557,7 +555,8 @@
     <MESSAGE value="Modified and added another simple solution for problem 374. Guess Number Higher or lower" />
     <MESSAGE value="Implemented problem 169 Majority Element" />
     <MESSAGE value="Implemented problem 42 Trapping rain water" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented problem 42 Trapping rain water" />
+    <MESSAGE value="Implemented approach 2 for problem 42 Trapping rain water" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented approach 2 for problem 42 Trapping rain water" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
