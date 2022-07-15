@@ -1,0 +1,33 @@
+Can an int be null in Java?
+
+    For example:
+
+    int data = check(Node root);
+
+    if ( data == null ) {
+     // do something
+    } else {
+     // do something
+    }
+
+ANSWER:
+
+    `int` can't be null, but `Integer` can.
+    You need to be careful when unboxing null Integers since this can cause a lot of confusion and head scratching!
+
+    E.g.
+
+    int a = object.getA(); // getA returns a null Integer
+    will give you a NullPointerException, despite object not being null!
+
+    Only object references can be null, not primitives(int,string, bool, etc).
+
+    So if you want to declare a null to int variable which is going to be int use Integer
+
+    1. Integer candidate = null;  // correct
+    2. int candidate = null  // wrong
+
+    If you try to compile above (2) you will receive following error.
+
+        error: incompatible types: <null> cannot be converted to int
+
