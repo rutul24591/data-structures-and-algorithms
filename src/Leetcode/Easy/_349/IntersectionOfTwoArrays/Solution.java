@@ -1,10 +1,10 @@
 package Leetcode.Easy._349.IntersectionOfTwoArrays;
 /*
         @author : Rutul Amin
-        @tag: Arrays, Top Interview Question, HashMap
+        @tag: Arrays, Top Interview Question, HashMap, Hashset, Facebook
         @date: 15 July 2022
 
-        350. Intersection of Two Arrays II
+        349. Intersection of Two Arrays
 
         Given two integer arrays nums1 and nums2, return an array of their intersection.
         Each element in the result must be unique and you may return the result in any order.
