@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Implemented problem 349 Intersection of 2 arrays.">
+    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Implemented problem 102. Binary Tree Level Order Traversal">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/_349/IntersectionOfTwoArrays/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Easy/_349/IntersectionOfTwoArrays/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +129,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Leetcode.Easy._349.IntersectionOfTwoArrays.Solution" />
-        <item itemvalue="Application.Leetcode.Easy._350.IntersectionOfTwoArrays2.Solution" />
         <item itemvalue="Application.Leetcode.Hard._42.TrappingRainWater.Solution" />
         <item itemvalue="Application.Leetcode.Easy._169.MajorityElement.Solution" />
         <item itemvalue="Application.Leetcode.Easy._278.FirstBadVersion.Solution" />
@@ -169,14 +167,8 @@
       <workItem from="1657535618852" duration="3975000" />
       <workItem from="1657601862008" duration="1235000" />
       <workItem from="1657679532491" duration="12645000" />
-      <workItem from="1657862478193" duration="10965000" />
-    </task>
-    <task id="LOCAL-00034" summary="Implemented problem 1757/ Recyclable and Low fat products.">
-      <created>1656407467185</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1656407467185</updated>
+      <workItem from="1657862478193" duration="12419000" />
+      <workItem from="1657967795311" duration="478000" />
     </task>
     <task id="LOCAL-00035" summary="Implemented problem 1741 Find total time spend by employee">
       <created>1656408628225</created>
@@ -514,7 +506,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657876560573</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="Implemented problem 102. Binary Tree Level Order Traversal">
+      <created>1657879141404</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1657879141404</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -532,7 +531,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implemented problem 94 Binary Tree inorder traversal." />
     <MESSAGE value="Implemented problem 2236. Root Equals Sum of Children" />
     <MESSAGE value="Implemented problem 2011. Final Value of Variable After Performing Operations" />
     <MESSAGE value="Implemented problem 104 Maximum depth of binary tree" />
@@ -557,7 +555,8 @@
     <MESSAGE value="Implemented problem 42 Trapping rain water" />
     <MESSAGE value="Implemented approach 2 for problem 42 Trapping rain water" />
     <MESSAGE value="Implemented problem 349 Intersection of 2 arrays." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented problem 349 Intersection of 2 arrays." />
+    <MESSAGE value="Implemented problem 102. Binary Tree Level Order Traversal" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented problem 102. Binary Tree Level Order Traversal" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
