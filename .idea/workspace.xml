@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Implemented problem 102. Binary Tree Level Order Traversal">
+    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Implemented sql problem 1795 Rearrange products table">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -168,14 +168,8 @@
       <workItem from="1657601862008" duration="1235000" />
       <workItem from="1657679532491" duration="12645000" />
       <workItem from="1657862478193" duration="12419000" />
-      <workItem from="1657967795311" duration="478000" />
-    </task>
-    <task id="LOCAL-00035" summary="Implemented problem 1741 Find total time spend by employee">
-      <created>1656408628225</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1656408628225</updated>
+      <workItem from="1657967795311" duration="536000" />
+      <workItem from="1658049958991" duration="356000" />
     </task>
     <task id="LOCAL-00036" summary="Implemented problem 237 Delete node from linked list">
       <created>1656410363759</created>
@@ -513,7 +507,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657879141404</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="Implemented sql problem 1795 Rearrange products table">
+      <created>1657968468862</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1657968468862</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -531,7 +532,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implemented problem 2236. Root Equals Sum of Children" />
     <MESSAGE value="Implemented problem 2011. Final Value of Variable After Performing Operations" />
     <MESSAGE value="Implemented problem 104 Maximum depth of binary tree" />
     <MESSAGE value="Implemented problem 2114 Maximum number of words found in sentences" />
@@ -556,7 +556,8 @@
     <MESSAGE value="Implemented approach 2 for problem 42 Trapping rain water" />
     <MESSAGE value="Implemented problem 349 Intersection of 2 arrays." />
     <MESSAGE value="Implemented problem 102. Binary Tree Level Order Traversal" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented problem 102. Binary Tree Level Order Traversal" />
+    <MESSAGE value="Implemented sql problem 1795 Rearrange products table" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented sql problem 1795 Rearrange products table" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
