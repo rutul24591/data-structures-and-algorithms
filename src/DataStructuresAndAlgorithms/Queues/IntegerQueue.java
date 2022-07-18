@@ -20,7 +20,7 @@ package DataStructuresAndAlgorithms.Queues;
             IsFull: Check if the queue is full
             Peek: Get the value of the front of the queue without removing it
 
-         Working of Queue
+         Working of Queue:
             Queue operations work as follows:
                 Two pointers FRONT and REAR
                 FRONT track the first element of the queue
@@ -47,9 +47,15 @@ package DataStructuresAndAlgorithms.Queues;
         Applications of Queue
             1. CPU scheduling, Disk Scheduling
             2. When data is transferred asynchronously between two processes.
-               The queue is used for synchronization. For example: IO Buffers, pipes, file IO, etc
+               The queue is used for synchronization. For example: IO Buffers, pipes, file IO, etc.
             3. Handling of interrupts in real-time systems.
             4. Call Center phone systems use Queues to hold people calling them in order.
+
+        There are four different types of queues:
+            1. Simple Queue
+            2. Circular Queue
+            3. Priority Queue
+            4. Double Ended Queue
 
 */
 public class IntegerQueue {
