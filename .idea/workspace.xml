@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Implemented problem 88 Merge Sorted Arrays.">
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/Easy/_88/MergeSortedArrays/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -173,14 +172,8 @@
       <workItem from="1657967795311" duration="536000" />
       <workItem from="1658049958991" duration="3075000" />
       <workItem from="1658141418503" duration="1420000" />
-      <workItem from="1658210392204" duration="2298000" />
-    </task>
-    <task id="LOCAL-00040" summary="Implemented not a problem 2235 Add two integers.">
-      <created>1656419771968</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1656419771968</updated>
+      <workItem from="1658210392204" duration="2492000" />
+      <workItem from="1658393788689" duration="900000" />
     </task>
     <task id="LOCAL-00041" summary="Implemented not a problem 344 Reverse String">
       <created>1656489309387</created>
@@ -518,7 +511,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658146539466</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="Implemented problem 88 Merge Sorted Arrays.">
+      <created>1658227360762</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1658227360763</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
