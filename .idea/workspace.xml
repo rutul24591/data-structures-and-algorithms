@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Implemented problem 230. Kth Smallest Element in a BST" />
+    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Implemented problem 219 Contains Duplicate 2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/_13/RomanToInteger/RomanToInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Easy/_13/RomanToInteger/RomanToInteger.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,7 +61,7 @@
       <recent name="$PROJECT_DIR$/src/Leetcode/Easy/_1693/DailyLeadsAndPartners" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Leetcode.Easy._219.ContainsDuplicate2.Solution">
+  <component name="RunManager" selected="Application.Leetcode.Easy._704.BinarySearch.Solution">
     <configuration name="IntegerQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DataStructuresAndAlgorithms.Queues.IntegerQueue" />
       <module name="DataStructuresAndAlgorithms" />
@@ -98,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Leetcode.Hard._42.TrappingRainWater.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Hard._42.TrappingRainWater.Solution" />
+    <configuration name="Leetcode.Easy._704.BinarySearch.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._704.BinarySearch.Solution" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Hard._42.TrappingRainWater.*" />
+          <option name="PATTERN" value="Leetcode.Easy._704.BinarySearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Leetcode.Easy._704.BinarySearch.Solution" />
         <item itemvalue="Application.Leetcode.Easy._219.ContainsDuplicate2.Solution" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.IntegerQueue" />
         <item itemvalue="Application.Leetcode.Easy._349.IntersectionOfTwoArrays.Solution" />
-        <item itemvalue="Application.Leetcode.Hard._42.TrappingRainWater.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -172,13 +175,8 @@
       <workItem from="1658141418503" duration="1420000" />
       <workItem from="1658210392204" duration="2492000" />
       <workItem from="1658393788689" duration="970000" />
-    </task>
-    <task id="LOCAL-00042" summary="Implemented not a problem 206 Reverse LinkedList">
-      <created>1656494452517</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1656494452517</updated>
+      <workItem from="1658822880827" duration="301000" />
+      <workItem from="1658900798921" duration="5614000" />
     </task>
     <task id="LOCAL-00043" summary="Implemented a problem 69 Sqrt(x).">
       <created>1656498320334</created>
@@ -516,7 +514,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658394989636</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="Implemented problem 219 Contains Duplicate 2">
+      <created>1658823173716</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1658823173716</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -534,7 +539,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="slight modification to problem 118 pascal triangle" />
     <MESSAGE value="Added notes on time complexity diff between 0(n+n) and 0(n)" />
     <MESSAGE value="Implemented problem 387 FirstuniqueCharacterInAString" />
     <MESSAGE value="Updated git ignore to exclde random package which is just to test simple code logic" />
@@ -559,7 +563,8 @@
     <MESSAGE value="Implemented problem 11 Container with most water" />
     <MESSAGE value="Implemented problem 88 Merge Sorted Arrays." />
     <MESSAGE value="Implemented problem 230. Kth Smallest Element in a BST" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented problem 230. Kth Smallest Element in a BST" />
+    <MESSAGE value="Implemented problem 219 Contains Duplicate 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented problem 219 Contains Duplicate 2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

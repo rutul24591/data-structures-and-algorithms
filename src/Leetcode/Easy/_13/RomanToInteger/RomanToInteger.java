@@ -3,9 +3,11 @@ package Leetcode.Easy._13.RomanToInteger;
 import java.util.HashMap;
 
 /*
+        @author: Rutul Amin
+        @tag: HashMap
+        @date: 23rd July 2022
 
         13. Roman to Integer
-
             Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
 
                     Symbol       Value
@@ -66,7 +68,7 @@ public class RomanToInteger {
             return -1;
         }
 
-        HashMap<Character, Integer> map = new HashMap();
+        HashMap<Character, Integer> map = new HashMap<>();
         map.put('I', 1);
         map.put('V', 5);
         map.put('X', 10);
