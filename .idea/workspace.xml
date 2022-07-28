@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Implemented problem 219 Contains Duplicate 2">
+    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Implemented problem 704 Binary Search">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/_13/RomanToInteger/RomanToInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Easy/_13/RomanToInteger/RomanToInteger.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +60,7 @@
       <recent name="$PROJECT_DIR$/src/Leetcode/Easy/_1693/DailyLeadsAndPartners" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Leetcode.Easy._704.BinarySearch.Solution">
+  <component name="RunManager" selected="Application.Leetcode.Easy._860.LemonadeChange.Solution">
     <configuration name="IntegerQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DataStructuresAndAlgorithms.Queues.IntegerQueue" />
       <module name="DataStructuresAndAlgorithms" />
@@ -88,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Leetcode.Easy._349.IntersectionOfTwoArrays.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._349.IntersectionOfTwoArrays.Solution" />
+    <configuration name="Leetcode.Easy._704.BinarySearch.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._704.BinarySearch.Solution" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Easy._349.IntersectionOfTwoArrays.*" />
+          <option name="PATTERN" value="Leetcode.Easy._704.BinarySearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Leetcode.Easy._704.BinarySearch.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._704.BinarySearch.Solution" />
+    <configuration name="Leetcode.Easy._860.LemonadeChange.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._860.LemonadeChange.Solution" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Easy._704.BinarySearch.*" />
+          <option name="PATTERN" value="Leetcode.Easy._860.LemonadeChange.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Leetcode.Easy._860.LemonadeChange.Solution" />
         <item itemvalue="Application.Leetcode.Easy._704.BinarySearch.Solution" />
         <item itemvalue="Application.Leetcode.Easy._219.ContainsDuplicate2.Solution" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.IntegerQueue" />
-        <item itemvalue="Application.Leetcode.Easy._349.IntersectionOfTwoArrays.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -176,14 +175,7 @@
       <workItem from="1658210392204" duration="2492000" />
       <workItem from="1658393788689" duration="970000" />
       <workItem from="1658822880827" duration="301000" />
-      <workItem from="1658900798921" duration="5614000" />
-    </task>
-    <task id="LOCAL-00043" summary="Implemented a problem 69 Sqrt(x).">
-      <created>1656498320334</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1656498320334</updated>
+      <workItem from="1658900798921" duration="8826000" />
     </task>
     <task id="LOCAL-00044" summary="Implemented a problem 46 Permutations">
       <created>1656506296165</created>
@@ -521,7 +513,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658823173716</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="Implemented problem 704 Binary Search">
+      <created>1658912153942</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1658912153943</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -539,7 +538,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added notes on time complexity diff between 0(n+n) and 0(n)" />
     <MESSAGE value="Implemented problem 387 FirstuniqueCharacterInAString" />
     <MESSAGE value="Updated git ignore to exclde random package which is just to test simple code logic" />
     <MESSAGE value="Implemented problem 287 Find the duplicate number." />
@@ -564,7 +562,8 @@
     <MESSAGE value="Implemented problem 88 Merge Sorted Arrays." />
     <MESSAGE value="Implemented problem 230. Kth Smallest Element in a BST" />
     <MESSAGE value="Implemented problem 219 Contains Duplicate 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented problem 219 Contains Duplicate 2" />
+    <MESSAGE value="Implemented problem 704 Binary Search" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented problem 704 Binary Search" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
