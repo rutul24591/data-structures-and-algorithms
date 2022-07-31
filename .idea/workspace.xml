@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Implemented problem 860 Lemonade change">
+    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Implemented problem 977 Squares of sorted array">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,33 +60,7 @@
       <recent name="$PROJECT_DIR$/src/Leetcode/Easy/_1693/DailyLeadsAndPartners" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Leetcode.Medium._189.RotateArray.Solution">
-    <configuration name="Leetcode.Easy._219.ContainsDuplicate2.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._219.ContainsDuplicate2.Solution" />
-      <module name="DataStructuresAndAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Leetcode.Easy._219.ContainsDuplicate2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Leetcode.Easy._704.BinarySearch.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._704.BinarySearch.Solution" />
-      <module name="DataStructuresAndAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Leetcode.Easy._704.BinarySearch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Leetcode.Medium._167.TwoSum2.Solution">
     <configuration name="Leetcode.Easy._860.LemonadeChange.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._860.LemonadeChange.Solution" />
       <module name="DataStructuresAndAlgorithms" />
@@ -113,6 +87,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Leetcode.Medium._167.TwoSum2.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Medium._167.TwoSum2.Solution" />
+      <module name="DataStructuresAndAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Leetcode.Medium._167.TwoSum2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Leetcode.Medium._189.RotateArray.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Leetcode.Medium._189.RotateArray.Solution" />
       <module name="DataStructuresAndAlgorithms" />
@@ -126,13 +113,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._283.MoveZeroes.Solution" />
+      <module name="DataStructuresAndAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Leetcode.Easy._283.MoveZeroes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Leetcode.Medium._167.TwoSum2.Solution" />
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Leetcode.Medium._189.RotateArray.Solution" />
         <item itemvalue="Application.Leetcode.Easy._977.SquaresOfSortedArray.Solution" />
         <item itemvalue="Application.Leetcode.Easy._860.LemonadeChange.Solution" />
-        <item itemvalue="Application.Leetcode.Easy._704.BinarySearch.Solution" />
-        <item itemvalue="Application.Leetcode.Easy._219.ContainsDuplicate2.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -177,13 +177,8 @@
       <workItem from="1658822880827" duration="301000" />
       <workItem from="1658900798921" duration="8826000" />
       <workItem from="1658992559562" duration="2992000" />
-    </task>
-    <task id="LOCAL-00045" summary="Implemented a problem 136 Single number.">
-      <created>1656509177275</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1656509177275</updated>
+      <workItem from="1659079150448" duration="1347000" />
+      <workItem from="1659168997383" duration="82000" />
     </task>
     <task id="LOCAL-00046" summary="Implemented a problem 347 Top K frequent elements and 1929 Concatenation of 2 arrays">
       <created>1656561426063</created>
@@ -521,7 +516,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658992863291</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="Implemented problem 977 Squares of sorted array">
+      <created>1659079185462</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1659079185463</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -539,7 +541,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Updated git ignore to exclde random package which is just to test simple code logic" />
     <MESSAGE value="Implemented problem 287 Find the duplicate number." />
     <MESSAGE value="Implemented problem 22 Generate Parenthesis" />
     <MESSAGE value="Modification to problem 22 Generate Parenthesis" />
@@ -564,7 +565,8 @@
     <MESSAGE value="Implemented problem 219 Contains Duplicate 2" />
     <MESSAGE value="Implemented problem 704 Binary Search" />
     <MESSAGE value="Implemented problem 860 Lemonade change" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented problem 860 Lemonade change" />
+    <MESSAGE value="Implemented problem 977 Squares of sorted array" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented problem 977 Squares of sorted array" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
