@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Implemented problem 977 Squares of sorted array">
+    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Practised problem 2sum">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,25 +33,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/Rutul/Documents/Java/DataStructuresAndAlgorithms",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "Errors"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/Rutul/Documents/Java/DataStructuresAndAlgorithms&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/DataStructuresAndAlgorithms" />
@@ -179,14 +179,9 @@
       <workItem from="1658992559562" duration="2992000" />
       <workItem from="1659079150448" duration="1347000" />
       <workItem from="1659168997383" duration="82000" />
-      <workItem from="1660298845973" duration="36000" />
-    </task>
-    <task id="LOCAL-00046" summary="Implemented a problem 347 Top K frequent elements and 1929 Concatenation of 2 arrays">
-      <created>1656561426063</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1656561426063</updated>
+      <workItem from="1660298845973" duration="89000" />
+      <workItem from="1660302509493" duration="488000" />
+      <workItem from="1660381346434" duration="830000" />
     </task>
     <task id="LOCAL-00047" summary="Implemented a problem 78 Subsets">
       <created>1656567694155</created>
@@ -524,7 +519,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659079185463</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="Practised problem 2sum">
+      <created>1660298905118</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1660298905118</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -542,7 +544,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implemented problem 287 Find the duplicate number." />
     <MESSAGE value="Implemented problem 22 Generate Parenthesis" />
     <MESSAGE value="Modification to problem 22 Generate Parenthesis" />
     <MESSAGE value="Implemented problem 34 Find first and last position of element in sorted array" />
@@ -567,7 +568,8 @@
     <MESSAGE value="Implemented problem 704 Binary Search" />
     <MESSAGE value="Implemented problem 860 Lemonade change" />
     <MESSAGE value="Implemented problem 977 Squares of sorted array" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented problem 977 Squares of sorted array" />
+    <MESSAGE value="Practised problem 2sum" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practised problem 2sum" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
