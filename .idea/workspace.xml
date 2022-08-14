@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Practised problem 2sum">
+    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Practised problem Palindrome number">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,13 +60,13 @@
       <recent name="$PROJECT_DIR$/src/Leetcode/Easy/_1693/DailyLeadsAndPartners" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Practice">
-    <configuration name="Leetcode.Easy._977.SquaresOfSortedArray.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._977.SquaresOfSortedArray.Solution" />
+  <component name="RunManager" selected="Application.Leetcode.Easy._28.ImplementStrStr.Practice">
+    <configuration name="Leetcode.Easy._28.ImplementStrStr.Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._28.ImplementStrStr.Practice" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Easy._977.SquaresOfSortedArray.*" />
+          <option name="PATTERN" value="Leetcode.Easy._28.ImplementStrStr.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Leetcode.Easy._28.ImplementStrStr.Practice" />
         <item itemvalue="Application.Practice" />
         <item itemvalue="Application.Leetcode.Medium._167.TwoSum2.Solution" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Leetcode.Medium._189.RotateArray.Solution" />
-        <item itemvalue="Application.Leetcode.Easy._977.SquaresOfSortedArray.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -181,14 +181,7 @@
       <workItem from="1659168997383" duration="82000" />
       <workItem from="1660298845973" duration="89000" />
       <workItem from="1660302509493" duration="488000" />
-      <workItem from="1660381346434" duration="830000" />
-    </task>
-    <task id="LOCAL-00047" summary="Implemented a problem 78 Subsets">
-      <created>1656567694155</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1656567694155</updated>
+      <workItem from="1660381346434" duration="1847000" />
     </task>
     <task id="LOCAL-00048" summary="Implemented a problem 78 Subsets(iterative version)">
       <created>1656568747462</created>
@@ -526,7 +519,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660298905118</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="Practised problem Palindrome number">
+      <created>1660382199361</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1660382199361</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -544,7 +544,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implemented problem 22 Generate Parenthesis" />
     <MESSAGE value="Modification to problem 22 Generate Parenthesis" />
     <MESSAGE value="Implemented problem 34 Find first and last position of element in sorted array" />
     <MESSAGE value="modification problem 34 Find first and last position of element in sorted array" />
@@ -569,7 +568,8 @@
     <MESSAGE value="Implemented problem 860 Lemonade change" />
     <MESSAGE value="Implemented problem 977 Squares of sorted array" />
     <MESSAGE value="Practised problem 2sum" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practised problem 2sum" />
+    <MESSAGE value="Practised problem Palindrome number" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practised problem Palindrome number" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
