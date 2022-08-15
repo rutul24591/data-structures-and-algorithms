@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Practised problem Palindrome number">
+    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Practised problem str str">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -182,13 +182,8 @@
       <workItem from="1660298845973" duration="89000" />
       <workItem from="1660302509493" duration="488000" />
       <workItem from="1660381346434" duration="1847000" />
-    </task>
-    <task id="LOCAL-00048" summary="Implemented a problem 78 Subsets(iterative version)">
-      <created>1656568747462</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1656568747462</updated>
+      <workItem from="1660474417456" duration="485000" />
+      <workItem from="1660561125388" duration="204000" />
     </task>
     <task id="LOCAL-00049" summary="Implemented a problem 90 Subsets2">
       <created>1656570278417</created>
@@ -526,7 +521,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660382199361</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="Practised problem str str">
+      <created>1660474460820</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1660474460821</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -544,7 +546,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Modification to problem 22 Generate Parenthesis" />
     <MESSAGE value="Implemented problem 34 Find first and last position of element in sorted array" />
     <MESSAGE value="modification problem 34 Find first and last position of element in sorted array" />
     <MESSAGE value="modification  problem 34 Find first and last position of element in sorted array" />
@@ -569,7 +570,8 @@
     <MESSAGE value="Implemented problem 977 Squares of sorted array" />
     <MESSAGE value="Practised problem 2sum" />
     <MESSAGE value="Practised problem Palindrome number" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practised problem Palindrome number" />
+    <MESSAGE value="Practised problem str str" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practised problem str str" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
