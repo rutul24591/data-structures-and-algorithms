@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Practised problem str str">
+    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Practised problem isBadVersion">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/_136/SingleNumber/SingleNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Easy/_136/SingleNumber/SingleNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +61,20 @@
       <recent name="$PROJECT_DIR$/src/Leetcode/Easy/_1693/DailyLeadsAndPartners" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Leetcode.Easy._28.ImplementStrStr.Practice">
+  <component name="RunManager" selected="Application.Leetcode.Easy._136.SingleNumber.Practice">
+    <configuration name="Leetcode.Easy._136.SingleNumber.Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._136.SingleNumber.Practice" />
+      <module name="DataStructuresAndAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Leetcode.Easy._136.SingleNumber.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Leetcode.Easy._28.ImplementStrStr.Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._28.ImplementStrStr.Practice" />
       <module name="DataStructuresAndAlgorithms" />
@@ -80,19 +94,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Leetcode.Medium._167.TwoSum2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Leetcode.Medium._189.RotateArray.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Medium._189.RotateArray.Solution" />
-      <module name="DataStructuresAndAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Leetcode.Medium._189.RotateArray.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Leetcode.Easy._136.SingleNumber.Practice" />
         <item itemvalue="Application.Leetcode.Easy._28.ImplementStrStr.Practice" />
         <item itemvalue="Application.Practice" />
         <item itemvalue="Application.Leetcode.Medium._167.TwoSum2.Solution" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.Leetcode.Medium._189.RotateArray.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -183,14 +184,9 @@
       <workItem from="1660302509493" duration="488000" />
       <workItem from="1660381346434" duration="1847000" />
       <workItem from="1660474417456" duration="485000" />
-      <workItem from="1660561125388" duration="204000" />
-    </task>
-    <task id="LOCAL-00049" summary="Implemented a problem 90 Subsets2">
-      <created>1656570278417</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1656570278417</updated>
+      <workItem from="1660561125388" duration="233000" />
+      <workItem from="1660561371142" duration="4000" />
+      <workItem from="1660652773156" duration="1035000" />
     </task>
     <task id="LOCAL-00050" summary="Implemented a problem 1693. Daily leads and partners">
       <created>1656571235932</created>
@@ -528,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660474460821</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="Practised problem isBadVersion">
+      <created>1660561348414</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1660561348414</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -546,7 +549,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implemented problem 34 Find first and last position of element in sorted array" />
     <MESSAGE value="modification problem 34 Find first and last position of element in sorted array" />
     <MESSAGE value="modification  problem 34 Find first and last position of element in sorted array" />
     <MESSAGE value="implemented problem 278. First Bad Version" />
@@ -571,7 +573,8 @@
     <MESSAGE value="Practised problem 2sum" />
     <MESSAGE value="Practised problem Palindrome number" />
     <MESSAGE value="Practised problem str str" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practised problem str str" />
+    <MESSAGE value="Practised problem isBadVersion" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practised problem isBadVersion" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

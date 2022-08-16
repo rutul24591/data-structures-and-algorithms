@@ -38,6 +38,13 @@ package Leetcode.Easy._136.SingleNumber;
                 XOR(^) result & array[i] and store in result.
                 Return result
 
+
+        MORE on XOR operator
+            Bitwise XOR (exclusive or) "^" is an operator in Java that provides the answer '1'
+            if both of the bits in its operands are different,
+            if both of the bits are same then the XOR operator gives the result '0'.
+            XOR is a binary operator that is evaluated from left to right.
+
         Time : O(N) ; Space: O(1)
  */
 public class SingleNumber {
