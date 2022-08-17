@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Practised problem isSameNumber">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Practised problem Int to roman">
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Easy/_58/LengthOfLastWord/Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Easy/_58/LengthOfLastWord/Practice.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,14 +186,7 @@
       <workItem from="1660561125388" duration="233000" />
       <workItem from="1660561371142" duration="4000" />
       <workItem from="1660652773156" duration="1658000" />
-      <workItem from="1660734339378" duration="251000" />
-    </task>
-    <task id="LOCAL-00051" summary="Implemented a problem 412 FizzBuzz.">
-      <created>1656587530265</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1656587530265</updated>
+      <workItem from="1660734339378" duration="383000" />
     </task>
     <task id="LOCAL-00052" summary="Implemented a problem 125 Valid Palindrome">
       <created>1656588635584</created>
@@ -532,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660653839300</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="Practised problem Int to roman">
+      <created>1660734608001</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1660734608002</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -550,7 +549,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="modification  problem 34 Find first and last position of element in sorted array" />
     <MESSAGE value="implemented problem 278. First Bad Version" />
     <MESSAGE value="implemented problem 374. Guess Number Higher or lower" />
     <MESSAGE value="Modified and added another simple solution for problem 374. Guess Number Higher or lower" />
@@ -575,7 +573,8 @@
     <MESSAGE value="Practised problem str str" />
     <MESSAGE value="Practised problem isBadVersion" />
     <MESSAGE value="Practised problem isSameNumber" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practised problem isSameNumber" />
+    <MESSAGE value="Practised problem Int to roman" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practised problem Int to roman" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
