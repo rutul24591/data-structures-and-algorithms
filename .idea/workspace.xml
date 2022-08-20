@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Practised problem Linked List cycle.">
+    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Practised problem Roman to Integer">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +60,7 @@
       <recent name="$PROJECT_DIR$/src/Leetcode/Easy/_1693/DailyLeadsAndPartners" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Leetcode.Easy._13.RomanToInteger.Practice">
+  <component name="RunManager" selected="Application.Leetcode.Easy._20.ValidParenthesis.Practice">
     <configuration name="Leetcode.Easy._136.SingleNumber.Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._136.SingleNumber.Practice" />
       <module name="DataStructuresAndAlgorithms" />
@@ -80,6 +80,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Leetcode.Easy._13.RomanToInteger.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Leetcode.Easy._20.ValidParenthesis.Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._20.ValidParenthesis.Practice" />
+      <module name="DataStructuresAndAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Leetcode.Easy._20.ValidParenthesis.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,26 +126,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._1.TwoSum.Practice" />
-      <module name="DataStructuresAndAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Leetcode.Easy._1.TwoSum.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Leetcode.Easy._20.ValidParenthesis.Practice" />
         <item itemvalue="Application.Leetcode.Easy._13.RomanToInteger.Practice" />
         <item itemvalue="Application.Leetcode.Medium._12.IntegerToRoman.Practice" />
         <item itemvalue="Application.Leetcode.Easy._136.SingleNumber.Practice" />
         <item itemvalue="Application.Leetcode.Easy._28.ImplementStrStr.Practice" />
-        <item itemvalue="Application.Practice" />
       </list>
     </recent_temporary>
   </component>
@@ -188,14 +188,8 @@
       <workItem from="1660652773156" duration="1658000" />
       <workItem from="1660734339378" duration="405000" />
       <workItem from="1660825976120" duration="863000" />
-      <workItem from="1660902478625" duration="37000" />
-    </task>
-    <task id="LOCAL-00054" summary="Implemented of singly linked DS">
-      <created>1656752957401</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1656752957402</updated>
+      <workItem from="1660902478625" duration="70000" />
+      <workItem from="1660983514269" duration="61000" />
     </task>
     <task id="LOCAL-00055" summary="Implemented of doubly linked list Data Structure">
       <created>1656753019382</created>
@@ -533,7 +527,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660826829900</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="Practised problem Roman to Integer">
+      <created>1660902537297</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1660902537298</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -551,7 +552,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Modified and added another simple solution for problem 374. Guess Number Higher or lower" />
     <MESSAGE value="Implemented problem 169 Majority Element" />
     <MESSAGE value="Implemented problem 42 Trapping rain water" />
     <MESSAGE value="Implemented approach 2 for problem 42 Trapping rain water" />
@@ -576,7 +576,8 @@
     <MESSAGE value="Practised problem Int to roman" />
     <MESSAGE value="Practised problem Length of last index" />
     <MESSAGE value="Practised problem Linked List cycle." />
-    <option name="LAST_COMMIT_MESSAGE" value="Practised problem Linked List cycle." />
+    <MESSAGE value="Practised problem Roman to Integer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practised problem Roman to Integer" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
