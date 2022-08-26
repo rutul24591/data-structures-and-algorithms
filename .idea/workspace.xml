@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Practised problem Valid parenthesis">
+    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Practised 2sum and palindrom number problem in js">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,13 +61,13 @@
       <recent name="$PROJECT_DIR$/src/Leetcode/Easy/_1693/DailyLeadsAndPartners" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.PalindromeNumber.js">
-    <configuration name="Leetcode.Easy._13.RomanToInteger.Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._13.RomanToInteger.Practice" />
+  <component name="RunManager" selected="Application.Practice">
+    <configuration name="Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._206.ReverseLinkedList.Practice" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Easy._13.RomanToInteger.*" />
+          <option name="PATTERN" value="Leetcode.Easy._206.ReverseLinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,45 +75,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Leetcode.Easy._20.ValidParenthesis.Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._20.ValidParenthesis.Practice" />
-      <module name="DataStructuresAndAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Leetcode.Easy._20.ValidParenthesis.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Leetcode.Medium._12.IntegerToRoman.Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Medium._12.IntegerToRoman.Practice" />
-      <module name="DataStructuresAndAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Leetcode.Medium._12.IntegerToRoman.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="DefangingIP.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/Leetcode/Easy/_1108/DefangingAnIPAddress/DefangingIP.js" working-dir="$PROJECT_DIR$/src/Leetcode/Easy/_1108/DefangingAnIPAddress">
+      <method v="2" />
     </configuration>
     <configuration name="PalindromeNumber.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/Leetcode/Easy/_9/PalindromeNumber/PalindromeNumber.js" working-dir="$PROJECT_DIR$/src/Leetcode/Easy/_9/PalindromeNumber">
       <method v="2" />
     </configuration>
-    <configuration name="TwoSum.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/Leetcode/Easy/_1/TwoSum/TwoSum.js" working-dir="$PROJECT_DIR$/src/Leetcode/Easy/_1/TwoSum">
+    <configuration name="SquaresOfSortedArray.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/Leetcode/Easy/_977/SquaresOfSortedArray/SquaresOfSortedArray.js" working-dir="$PROJECT_DIR$/src/Leetcode/Easy/_977/SquaresOfSortedArray">
+      <method v="2" />
+    </configuration>
+    <configuration name="ValidParenthesis.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/Leetcode/Easy/_20/ValidParenthesis/ValidParenthesis.js" working-dir="$PROJECT_DIR$/src/Leetcode/Easy/_20/ValidParenthesis">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Practice" />
+        <item itemvalue="Node.js.ValidParenthesis.js" />
+        <item itemvalue="Node.js.DefangingIP.js" />
+        <item itemvalue="Node.js.SquaresOfSortedArray.js" />
         <item itemvalue="Node.js.PalindromeNumber.js" />
-        <item itemvalue="Node.js.TwoSum.js" />
-        <item itemvalue="Application.Leetcode.Easy._20.ValidParenthesis.Practice" />
-        <item itemvalue="Application.Leetcode.Easy._13.RomanToInteger.Practice" />
-        <item itemvalue="Application.Leetcode.Medium._12.IntegerToRoman.Practice" />
       </list>
     </recent_temporary>
   </component>
@@ -173,14 +153,8 @@
       <workItem from="1660983514269" duration="257000" />
       <workItem from="1660993971115" duration="6000" />
       <workItem from="1661086330993" duration="70000" />
-      <workItem from="1661290804582" duration="1383000" />
-    </task>
-    <task id="LOCAL-00056" summary="Implemented of single and doubly linked list.">
-      <created>1656934870334</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1656934870334</updated>
+      <workItem from="1661290804582" duration="4748000" />
+      <workItem from="1661384214716" duration="4497000" />
     </task>
     <task id="LOCAL-00057" summary="Implemented Binary Tree with displaying data in inorder, preorder and postorder traversal.">
       <created>1656983743020</created>
@@ -518,7 +492,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660983601358</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="Practised 2sum and palindrom number problem in js">
+      <created>1661292558619</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1661292558620</updated>
+    </task>
+    <option name="localTasksCounter" value="106" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -536,7 +517,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implemented problem 42 Trapping rain water" />
     <MESSAGE value="Implemented approach 2 for problem 42 Trapping rain water" />
     <MESSAGE value="Implemented problem 349 Intersection of 2 arrays." />
     <MESSAGE value="Implemented problem 102. Binary Tree Level Order Traversal" />
@@ -561,7 +541,8 @@
     <MESSAGE value="Practised problem Linked List cycle." />
     <MESSAGE value="Practised problem Roman to Integer" />
     <MESSAGE value="Practised problem Valid parenthesis" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practised problem Valid parenthesis" />
+    <MESSAGE value="Practised 2sum and palindrom number problem in js" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practised 2sum and palindrom number problem in js" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
