@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Practised 2sum and palindrom number problem in js">
+    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Practised reverse linked list problem">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JavaScript File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -61,7 +61,20 @@
       <recent name="$PROJECT_DIR$/src/Leetcode/Easy/_1693/DailyLeadsAndPartners" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Practice">
+  <component name="RunManager" selected="Application.Leetcode.Easy._70.ClimbingStairs.Practice">
+    <configuration name="Leetcode.Easy._70.ClimbingStairs.Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._70.ClimbingStairs.Practice" />
+      <module name="DataStructuresAndAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Leetcode.Easy._70.ClimbingStairs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._206.ReverseLinkedList.Practice" />
       <module name="DataStructuresAndAlgorithms" />
@@ -78,9 +91,6 @@
     <configuration name="DefangingIP.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/Leetcode/Easy/_1108/DefangingAnIPAddress/DefangingIP.js" working-dir="$PROJECT_DIR$/src/Leetcode/Easy/_1108/DefangingAnIPAddress">
       <method v="2" />
     </configuration>
-    <configuration name="PalindromeNumber.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/Leetcode/Easy/_9/PalindromeNumber/PalindromeNumber.js" working-dir="$PROJECT_DIR$/src/Leetcode/Easy/_9/PalindromeNumber">
-      <method v="2" />
-    </configuration>
     <configuration name="SquaresOfSortedArray.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/Leetcode/Easy/_977/SquaresOfSortedArray/SquaresOfSortedArray.js" working-dir="$PROJECT_DIR$/src/Leetcode/Easy/_977/SquaresOfSortedArray">
       <method v="2" />
     </configuration>
@@ -89,11 +99,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Leetcode.Easy._70.ClimbingStairs.Practice" />
         <item itemvalue="Application.Practice" />
         <item itemvalue="Node.js.ValidParenthesis.js" />
         <item itemvalue="Node.js.DefangingIP.js" />
         <item itemvalue="Node.js.SquaresOfSortedArray.js" />
-        <item itemvalue="Node.js.PalindromeNumber.js" />
       </list>
     </recent_temporary>
   </component>
@@ -155,13 +165,8 @@
       <workItem from="1661086330993" duration="70000" />
       <workItem from="1661290804582" duration="4748000" />
       <workItem from="1661384214716" duration="4497000" />
-    </task>
-    <task id="LOCAL-00057" summary="Implemented Binary Tree with displaying data in inorder, preorder and postorder traversal.">
-      <created>1656983743020</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1656983743020</updated>
+      <workItem from="1661500887545" duration="121000" />
+      <workItem from="1661596516262" duration="61000" />
     </task>
     <task id="LOCAL-00058" summary="Implemented problem 94 Binary Tree inorder traversal.">
       <created>1657070322618</created>
@@ -499,7 +504,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661292558620</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL-00106" summary="Practised reverse linked list problem">
+      <created>1661500998314</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1661500998314</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -517,7 +529,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implemented approach 2 for problem 42 Trapping rain water" />
     <MESSAGE value="Implemented problem 349 Intersection of 2 arrays." />
     <MESSAGE value="Implemented problem 102. Binary Tree Level Order Traversal" />
     <MESSAGE value="Implemented sql problem 1795 Rearrange products table" />
@@ -542,7 +553,8 @@
     <MESSAGE value="Practised problem Roman to Integer" />
     <MESSAGE value="Practised problem Valid parenthesis" />
     <MESSAGE value="Practised 2sum and palindrom number problem in js" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practised 2sum and palindrom number problem in js" />
+    <MESSAGE value="Practised reverse linked list problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practised reverse linked list problem" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
