@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Practised problem climbimg stairs" />
+    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Practised problem reverse string" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,13 +59,26 @@
       <recent name="$PROJECT_DIR$/src/Leetcode/Easy/_1693/DailyLeadsAndPartners" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Leetcode.Easy._344.ReverseString.Practice">
+  <component name="RunManager" selected="Application.Leetcode.Easy._67.AddBinary.Practice">
     <configuration name="Leetcode.Easy._344.ReverseString.Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._344.ReverseString.Practice" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Leetcode.Easy._344.ReverseString.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Leetcode.Easy._67.AddBinary.Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._67.AddBinary.Practice" />
+      <module name="DataStructuresAndAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Leetcode.Easy._67.AddBinary.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,19 +112,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DefangingIP.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/Leetcode/Easy/_1108/DefangingAnIPAddress/DefangingIP.js" working-dir="$PROJECT_DIR$/src/Leetcode/Easy/_1108/DefangingAnIPAddress">
-      <method v="2" />
-    </configuration>
     <configuration name="ValidParenthesis.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/Leetcode/Easy/_20/ValidParenthesis/ValidParenthesis.js" working-dir="$PROJECT_DIR$/src/Leetcode/Easy/_20/ValidParenthesis">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Leetcode.Easy._67.AddBinary.Practice" />
         <item itemvalue="Application.Leetcode.Easy._344.ReverseString.Practice" />
         <item itemvalue="Application.Leetcode.Easy._70.ClimbingStairs.Practice" />
         <item itemvalue="Application.Practice" />
         <item itemvalue="Node.js.ValidParenthesis.js" />
-        <item itemvalue="Node.js.DefangingIP.js" />
       </list>
     </recent_temporary>
   </component>
@@ -175,13 +185,7 @@
       <workItem from="1661384214716" duration="4497000" />
       <workItem from="1661500887545" duration="121000" />
       <workItem from="1661596516262" duration="97000" />
-    </task>
-    <task id="LOCAL-00059" summary="Implemented problem 2236. Root Equals Sum of Children">
-      <created>1657070953324</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1657070953324</updated>
+      <workItem from="1661676724161" duration="119000" />
     </task>
     <task id="LOCAL-00060" summary="Implemented problem 2011. Final Value of Variable After Performing Operations">
       <created>1657185548809</created>
@@ -519,7 +523,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661596604069</updated>
     </task>
-    <option name="localTasksCounter" value="108" />
+    <task id="LOCAL-00108" summary="Practised problem reverse string">
+      <created>1661676829780</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1661676829780</updated>
+    </task>
+    <option name="localTasksCounter" value="109" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -537,7 +548,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implemented problem 102. Binary Tree Level Order Traversal" />
     <MESSAGE value="Implemented sql problem 1795 Rearrange products table" />
     <MESSAGE value="Implemented sql problem 100 Is Same tree" />
     <MESSAGE value="Added queues explanation to data structure and algorithm package." />
@@ -562,7 +572,8 @@
     <MESSAGE value="Practised 2sum and palindrom number problem in js" />
     <MESSAGE value="Practised reverse linked list problem" />
     <MESSAGE value="Practised problem climbimg stairs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practised problem climbimg stairs" />
+    <MESSAGE value="Practised problem reverse string" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practised problem reverse string" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
