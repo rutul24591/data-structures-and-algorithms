@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Practised problem reverse string" />
+    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Practised problem Add binary" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,7 +59,20 @@
       <recent name="$PROJECT_DIR$/src/Leetcode/Easy/_1693/DailyLeadsAndPartners" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Leetcode.Easy._67.AddBinary.Practice">
+  <component name="RunManager" selected="Application.Leetcode.Easy._14.LongestCommonPrefix.Practice">
+    <configuration name="Leetcode.Easy._14.LongestCommonPrefix.Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._14.LongestCommonPrefix.Practice" />
+      <module name="DataStructuresAndAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Leetcode.Easy._14.LongestCommonPrefix.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Leetcode.Easy._344.ReverseString.Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._344.ReverseString.Practice" />
       <module name="DataStructuresAndAlgorithms" />
@@ -112,16 +125,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidParenthesis.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/Leetcode/Easy/_20/ValidParenthesis/ValidParenthesis.js" working-dir="$PROJECT_DIR$/src/Leetcode/Easy/_20/ValidParenthesis">
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Leetcode.Easy._14.LongestCommonPrefix.Practice" />
         <item itemvalue="Application.Leetcode.Easy._67.AddBinary.Practice" />
         <item itemvalue="Application.Leetcode.Easy._344.ReverseString.Practice" />
         <item itemvalue="Application.Leetcode.Easy._70.ClimbingStairs.Practice" />
         <item itemvalue="Application.Practice" />
-        <item itemvalue="Node.js.ValidParenthesis.js" />
       </list>
     </recent_temporary>
   </component>
@@ -186,13 +196,7 @@
       <workItem from="1661500887545" duration="121000" />
       <workItem from="1661596516262" duration="97000" />
       <workItem from="1661676724161" duration="119000" />
-    </task>
-    <task id="LOCAL-00060" summary="Implemented problem 2011. Final Value of Variable After Performing Operations">
-      <created>1657185548809</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1657185548811</updated>
+      <workItem from="1661830813259" duration="79000" />
     </task>
     <task id="LOCAL-00061" summary="Implemented problem 104 Maximum depth of binary tree">
       <created>1657283989460</created>
@@ -530,7 +534,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661676829780</updated>
     </task>
-    <option name="localTasksCounter" value="109" />
+    <task id="LOCAL-00109" summary="Practised problem Add binary">
+      <created>1661830879932</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1661830879933</updated>
+    </task>
+    <option name="localTasksCounter" value="110" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -548,7 +559,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implemented sql problem 1795 Rearrange products table" />
     <MESSAGE value="Implemented sql problem 100 Is Same tree" />
     <MESSAGE value="Added queues explanation to data structure and algorithm package." />
     <MESSAGE value="Implemented problem 341 flatten nested list iterator." />
@@ -573,7 +583,8 @@
     <MESSAGE value="Practised reverse linked list problem" />
     <MESSAGE value="Practised problem climbimg stairs" />
     <MESSAGE value="Practised problem reverse string" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practised problem reverse string" />
+    <MESSAGE value="Practised problem Add binary" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practised problem Add binary" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
