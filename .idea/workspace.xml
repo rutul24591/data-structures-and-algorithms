@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Practised problem Add binary" />
+    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Practised problem longest common prefix" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,7 +59,7 @@
       <recent name="$PROJECT_DIR$/src/Leetcode/Easy/_1693/DailyLeadsAndPartners" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Leetcode.Easy._14.LongestCommonPrefix.Practice">
+  <component name="RunManager" selected="Application.Leetcode.Easy._35.SearchInsertPosition.Practice">
     <configuration name="Leetcode.Easy._14.LongestCommonPrefix.Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._14.LongestCommonPrefix.Practice" />
       <module name="DataStructuresAndAlgorithms" />
@@ -79,6 +79,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Leetcode.Easy._344.ReverseString.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Leetcode.Easy._35.SearchInsertPosition.Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._35.SearchInsertPosition.Practice" />
+      <module name="DataStructuresAndAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Leetcode.Easy._35.SearchInsertPosition.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,26 +125,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._206.ReverseLinkedList.Practice" />
-      <module name="DataStructuresAndAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Leetcode.Easy._206.ReverseLinkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Leetcode.Easy._35.SearchInsertPosition.Practice" />
         <item itemvalue="Application.Leetcode.Easy._14.LongestCommonPrefix.Practice" />
         <item itemvalue="Application.Leetcode.Easy._67.AddBinary.Practice" />
         <item itemvalue="Application.Leetcode.Easy._344.ReverseString.Practice" />
         <item itemvalue="Application.Leetcode.Easy._70.ClimbingStairs.Practice" />
-        <item itemvalue="Application.Practice" />
       </list>
     </recent_temporary>
   </component>
@@ -197,13 +197,7 @@
       <workItem from="1661596516262" duration="97000" />
       <workItem from="1661676724161" duration="119000" />
       <workItem from="1661830813259" duration="79000" />
-    </task>
-    <task id="LOCAL-00061" summary="Implemented problem 104 Maximum depth of binary tree">
-      <created>1657283989460</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1657283989460</updated>
+      <workItem from="1661929537086" duration="97000" />
     </task>
     <task id="LOCAL-00062" summary="Implemented problem 2114 Maximum number of words found in sentences">
       <created>1657535932169</created>
@@ -541,7 +535,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661830879933</updated>
     </task>
-    <option name="localTasksCounter" value="110" />
+    <task id="LOCAL-00110" summary="Practised problem longest common prefix">
+      <created>1661929615101</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1661929615102</updated>
+    </task>
+    <option name="localTasksCounter" value="111" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -559,7 +560,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implemented sql problem 100 Is Same tree" />
     <MESSAGE value="Added queues explanation to data structure and algorithm package." />
     <MESSAGE value="Implemented problem 341 flatten nested list iterator." />
     <MESSAGE value="Implemented problem 11 Container with most water" />
@@ -584,7 +584,8 @@
     <MESSAGE value="Practised problem climbimg stairs" />
     <MESSAGE value="Practised problem reverse string" />
     <MESSAGE value="Practised problem Add binary" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practised problem Add binary" />
+    <MESSAGE value="Practised problem longest common prefix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practised problem longest common prefix" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
