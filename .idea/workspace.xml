@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Practised problem longest common prefix" />
+    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Practised problem search insert position">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Medium/_2AddTwoNumbers/Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Medium/_2AddTwoNumbers/Practice.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -198,13 +201,8 @@
       <workItem from="1661676724161" duration="119000" />
       <workItem from="1661830813259" duration="79000" />
       <workItem from="1661929537086" duration="97000" />
-    </task>
-    <task id="LOCAL-00062" summary="Implemented problem 2114 Maximum number of words found in sentences">
-      <created>1657535932169</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1657535932170</updated>
+      <workItem from="1662013599941" duration="79000" />
+      <workItem from="1662082179672" duration="28000" />
     </task>
     <task id="LOCAL-00063" summary="Implemented problem 771 jewels and stones">
       <created>1657537959339</created>
@@ -542,7 +540,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661929615102</updated>
     </task>
-    <option name="localTasksCounter" value="111" />
+    <task id="LOCAL-00111" summary="Practised problem search insert position">
+      <created>1662013671644</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1662013671644</updated>
+    </task>
+    <option name="localTasksCounter" value="112" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -560,7 +565,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added queues explanation to data structure and algorithm package." />
     <MESSAGE value="Implemented problem 341 flatten nested list iterator." />
     <MESSAGE value="Implemented problem 11 Container with most water" />
     <MESSAGE value="Implemented problem 88 Merge Sorted Arrays." />
@@ -585,7 +589,8 @@
     <MESSAGE value="Practised problem reverse string" />
     <MESSAGE value="Practised problem Add binary" />
     <MESSAGE value="Practised problem longest common prefix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practised problem longest common prefix" />
+    <MESSAGE value="Practised problem search insert position" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practised problem search insert position" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
