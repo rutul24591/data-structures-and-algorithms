@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Practised problem search insert position">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Medium/_2AddTwoNumbers/Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Medium/_2AddTwoNumbers/Practice.java" afterDir="false" />
-    </list>
+    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Practised problem Add 2 numbers" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,7 +59,7 @@
       <recent name="$PROJECT_DIR$/src/Leetcode/Easy/_1693/DailyLeadsAndPartners" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Leetcode.Easy._35.SearchInsertPosition.Practice">
+  <component name="RunManager" selected="Application.Leetcode.Easy._27.RemoveElement.Practice">
     <configuration name="Leetcode.Easy._14.LongestCommonPrefix.Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._14.LongestCommonPrefix.Practice" />
       <module name="DataStructuresAndAlgorithms" />
@@ -76,12 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Leetcode.Easy._344.ReverseString.Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._344.ReverseString.Practice" />
+    <configuration name="Leetcode.Easy._27.RemoveElement.Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._27.RemoveElement.Practice" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Easy._344.ReverseString.*" />
+          <option name="PATTERN" value="Leetcode.Easy._27.RemoveElement.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Leetcode.Easy._70.ClimbingStairs.Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._70.ClimbingStairs.Practice" />
+    <configuration name="Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._21.MergeTwoSortedLists.Practice" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Easy._70.ClimbingStairs.*" />
+          <option name="PATTERN" value="Leetcode.Easy._21.MergeTwoSortedLists.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Leetcode.Easy._27.RemoveElement.Practice" />
+        <item itemvalue="Application.Practice" />
         <item itemvalue="Application.Leetcode.Easy._35.SearchInsertPosition.Practice" />
         <item itemvalue="Application.Leetcode.Easy._14.LongestCommonPrefix.Practice" />
         <item itemvalue="Application.Leetcode.Easy._67.AddBinary.Practice" />
-        <item itemvalue="Application.Leetcode.Easy._344.ReverseString.Practice" />
-        <item itemvalue="Application.Leetcode.Easy._70.ClimbingStairs.Practice" />
       </list>
     </recent_temporary>
   </component>
@@ -202,14 +199,7 @@
       <workItem from="1661830813259" duration="79000" />
       <workItem from="1661929537086" duration="97000" />
       <workItem from="1662013599941" duration="79000" />
-      <workItem from="1662082179672" duration="28000" />
-    </task>
-    <task id="LOCAL-00063" summary="Implemented problem 771 jewels and stones">
-      <created>1657537959339</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1657537959340</updated>
+      <workItem from="1662082179672" duration="66000" />
     </task>
     <task id="LOCAL-00064" summary="Implemented problem 328 Odd Even linked list.">
       <created>1657540234760</created>
@@ -547,7 +537,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662013671644</updated>
     </task>
-    <option name="localTasksCounter" value="112" />
+    <task id="LOCAL-00112" summary="Practised problem Add 2 numbers">
+      <created>1662082229291</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1662082229292</updated>
+    </task>
+    <option name="localTasksCounter" value="113" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -565,7 +562,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implemented problem 341 flatten nested list iterator." />
     <MESSAGE value="Implemented problem 11 Container with most water" />
     <MESSAGE value="Implemented problem 88 Merge Sorted Arrays." />
     <MESSAGE value="Implemented problem 230. Kth Smallest Element in a BST" />
@@ -590,7 +586,8 @@
     <MESSAGE value="Practised problem Add binary" />
     <MESSAGE value="Practised problem longest common prefix" />
     <MESSAGE value="Practised problem search insert position" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practised problem search insert position" />
+    <MESSAGE value="Practised problem Add 2 numbers" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practised problem Add 2 numbers" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
