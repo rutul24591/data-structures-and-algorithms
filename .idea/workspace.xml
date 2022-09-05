@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Practised problem Merge two sorted list" />
+    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Practised problem remove element from array" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,7 +59,7 @@
       <recent name="$PROJECT_DIR$/src/Leetcode/Easy/_1693/DailyLeadsAndPartners" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Leetcode.Easy._27.RemoveElement.Practice">
+  <component name="RunManager" selected="Application.Leetcode.Easy._53.MaximumSubArray.Practice">
     <configuration name="Leetcode.Easy._14.LongestCommonPrefix.Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._14.LongestCommonPrefix.Practice" />
       <module name="DataStructuresAndAlgorithms" />
@@ -99,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Leetcode.Easy._67.AddBinary.Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._67.AddBinary.Practice" />
+    <configuration name="Leetcode.Easy._53.MaximumSubArray.Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._53.MaximumSubArray.Practice" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Easy._67.AddBinary.*" />
+          <option name="PATTERN" value="Leetcode.Easy._53.MaximumSubArray.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Leetcode.Easy._53.MaximumSubArray.Practice" />
         <item itemvalue="Application.Leetcode.Easy._27.RemoveElement.Practice" />
         <item itemvalue="Application.Practice" />
         <item itemvalue="Application.Leetcode.Easy._35.SearchInsertPosition.Practice" />
         <item itemvalue="Application.Leetcode.Easy._14.LongestCommonPrefix.Practice" />
-        <item itemvalue="Application.Leetcode.Easy._67.AddBinary.Practice" />
       </list>
     </recent_temporary>
   </component>
@@ -201,13 +201,7 @@
       <workItem from="1662013599941" duration="79000" />
       <workItem from="1662082179672" duration="66000" />
       <workItem from="1662211665961" duration="149000" />
-    </task>
-    <task id="LOCAL-00065" summary="Implemented problem 118 pascal triangle">
-      <created>1657585274336</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1657585274337</updated>
+      <workItem from="1662261676926" duration="43000" />
     </task>
     <task id="LOCAL-00066" summary="slight modification to problem 118 pascal triangle">
       <created>1657586041272</created>
@@ -545,7 +539,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662211804800</updated>
     </task>
-    <option name="localTasksCounter" value="114" />
+    <task id="LOCAL-00114" summary="Practised problem remove element from array">
+      <created>1662261709629</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1662261709630</updated>
+    </task>
+    <option name="localTasksCounter" value="115" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -563,7 +564,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implemented problem 88 Merge Sorted Arrays." />
     <MESSAGE value="Implemented problem 230. Kth Smallest Element in a BST" />
     <MESSAGE value="Implemented problem 219 Contains Duplicate 2" />
     <MESSAGE value="Implemented problem 704 Binary Search" />
@@ -588,7 +588,8 @@
     <MESSAGE value="Practised problem search insert position" />
     <MESSAGE value="Practised problem Add 2 numbers" />
     <MESSAGE value="Practised problem Merge two sorted list" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practised problem Merge two sorted list" />
+    <MESSAGE value="Practised problem remove element from array" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practised problem remove element from array" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
