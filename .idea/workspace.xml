@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Practised problem contains duplicate" />
+    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Practised problem Remove duplicates from sorted list">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -204,13 +206,8 @@
       <workItem from="1662261676926" duration="43000" />
       <workItem from="1662352190490" duration="81000" />
       <workItem from="1662441125992" duration="157000" />
-    </task>
-    <task id="LOCAL-00068" summary="Implemented problem 387 FirstuniqueCharacterInAString">
-      <created>1657681777044</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1657681777044</updated>
+      <workItem from="1662527198409" duration="87000" />
+      <workItem from="1662613804696" duration="40000" />
     </task>
     <task id="LOCAL-00069" summary="Updated git ignore to exclde random package which is just to test simple code logic">
       <created>1657681959274</created>
@@ -548,7 +545,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662441190118</updated>
     </task>
-    <option name="localTasksCounter" value="117" />
+    <task id="LOCAL-00117" summary="Practised problem Remove duplicates from sorted list">
+      <created>1662527273972</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1662527273973</updated>
+    </task>
+    <option name="localTasksCounter" value="118" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -566,7 +570,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implemented problem 704 Binary Search" />
     <MESSAGE value="Implemented problem 860 Lemonade change" />
     <MESSAGE value="Implemented problem 977 Squares of sorted array" />
     <MESSAGE value="Practised problem 2sum" />
@@ -591,7 +594,8 @@
     <MESSAGE value="Practised problem remove element from array" />
     <MESSAGE value="Practised problem maximum sub array" />
     <MESSAGE value="Practised problem contains duplicate" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practised problem contains duplicate" />
+    <MESSAGE value="Practised problem Remove duplicates from sorted list" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practised problem Remove duplicates from sorted list" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
