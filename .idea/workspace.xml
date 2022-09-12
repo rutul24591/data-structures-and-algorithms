@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Practised problem Contains Duplicate" />
+    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Practised problem Move zeroes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,7 +59,7 @@
       <recent name="$PROJECT_DIR$/src/Leetcode/Easy/_1693/DailyLeadsAndPartners" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Leetcode.Easy._283.MoveZeroes.Practice">
+  <component name="RunManager" selected="Application.Leetcode.Easy._69.Sqrtx.Practice">
     <configuration name="Leetcode.Easy._169.MajorityElement.Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._169.MajorityElement.Practice" />
       <module name="DataStructuresAndAlgorithms" />
@@ -73,12 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Leetcode.Easy._219.ContainsDuplicate2.Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._219.ContainsDuplicate2.Practice" />
+    <configuration name="Leetcode.Easy._283.MoveZeroes.Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._283.MoveZeroes.Practice" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Easy._219.ContainsDuplicate2.*" />
+          <option name="PATTERN" value="Leetcode.Easy._283.MoveZeroes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Leetcode.Easy._283.MoveZeroes.Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._283.MoveZeroes.Practice" />
+    <configuration name="Leetcode.Easy._69.Sqrtx.Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._69.Sqrtx.Practice" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Easy._283.MoveZeroes.*" />
+          <option name="PATTERN" value="Leetcode.Easy._69.Sqrtx.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Leetcode.Easy._69.Sqrtx.Practice" />
         <item itemvalue="Application.Leetcode.Easy._283.MoveZeroes.Practice" />
         <item itemvalue="Application.Practice" />
         <item itemvalue="Application.Leetcode.Easy._169.MajorityElement.Practice" />
         <item itemvalue="Application.Leetcode.Easy._83.RemoveDuplicatesFromSortedList.Practice" />
-        <item itemvalue="Application.Leetcode.Easy._219.ContainsDuplicate2.Practice" />
       </list>
     </recent_temporary>
   </component>
@@ -208,13 +208,7 @@
       <workItem from="1662613804696" duration="108000" />
       <workItem from="1662697023610" duration="92000" />
       <workItem from="1662813688018" duration="151000" />
-    </task>
-    <task id="LOCAL-00072" summary="Modification to problem 22 Generate Parenthesis">
-      <created>1657686882668</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1657686882668</updated>
+      <workItem from="1662876768303" duration="64000" />
     </task>
     <task id="LOCAL-00073" summary="Implemented problem 34 Find first and last position of element in sorted array">
       <created>1657746647065</created>
@@ -552,7 +546,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662813829368</updated>
     </task>
-    <option name="localTasksCounter" value="121" />
+    <task id="LOCAL-00121" summary="Practised problem Move zeroes">
+      <created>1662876823394</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1662876823395</updated>
+    </task>
+    <option name="localTasksCounter" value="122" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -570,7 +571,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Practised problem Palindrome number" />
     <MESSAGE value="Practised problem str str" />
     <MESSAGE value="Practised problem isBadVersion" />
     <MESSAGE value="Practised problem isSameNumber" />
@@ -595,7 +595,8 @@
     <MESSAGE value="Practised problem Binary tree inorder traversal" />
     <MESSAGE value="Practised problem Majority element" />
     <MESSAGE value="Practised problem Contains Duplicate" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practised problem Contains Duplicate" />
+    <MESSAGE value="Practised problem Move zeroes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practised problem Move zeroes" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
