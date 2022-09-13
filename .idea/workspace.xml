@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Practised problem Move zeroes" />
+    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Practised problem sqrt x">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -209,13 +211,9 @@
       <workItem from="1662697023610" duration="92000" />
       <workItem from="1662813688018" duration="151000" />
       <workItem from="1662876768303" duration="64000" />
-    </task>
-    <task id="LOCAL-00073" summary="Implemented problem 34 Find first and last position of element in sorted array">
-      <created>1657746647065</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1657746647065</updated>
+      <workItem from="1662959814547" duration="79000" />
+      <workItem from="1662959905151" duration="3000" />
+      <workItem from="1663045029774" duration="36000" />
     </task>
     <task id="LOCAL-00074" summary="modification problem 34 Find first and last position of element in sorted array">
       <created>1657746875967</created>
@@ -553,7 +551,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662876823395</updated>
     </task>
-    <option name="localTasksCounter" value="122" />
+    <task id="LOCAL-00122" summary="Practised problem sqrt x">
+      <created>1662959873803</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1662959873804</updated>
+    </task>
+    <option name="localTasksCounter" value="123" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -571,7 +576,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Practised problem str str" />
     <MESSAGE value="Practised problem isBadVersion" />
     <MESSAGE value="Practised problem isSameNumber" />
     <MESSAGE value="Practised problem Int to roman" />
@@ -596,7 +600,8 @@
     <MESSAGE value="Practised problem Majority element" />
     <MESSAGE value="Practised problem Contains Duplicate" />
     <MESSAGE value="Practised problem Move zeroes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practised problem Move zeroes" />
+    <MESSAGE value="Practised problem sqrt x" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practised problem sqrt x" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
