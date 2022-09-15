@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Practised problem delete node in linked list" />
+    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Practised problem isSame tree">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,7 +61,7 @@
       <recent name="$PROJECT_DIR$/src/Leetcode/Easy/_1693/DailyLeadsAndPartners" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Leetcode.Easy._69.Sqrtx.Practice">
+  <component name="RunManager" selected="Application.Leetcode.Easy._347.TopKFrequentElements.Practice">
     <configuration name="Leetcode.Easy._169.MajorityElement.Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._169.MajorityElement.Practice" />
       <module name="DataStructuresAndAlgorithms" />
@@ -86,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Leetcode.Easy._69.Sqrtx.Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._69.Sqrtx.Practice" />
+    <configuration name="Leetcode.Easy._347.TopKFrequentElements.Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._347.TopKFrequentElements.Practice" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Easy._69.Sqrtx.*" />
+          <option name="PATTERN" value="Leetcode.Easy._347.TopKFrequentElements.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Leetcode.Easy._83.RemoveDuplicatesFromSortedList.Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._83.RemoveDuplicatesFromSortedList.Practice" />
+    <configuration name="Leetcode.Easy._69.Sqrtx.Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._69.Sqrtx.Practice" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Easy._83.RemoveDuplicatesFromSortedList.*" />
+          <option name="PATTERN" value="Leetcode.Easy._69.Sqrtx.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Leetcode.Easy._347.TopKFrequentElements.Practice" />
         <item itemvalue="Application.Leetcode.Easy._69.Sqrtx.Practice" />
         <item itemvalue="Application.Leetcode.Easy._283.MoveZeroes.Practice" />
         <item itemvalue="Application.Practice" />
         <item itemvalue="Application.Leetcode.Easy._169.MajorityElement.Practice" />
-        <item itemvalue="Application.Leetcode.Easy._83.RemoveDuplicatesFromSortedList.Practice" />
       </list>
     </recent_temporary>
   </component>
@@ -212,13 +214,8 @@
       <workItem from="1662959814547" duration="79000" />
       <workItem from="1662959905151" duration="3000" />
       <workItem from="1663045029774" duration="85000" />
-    </task>
-    <task id="LOCAL-00075" summary="modification  problem 34 Find first and last position of element in sorted array">
-      <created>1657747618074</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1657747618075</updated>
+      <workItem from="1663133221861" duration="57000" />
+      <workItem from="1663219555867" duration="41000" />
     </task>
     <task id="LOCAL-00076" summary="implemented problem 278. First Bad Version">
       <created>1657749187261</created>
@@ -556,7 +553,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663045104772</updated>
     </task>
-    <option name="localTasksCounter" value="124" />
+    <task id="LOCAL-00124" summary="Practised problem isSame tree">
+      <created>1663133268364</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1663133268365</updated>
+    </task>
+    <option name="localTasksCounter" value="125" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -574,7 +578,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Practised problem isSameNumber" />
     <MESSAGE value="Practised problem Int to roman" />
     <MESSAGE value="Practised problem Length of last index" />
     <MESSAGE value="Practised problem Linked List cycle." />
@@ -599,7 +602,8 @@
     <MESSAGE value="Practised problem Move zeroes" />
     <MESSAGE value="Practised problem sqrt x" />
     <MESSAGE value="Practised problem delete node in linked list" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practised problem delete node in linked list" />
+    <MESSAGE value="Practised problem isSame tree" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practised problem isSame tree" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
