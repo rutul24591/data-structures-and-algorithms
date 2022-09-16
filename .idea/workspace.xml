@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Practised problem isSame tree">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Practised problem Top K Frequent Elements" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,20 +59,7 @@
       <recent name="$PROJECT_DIR$/src/Leetcode/Easy/_1693/DailyLeadsAndPartners" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Leetcode.Easy._347.TopKFrequentElements.Practice">
-    <configuration name="Leetcode.Easy._169.MajorityElement.Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._169.MajorityElement.Practice" />
-      <module name="DataStructuresAndAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Leetcode.Easy._169.MajorityElement.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Leetcode.Easy._412.FizzBuzz.Practice">
     <configuration name="Leetcode.Easy._283.MoveZeroes.Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._283.MoveZeroes.Practice" />
       <module name="DataStructuresAndAlgorithms" />
@@ -94,6 +79,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Leetcode.Easy._347.TopKFrequentElements.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Leetcode.Easy._412.FizzBuzz.Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._412.FizzBuzz.Practice" />
+      <module name="DataStructuresAndAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Leetcode.Easy._412.FizzBuzz.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Leetcode.Easy._412.FizzBuzz.Practice" />
         <item itemvalue="Application.Leetcode.Easy._347.TopKFrequentElements.Practice" />
         <item itemvalue="Application.Leetcode.Easy._69.Sqrtx.Practice" />
         <item itemvalue="Application.Leetcode.Easy._283.MoveZeroes.Practice" />
         <item itemvalue="Application.Practice" />
-        <item itemvalue="Application.Leetcode.Easy._169.MajorityElement.Practice" />
       </list>
     </recent_temporary>
   </component>
@@ -215,14 +213,7 @@
       <workItem from="1662959905151" duration="3000" />
       <workItem from="1663045029774" duration="85000" />
       <workItem from="1663133221861" duration="57000" />
-      <workItem from="1663219555867" duration="41000" />
-    </task>
-    <task id="LOCAL-00076" summary="implemented problem 278. First Bad Version">
-      <created>1657749187261</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1657749187261</updated>
+      <workItem from="1663219555867" duration="94000" />
     </task>
     <task id="LOCAL-00077" summary="implemented problem 374. Guess Number Higher or lower">
       <created>1657754870949</created>
@@ -560,7 +551,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663133268365</updated>
     </task>
-    <option name="localTasksCounter" value="125" />
+    <task id="LOCAL-00125" summary="Practised problem Top K Frequent Elements">
+      <created>1663219637075</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1663219637076</updated>
+    </task>
+    <option name="localTasksCounter" value="126" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -578,7 +576,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Practised problem Int to roman" />
     <MESSAGE value="Practised problem Length of last index" />
     <MESSAGE value="Practised problem Linked List cycle." />
     <MESSAGE value="Practised problem Roman to Integer" />
@@ -603,7 +600,8 @@
     <MESSAGE value="Practised problem sqrt x" />
     <MESSAGE value="Practised problem delete node in linked list" />
     <MESSAGE value="Practised problem isSame tree" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practised problem isSame tree" />
+    <MESSAGE value="Practised problem Top K Frequent Elements" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practised problem Top K Frequent Elements" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
