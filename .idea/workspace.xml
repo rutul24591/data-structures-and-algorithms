@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Practised problem Top K Frequent Elements" />
+    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Practised problem Fizz buzz" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,7 +59,7 @@
       <recent name="$PROJECT_DIR$/src/Leetcode/Easy/_1693/DailyLeadsAndPartners" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Leetcode.Easy._412.FizzBuzz.Practice">
+  <component name="RunManager" selected="Application.Leetcode.Easy._350.IntersectionOfTwoArrays2.Practice">
     <configuration name="Leetcode.Easy._283.MoveZeroes.Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._283.MoveZeroes.Practice" />
       <module name="DataStructuresAndAlgorithms" />
@@ -79,6 +79,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Leetcode.Easy._347.TopKFrequentElements.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Leetcode.Easy._350.IntersectionOfTwoArrays2.Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._350.IntersectionOfTwoArrays2.Practice" />
+      <module name="DataStructuresAndAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Leetcode.Easy._350.IntersectionOfTwoArrays2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,26 +125,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._217.ContainsDuplicate.Practice" />
-      <module name="DataStructuresAndAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Leetcode.Easy._217.ContainsDuplicate.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Leetcode.Easy._350.IntersectionOfTwoArrays2.Practice" />
         <item itemvalue="Application.Leetcode.Easy._412.FizzBuzz.Practice" />
         <item itemvalue="Application.Leetcode.Easy._347.TopKFrequentElements.Practice" />
         <item itemvalue="Application.Leetcode.Easy._69.Sqrtx.Practice" />
         <item itemvalue="Application.Leetcode.Easy._283.MoveZeroes.Practice" />
-        <item itemvalue="Application.Practice" />
       </list>
     </recent_temporary>
   </component>
@@ -214,13 +214,7 @@
       <workItem from="1663045029774" duration="85000" />
       <workItem from="1663133221861" duration="57000" />
       <workItem from="1663219555867" duration="94000" />
-    </task>
-    <task id="LOCAL-00077" summary="implemented problem 374. Guess Number Higher or lower">
-      <created>1657754870949</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
-      <option name="project" value="LOCAL" />
-      <updated>1657754870949</updated>
+      <workItem from="1663306951874" duration="96000" />
     </task>
     <task id="LOCAL-00078" summary="Modified and added another simple solution for problem 374. Guess Number Higher or lower">
       <created>1657755028237</created>
@@ -558,7 +552,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663219637076</updated>
     </task>
-    <option name="localTasksCounter" value="126" />
+    <task id="LOCAL-00126" summary="Practised problem Fizz buzz">
+      <created>1663307026796</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1663307026796</updated>
+    </task>
+    <option name="localTasksCounter" value="127" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -576,7 +577,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Practised problem Length of last index" />
     <MESSAGE value="Practised problem Linked List cycle." />
     <MESSAGE value="Practised problem Roman to Integer" />
     <MESSAGE value="Practised problem Valid parenthesis" />
@@ -601,7 +601,8 @@
     <MESSAGE value="Practised problem delete node in linked list" />
     <MESSAGE value="Practised problem isSame tree" />
     <MESSAGE value="Practised problem Top K Frequent Elements" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practised problem Top K Frequent Elements" />
+    <MESSAGE value="Practised problem Fizz buzz" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practised problem Fizz buzz" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
