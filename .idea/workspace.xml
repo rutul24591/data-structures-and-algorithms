@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Practised problem intersection of 2 arrays">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Practised problem permutations" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,7 +59,7 @@
       <recent name="$PROJECT_DIR$/src/Leetcode/Easy/_1693/DailyLeadsAndPartners" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Practice">
+  <component name="RunManager" selected="Application.Leetcode.Easy._771.JewelsAndStones.Practice">
     <configuration name="Leetcode.Easy._347.TopKFrequentElements.Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._347.TopKFrequentElements.Practice" />
       <module name="DataStructuresAndAlgorithms" />
@@ -101,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Leetcode.Easy._69.Sqrtx.Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._69.Sqrtx.Practice" />
+    <configuration name="Leetcode.Easy._771.JewelsAndStones.Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._771.JewelsAndStones.Practice" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Easy._69.Sqrtx.*" />
+          <option name="PATTERN" value="Leetcode.Easy._771.JewelsAndStones.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Leetcode.Easy._771.JewelsAndStones.Practice" />
         <item itemvalue="Application.Practice" />
         <item itemvalue="Application.Leetcode.Easy._350.IntersectionOfTwoArrays2.Practice" />
         <item itemvalue="Application.Leetcode.Easy._412.FizzBuzz.Practice" />
         <item itemvalue="Application.Leetcode.Easy._347.TopKFrequentElements.Practice" />
-        <item itemvalue="Application.Leetcode.Easy._69.Sqrtx.Practice" />
       </list>
     </recent_temporary>
   </component>
@@ -218,14 +216,7 @@
       <workItem from="1663219555867" duration="94000" />
       <workItem from="1663306951874" duration="96000" />
       <workItem from="1663398641531" duration="89000" />
-      <workItem from="1663487056758" duration="33000" />
-    </task>
-    <task id="LOCAL-00079" summary="Implemented problem 169 Majority Element">
-      <created>1657783036773</created>
-      <option name="number" value="00079" />
-      <option name="presentableId" value="LOCAL-00079" />
-      <option name="project" value="LOCAL" />
-      <updated>1657783036773</updated>
+      <workItem from="1663487056758" duration="107000" />
     </task>
     <task id="LOCAL-00080" summary="Implemented problem 42 Trapping rain water">
       <created>1657867874763</created>
@@ -563,7 +554,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663398720985</updated>
     </task>
-    <option name="localTasksCounter" value="128" />
+    <task id="LOCAL-00128" summary="Practised problem permutations">
+      <created>1663487116614</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1663487116615</updated>
+    </task>
+    <option name="localTasksCounter" value="129" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -581,7 +579,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Practised problem Roman to Integer" />
     <MESSAGE value="Practised problem Valid parenthesis" />
     <MESSAGE value="Practised 2sum and palindrom number problem in js" />
     <MESSAGE value="Practised reverse linked list problem" />
@@ -606,7 +603,8 @@
     <MESSAGE value="Practised problem Top K Frequent Elements" />
     <MESSAGE value="Practised problem Fizz buzz" />
     <MESSAGE value="Practised problem intersection of 2 arrays" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practised problem intersection of 2 arrays" />
+    <MESSAGE value="Practised problem permutations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practised problem permutations" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
