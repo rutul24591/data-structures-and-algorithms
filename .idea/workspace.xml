@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Practised problem jewels or stones">
+    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Practised problem Lemonade change">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +61,7 @@
       <recent name="$PROJECT_DIR$/src/Leetcode/Easy/_1693/DailyLeadsAndPartners" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Leetcode.Easy._860.LemonadeChange.Practice">
+  <component name="RunManager" selected="Application.Leetcode.Easy._387.FirstuniqueCharacterInAString.Practice">
     <configuration name="Leetcode.Easy._350.IntersectionOfTwoArrays2.Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._350.IntersectionOfTwoArrays2.Practice" />
       <module name="DataStructuresAndAlgorithms" />
@@ -75,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Leetcode.Easy._412.FizzBuzz.Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._412.FizzBuzz.Practice" />
+    <configuration name="Leetcode.Easy._387.FirstuniqueCharacterInAString.Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._387.FirstuniqueCharacterInAString.Practice" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Easy._412.FizzBuzz.*" />
+          <option name="PATTERN" value="Leetcode.Easy._387.FirstuniqueCharacterInAString.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Leetcode.Easy._387.FirstuniqueCharacterInAString.Practice" />
         <item itemvalue="Application.Leetcode.Easy._860.LemonadeChange.Practice" />
         <item itemvalue="Application.Leetcode.Easy._771.JewelsAndStones.Practice" />
         <item itemvalue="Application.Practice" />
         <item itemvalue="Application.Leetcode.Easy._350.IntersectionOfTwoArrays2.Practice" />
-        <item itemvalue="Application.Leetcode.Easy._412.FizzBuzz.Practice" />
       </list>
     </recent_temporary>
   </component>
@@ -220,14 +220,8 @@
       <workItem from="1663398641531" duration="89000" />
       <workItem from="1663487056758" duration="107000" />
       <workItem from="1663568351902" duration="94000" />
-      <workItem from="1663660987881" duration="37000" />
-    </task>
-    <task id="LOCAL-00081" summary="Implemented approach 2 for problem 42 Trapping rain water">
-      <created>1657873374278</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
-      <option name="project" value="LOCAL" />
-      <updated>1657873374278</updated>
+      <workItem from="1663660987881" duration="78000" />
+      <workItem from="1663741307319" duration="30000" />
     </task>
     <task id="LOCAL-00082" summary="Implemented problem 349 Intersection of 2 arrays.">
       <created>1657876560573</created>
@@ -565,7 +559,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663568437331</updated>
     </task>
-    <option name="localTasksCounter" value="130" />
+    <task id="LOCAL-00130" summary="Practised problem Lemonade change">
+      <created>1663661055763</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1663661055764</updated>
+    </task>
+    <option name="localTasksCounter" value="131" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -583,7 +584,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Practised 2sum and palindrom number problem in js" />
     <MESSAGE value="Practised reverse linked list problem" />
     <MESSAGE value="Practised problem climbimg stairs" />
     <MESSAGE value="Practised problem reverse string" />
@@ -608,7 +608,8 @@
     <MESSAGE value="Practised problem intersection of 2 arrays" />
     <MESSAGE value="Practised problem permutations" />
     <MESSAGE value="Practised problem jewels or stones" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practised problem jewels or stones" />
+    <MESSAGE value="Practised problem Lemonade change" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practised problem Lemonade change" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
