@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Practised problem First unique charater in a string" />
+    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Practised problem flatten nested list operator">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -220,13 +222,8 @@
       <workItem from="1663568351902" duration="94000" />
       <workItem from="1663660987881" duration="78000" />
       <workItem from="1663741307319" duration="267000" />
-    </task>
-    <task id="LOCAL-00083" summary="Implemented problem 102. Binary Tree Level Order Traversal">
-      <created>1657879141404</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1657879141404</updated>
+      <workItem from="1663841595943" duration="99000" />
+      <workItem from="1663909382900" duration="34000" />
     </task>
     <task id="LOCAL-00084" summary="Implemented sql problem 1795 Rearrange products table">
       <created>1657968468862</created>
@@ -564,7 +561,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663741378725</updated>
     </task>
-    <option name="localTasksCounter" value="132" />
+    <task id="LOCAL-00132" summary="Practised problem flatten nested list operator">
+      <created>1663841684349</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1663841684349</updated>
+    </task>
+    <option name="localTasksCounter" value="133" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -582,7 +586,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Practised problem climbimg stairs" />
     <MESSAGE value="Practised problem reverse string" />
     <MESSAGE value="Practised problem Add binary" />
     <MESSAGE value="Practised problem longest common prefix" />
@@ -607,7 +610,8 @@
     <MESSAGE value="Practised problem jewels or stones" />
     <MESSAGE value="Practised problem Lemonade change" />
     <MESSAGE value="Practised problem First unique charater in a string" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practised problem First unique charater in a string" />
+    <MESSAGE value="Practised problem flatten nested list operator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practised problem flatten nested list operator" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
