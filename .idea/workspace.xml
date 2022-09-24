@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Practised problem flatten nested list operator">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Practised problem middle of linked list" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,13 +59,13 @@
       <recent name="$PROJECT_DIR$/src/Leetcode/Easy/_1693/DailyLeadsAndPartners" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Leetcode.Easy._387.FirstuniqueCharacterInAString.Practice">
-    <configuration name="Leetcode.Easy._350.IntersectionOfTwoArrays2.Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._350.IntersectionOfTwoArrays2.Practice" />
+  <component name="RunManager" selected="Application.Leetcode.Easy._1528.ShuffleString.Practice">
+    <configuration name="Leetcode.Easy._1528.ShuffleString.Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._1528.ShuffleString.Practice" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Easy._350.IntersectionOfTwoArrays2.*" />
+          <option name="PATTERN" value="Leetcode.Easy._1528.ShuffleString.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Leetcode.Easy._1528.ShuffleString.Practice" />
         <item itemvalue="Application.Leetcode.Easy._387.FirstuniqueCharacterInAString.Practice" />
         <item itemvalue="Application.Leetcode.Easy._860.LemonadeChange.Practice" />
         <item itemvalue="Application.Leetcode.Easy._771.JewelsAndStones.Practice" />
         <item itemvalue="Application.Practice" />
-        <item itemvalue="Application.Leetcode.Easy._350.IntersectionOfTwoArrays2.Practice" />
       </list>
     </recent_temporary>
   </component>
@@ -223,14 +221,7 @@
       <workItem from="1663660987881" duration="78000" />
       <workItem from="1663741307319" duration="267000" />
       <workItem from="1663841595943" duration="99000" />
-      <workItem from="1663909382900" duration="34000" />
-    </task>
-    <task id="LOCAL-00084" summary="Implemented sql problem 1795 Rearrange products table">
-      <created>1657968468862</created>
-      <option name="number" value="00084" />
-      <option name="presentableId" value="LOCAL-00084" />
-      <option name="project" value="LOCAL" />
-      <updated>1657968468862</updated>
+      <workItem from="1663909382900" duration="58000" />
     </task>
     <task id="LOCAL-00085" summary="Implemented sql problem 100 Is Same tree">
       <created>1658050346701</created>
@@ -568,7 +559,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663841684349</updated>
     </task>
-    <option name="localTasksCounter" value="133" />
+    <task id="LOCAL-00133" summary="Practised problem middle of linked list">
+      <created>1663909431797</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1663909431797</updated>
+    </task>
+    <option name="localTasksCounter" value="134" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -586,7 +584,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Practised problem reverse string" />
     <MESSAGE value="Practised problem Add binary" />
     <MESSAGE value="Practised problem longest common prefix" />
     <MESSAGE value="Practised problem search insert position" />
@@ -611,7 +608,8 @@
     <MESSAGE value="Practised problem Lemonade change" />
     <MESSAGE value="Practised problem First unique charater in a string" />
     <MESSAGE value="Practised problem flatten nested list operator" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practised problem flatten nested list operator" />
+    <MESSAGE value="Practised problem middle of linked list" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practised problem middle of linked list" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
