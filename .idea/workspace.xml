@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Practised problem middle of linked list" />
+    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Practised problem string shuffle" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -222,13 +222,7 @@
       <workItem from="1663741307319" duration="267000" />
       <workItem from="1663841595943" duration="99000" />
       <workItem from="1663909382900" duration="58000" />
-    </task>
-    <task id="LOCAL-00085" summary="Implemented sql problem 100 Is Same tree">
-      <created>1658050346701</created>
-      <option name="number" value="00085" />
-      <option name="presentableId" value="LOCAL-00085" />
-      <option name="project" value="LOCAL" />
-      <updated>1658050346702</updated>
+      <workItem from="1664005030037" duration="131000" />
     </task>
     <task id="LOCAL-00086" summary="Added queues explanation to data structure and algorithm package.">
       <created>1658072002975</created>
@@ -566,7 +560,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663909431797</updated>
     </task>
-    <option name="localTasksCounter" value="134" />
+    <task id="LOCAL-00134" summary="Practised problem string shuffle">
+      <created>1664005097912</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1664005097913</updated>
+    </task>
+    <option name="localTasksCounter" value="135" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -584,7 +585,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Practised problem Add binary" />
     <MESSAGE value="Practised problem longest common prefix" />
     <MESSAGE value="Practised problem search insert position" />
     <MESSAGE value="Practised problem Add 2 numbers" />
@@ -609,7 +609,8 @@
     <MESSAGE value="Practised problem First unique charater in a string" />
     <MESSAGE value="Practised problem flatten nested list operator" />
     <MESSAGE value="Practised problem middle of linked list" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practised problem middle of linked list" />
+    <MESSAGE value="Practised problem string shuffle" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practised problem string shuffle" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
