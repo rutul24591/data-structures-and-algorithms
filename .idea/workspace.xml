@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Practised problem Odd even linked list" />
+    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Practised problem subsets 2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,7 +61,7 @@
       <recent name="$PROJECT_DIR$/src/Leetcode/Easy/_1693/DailyLeadsAndPartners" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Practice">
+  <component name="RunManager" selected="Application.Leetcode.Medium._287.FindTheDuplicateNumber.Practice">
     <configuration name="Leetcode.Easy._1528.ShuffleString.Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._1528.ShuffleString.Practice" />
       <module name="DataStructuresAndAlgorithms" />
@@ -86,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Leetcode.Easy._860.LemonadeChange.Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Easy._860.LemonadeChange.Practice" />
+    <configuration name="Leetcode.Medium._287.FindTheDuplicateNumber.Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Medium._287.FindTheDuplicateNumber.Practice" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Easy._860.LemonadeChange.*" />
+          <option name="PATTERN" value="Leetcode.Medium._287.FindTheDuplicateNumber.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Leetcode.Medium._287.FindTheDuplicateNumber.Practice" />
         <item itemvalue="Application.Practice" />
         <item itemvalue="Application.Leetcode.Medium._328.OddEvenLinkedList.Practice" />
         <item itemvalue="Application.Leetcode.Easy._1528.ShuffleString.Practice" />
         <item itemvalue="Application.Leetcode.Easy._387.FirstuniqueCharacterInAString.Practice" />
-        <item itemvalue="Application.Leetcode.Easy._860.LemonadeChange.Practice" />
       </list>
     </recent_temporary>
   </component>
@@ -224,13 +226,8 @@
       <workItem from="1663909382900" duration="58000" />
       <workItem from="1664005030037" duration="335000" />
       <workItem from="1664207127412" duration="81000" />
-    </task>
-    <task id="LOCAL-00088" summary="Implemented problem 11 Container with most water">
-      <created>1658146539466</created>
-      <option name="number" value="00088" />
-      <option name="presentableId" value="LOCAL-00088" />
-      <option name="project" value="LOCAL" />
-      <updated>1658146539466</updated>
+      <workItem from="1664281981100" duration="564000" />
+      <workItem from="1664379646954" duration="35000" />
     </task>
     <task id="LOCAL-00089" summary="Implemented problem 88 Merge Sorted Arrays.">
       <created>1658227360762</created>
@@ -568,7 +565,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664207198679</updated>
     </task>
-    <option name="localTasksCounter" value="137" />
+    <task id="LOCAL-00137" summary="Practised problem subsets 2">
+      <created>1664282053741</created>
+      <option name="number" value="00137" />
+      <option name="presentableId" value="LOCAL-00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1664282053741</updated>
+    </task>
+    <option name="localTasksCounter" value="138" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -586,7 +590,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Practised problem Add 2 numbers" />
     <MESSAGE value="Practised problem Merge two sorted list" />
     <MESSAGE value="Practised problem remove element from array" />
     <MESSAGE value="Practised problem maximum sub array" />
@@ -611,7 +614,8 @@
     <MESSAGE value="Practised problem string shuffle" />
     <MESSAGE value="Practised problem daily leeds and partners" />
     <MESSAGE value="Practised problem Odd even linked list" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practised problem Odd even linked list" />
+    <MESSAGE value="Practised problem subsets 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practised problem subsets 2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
