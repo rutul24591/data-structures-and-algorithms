@@ -1,6 +1,7 @@
 package Leetcode.Medium._287.FindTheDuplicateNumber;
 
 import java.util.Arrays;
+import java.util.HashSet;
 
 public class Practice {
     public int findDuplicate2(int[] nums) {
@@ -10,6 +11,18 @@ public class Practice {
                 return nums[i];
         }
 
+        return -1;
+    }
+
+    public int findDuplicate(int[] nums) {
+        HashSet<Integer> set = new HashSet<>();
+        for(int i : nums){
+            if(set.contains(i)){
+                return i;
+            }else{
+                set.add(i);
+            }
+        }
         return -1;
     }
 
