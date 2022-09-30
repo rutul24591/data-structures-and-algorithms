@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Practised problem Find duplicate">
+    <list default="true" id="d0a9ef02-a256-49d0-83ab-e4db2191f653" name="Changes" comment="Practised problem Find duplicate with another way">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Medium/_287/FindTheDuplicateNumber/Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Medium/_287/FindTheDuplicateNumber/Practice.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -229,13 +228,8 @@
       <workItem from="1664207127412" duration="81000" />
       <workItem from="1664281981100" duration="564000" />
       <workItem from="1664379646954" duration="90000" />
-    </task>
-    <task id="LOCAL-00090" summary="Implemented problem 230. Kth Smallest Element in a BST">
-      <created>1658394989636</created>
-      <option name="number" value="00090" />
-      <option name="presentableId" value="LOCAL-00090" />
-      <option name="project" value="LOCAL" />
-      <updated>1658394989636</updated>
+      <workItem from="1664427764281" duration="36000" />
+      <workItem from="1664515089758" duration="59000" />
     </task>
     <task id="LOCAL-00091" summary="Implemented problem 219 Contains Duplicate 2">
       <created>1658823173716</created>
@@ -573,7 +567,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664379708338</updated>
     </task>
-    <option name="localTasksCounter" value="139" />
+    <task id="LOCAL-00139" summary="Practised problem Find duplicate with another way">
+      <created>1664427787127</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1664427787128</updated>
+    </task>
+    <option name="localTasksCounter" value="140" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -591,7 +592,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Practised problem remove element from array" />
     <MESSAGE value="Practised problem maximum sub array" />
     <MESSAGE value="Practised problem contains duplicate" />
     <MESSAGE value="Practised problem Remove duplicates from sorted list" />
@@ -616,7 +616,8 @@
     <MESSAGE value="Practised problem Odd even linked list" />
     <MESSAGE value="Practised problem subsets 2" />
     <MESSAGE value="Practised problem Find duplicate" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practised problem Find duplicate" />
+    <MESSAGE value="Practised problem Find duplicate with another way" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practised problem Find duplicate with another way" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
